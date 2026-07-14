@@ -82,12 +82,12 @@ const blindCategories: BlindCategory[] = [
     label: "Velux Blinds",
     href: "/velux-blinds/",
     products: [
-      { label: "Velux Window Blinds",    href: "/velux-window-blinds/" },
-      { label: "Skylight Window Blinds", href: "/skylight-window-blinds/" },
       { label: "Roto Window Blinds",     href: "/roto-window-blinds/" },
+      { label: "Skylight Window Blinds", href: "/skylight-window-blinds/" },
       { label: "Fakro Window Blinds",    href: "/fakro-window-blinds/" },
       { label: "Dakstra Window Blinds",  href: "/dakstra-window-blinds/" },
       { label: "Roofline Window Blinds", href: "/roofline-window-blinds/" },
+      { label: "Velux Window Blinds",    href: "/velux-blinds/" },
     ],
   },
   {
@@ -317,6 +317,77 @@ const verticalBlindIcons: Record<string, () => React.JSX.Element> = {
   "Blackout Vertical Blinds": BlackoutVerticalIcon,
 };
 
+/* Velux/roof-window glyphs — thin line icons used for the "Velux Blinds" mega-menu column */
+function RotoWindowIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M10 10h22l6 6v22H10Z" />
+      <line x1="10" y1="24" x2="38" y2="24" />
+      <line x1="10" y1="32" x2="38" y2="32" />
+    </svg>
+  );
+}
+
+function SkylightWindowIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M10 16 24 8l14 8v22H10Z" />
+      <line x1="24" y1="8" x2="24" y2="38" />
+      <line x1="10" y1="24" x2="38" y2="24" />
+    </svg>
+  );
+}
+
+function FakroWindowIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M13 8h22l4 32H9Z" />
+      <line x1="11.5" y1="24" x2="36.5" y2="24" />
+      <path d="M18 8l-3 32M30 8l3 32" />
+    </svg>
+  );
+}
+
+function DakstraWindowIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M15 6h18l6 36H9Z" />
+      <line x1="11.5" y1="24" x2="36.5" y2="24" />
+    </svg>
+  );
+}
+
+function RooflineWindowIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M9 12h30v26H9Z" />
+      <rect x="13" y="16" width="22" height="8" fill="currentColor" stroke="none" />
+      <line x1="9" y1="30" x2="39" y2="30" />
+    </svg>
+  );
+}
+
+function VeluxWindowIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M8 14 24 6l16 8v24H8Z" />
+      <path d="M24 6v32M8 14h32" />
+      <line x1="14" y1="24" x2="18" y2="24" />
+      <line x1="30" y1="24" x2="34" y2="24" />
+    </svg>
+  );
+}
+
+/* Product labels that map to a Velux/roof-window-specific icon (used in "Velux Blinds") */
+const veluxBlindIcons: Record<string, () => React.JSX.Element> = {
+  "Roto Window Blinds": RotoWindowIcon,
+  "Skylight Window Blinds": SkylightWindowIcon,
+  "Fakro Window Blinds": FakroWindowIcon,
+  "Dakstra Window Blinds": DakstraWindowIcon,
+  "Roofline Window Blinds": RooflineWindowIcon,
+  "Velux Window Blinds": VeluxWindowIcon,
+};
+
 /* Product labels that should render the building icon instead of the generic blind icon */
 const buildingIconProducts = new Set([
   "Blinds for Commercial Buildings",
@@ -340,6 +411,8 @@ function SubProductIcon({ label }: { label: string }) {
   if (RoomIcon) return <RoomIcon />;
   const VerticalIcon = verticalBlindIcons[label];
   if (VerticalIcon) return <VerticalIcon />;
+  const VeluxIcon = veluxBlindIcons[label];
+  if (VeluxIcon) return <VeluxIcon />;
   return buildingIconProducts.has(label) ? <BuildingBlindIcon /> : <BlindIcon />;
 }
 
