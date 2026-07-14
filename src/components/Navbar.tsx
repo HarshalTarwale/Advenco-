@@ -82,23 +82,23 @@ const blindCategories: BlindCategory[] = [
     label: "Velux Blinds",
     href: "/velux-blinds/",
     products: [
-      { label: "Velux Window Blinds",    href: "/velux-window-blinds/" },
-      { label: "Skylight Window Blinds", href: "/skylight-window-blinds/" },
       { label: "Roto Window Blinds",     href: "/roto-window-blinds/" },
+      { label: "Skylight Window Blinds", href: "/skylight-window-blinds/" },
       { label: "Fakro Window Blinds",    href: "/fakro-window-blinds/" },
       { label: "Dakstra Window Blinds",  href: "/dakstra-window-blinds/" },
       { label: "Roofline Window Blinds", href: "/roofline-window-blinds/" },
+      { label: "Velux Window Blinds",    href: "/velux-blinds/" },
     ],
   },
   {
     label: "Perfect Fit",
-    href: "/perfect-fit-blinds/",
+    href: "/perfect-fit-honeycomb/",
     products: [
-      { label: "Venetian Perfect Fit Blinds",        href: "/venetian-perfect-fit-blinds/" },
-      { label: "Pleated Blinds",                     href: "/pleated-blinds/" },
-      { label: "Perfect Fit Blinds",                 href: "/perfect-fit-blinds/" },
       { label: "Perfect Fit Honeycomb",              href: "/perfect-fit-honeycomb/" },
       { label: "Perfect Fit Day and Night Blinds",   href: "/perfect-fit-day-and-night-blinds/" },
+      { label: "Perfect Fit Venetian Blinds",        href: "/perfect-fit-venetian-blinds/" },
+      { label: "Pleated Perfect Fit Blinds",         href: "/pleated-perfect-fit-blinds/" },
+      { label: "Perfect Fit Roller Blinds",          href: "/perfect-fit-roller-blinds/" },
       { label: "Wooden Venetian Perfect Fit Blinds", href: "/wooden-venetian-perfect-fit-blinds/" },
     ],
   },
@@ -175,6 +175,299 @@ function BuildingBlindIcon() {
   );
 }
 
+/* Room glyphs — thin line icons used for the "Blinds by Room" mega-menu column */
+function BathroomIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M6 24h32a2 2 0 0 1 2 2v2a8 8 0 0 1-8 8H14a8 8 0 0 1-8-8v-2a2 2 0 0 1 2-2Z" />
+      <path d="M9 24v-9a4 4 0 0 1 4-4c1.8 0 3.3 1.1 3.8 2.7" />
+      <line x1="10" y1="36" x2="10" y2="39" />
+      <line x1="34" y1="36" x2="34" y2="39" />
+    </svg>
+  );
+}
+
+function BedroomIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M6 34V17a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v7" />
+      <path d="M42 34V22a4 4 0 0 0-4-4H16a4 4 0 0 0-4 4v3" />
+      <path d="M6 27h36" />
+      <line x1="6" y1="34" x2="6" y2="38" />
+      <line x1="42" y1="34" x2="42" y2="38" />
+    </svg>
+  );
+}
+
+function KitchenIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="7" y="12" width="34" height="26" rx="1.5" />
+      <line x1="7" y1="22" x2="41" y2="22" />
+      <line x1="24" y1="22" x2="24" y2="38" />
+      <circle cx="18" cy="17" r="1.3" fill="currentColor" stroke="none" />
+      <circle cx="30" cy="17" r="1.3" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+function DiningRoomIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <ellipse cx="24" cy="22" rx="15" ry="4" />
+      <line x1="24" y1="10" x2="24" y2="14" />
+      <path d="M18 10h12" />
+      <line x1="12" y1="26" x2="9" y2="38" />
+      <line x1="36" y1="26" x2="39" y2="38" />
+    </svg>
+  );
+}
+
+function LivingRoomIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M8 28v-6a4 4 0 0 1 4-4h1a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3h1a4 4 0 0 1 4 4v6" />
+      <path d="M6 28h36v5a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-5Z" />
+      <line x1="9" y1="35" x2="9" y2="39" />
+      <line x1="39" y1="35" x2="39" y2="39" />
+    </svg>
+  );
+}
+
+function OfficeIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="6" y="14" width="36" height="18" rx="1.5" />
+      <line x1="6" y1="20" x2="42" y2="20" />
+      <line x1="16" y1="32" x2="14" y2="38" />
+      <line x1="32" y1="32" x2="34" y2="38" />
+      <line x1="10" y1="38" x2="38" y2="38" />
+    </svg>
+  );
+}
+
+/* Vertical-blind glyphs — thin line icons used for the "Vertical Blinds" mega-menu column */
+function WaterproofVerticalIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <line x1="10" y1="6" x2="10" y2="42" />
+      <line x1="17" y1="6" x2="17" y2="42" />
+      <line x1="24" y1="6" x2="24" y2="42" />
+      <line x1="31" y1="6" x2="31" y2="42" />
+      <line x1="38" y1="6" x2="38" y2="42" />
+      <path d="M24 12c1.6 2 2.4 3.4 2.4 4.8a2.4 2.4 0 1 1-4.8 0c0-1.4.8-2.8 2.4-4.8Z" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+function DimoutVerticalIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" aria-hidden="true">
+      <path d="M9 6 13 42" />
+      <path d="M16.5 6 20.5 42" />
+      <path d="M24 6 28 42" />
+      <path d="M31.5 6 35.5 42" />
+      <path d="M39 6 43 42" />
+    </svg>
+  );
+}
+
+function ConservatoryVerticalIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M6 18 24 7l18 11" />
+      <line x1="9" y1="18" x2="9" y2="42" />
+      <line x1="15" y1="18" x2="15" y2="42" />
+      <line x1="21" y1="18" x2="21" y2="42" />
+      <line x1="27" y1="18" x2="27" y2="42" />
+      <line x1="33" y1="18" x2="33" y2="42" />
+      <line x1="39" y1="18" x2="39" y2="42" />
+    </svg>
+  );
+}
+
+function BifoldDoorVerticalIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M8 8v32l10-4V12Z" />
+      <path d="M18 12l12-4v32l-12-4" />
+      <path d="M30 8l10 4v24l-10 4" />
+    </svg>
+  );
+}
+
+function BlackoutVerticalIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinejoin="round" aria-hidden="true">
+      <rect x="7" y="6" width="5" height="36" fill="currentColor" stroke="none" />
+      <rect x="15" y="6" width="5" height="36" fill="currentColor" stroke="none" />
+      <rect x="23" y="6" width="5" height="36" fill="currentColor" stroke="none" />
+      <rect x="31" y="6" width="5" height="36" fill="currentColor" stroke="none" />
+      <rect x="39" y="6" width="4" height="36" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+/* Product labels that map to a vertical-blind-specific icon (used in "Vertical Blinds") */
+const verticalBlindIcons: Record<string, () => React.JSX.Element> = {
+  "Waterproof Vertical Blinds": WaterproofVerticalIcon,
+  "Dimout Vertical Blinds": DimoutVerticalIcon,
+  "Conservatory Vertical Blinds": ConservatoryVerticalIcon,
+  "Bifold Door Vertical Blinds": BifoldDoorVerticalIcon,
+  "Blackout Vertical Blinds": BlackoutVerticalIcon,
+};
+
+/* Velux/roof-window glyphs — thin line icons used for the "Velux Blinds" mega-menu column */
+function RotoWindowIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M10 10h22l6 6v22H10Z" />
+      <line x1="10" y1="24" x2="38" y2="24" />
+      <line x1="10" y1="32" x2="38" y2="32" />
+    </svg>
+  );
+}
+
+function SkylightWindowIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M10 16 24 8l14 8v22H10Z" />
+      <line x1="24" y1="8" x2="24" y2="38" />
+      <line x1="10" y1="24" x2="38" y2="24" />
+    </svg>
+  );
+}
+
+function FakroWindowIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M13 8h22l4 32H9Z" />
+      <line x1="11.5" y1="24" x2="36.5" y2="24" />
+      <path d="M18 8l-3 32M30 8l3 32" />
+    </svg>
+  );
+}
+
+function DakstraWindowIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M15 6h18l6 36H9Z" />
+      <line x1="11.5" y1="24" x2="36.5" y2="24" />
+    </svg>
+  );
+}
+
+function RooflineWindowIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M9 12h30v26H9Z" />
+      <rect x="13" y="16" width="22" height="8" fill="currentColor" stroke="none" />
+      <line x1="9" y1="30" x2="39" y2="30" />
+    </svg>
+  );
+}
+
+function VeluxWindowIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M8 14 24 6l16 8v24H8Z" />
+      <path d="M24 6v32M8 14h32" />
+      <line x1="14" y1="24" x2="18" y2="24" />
+      <line x1="30" y1="24" x2="34" y2="24" />
+    </svg>
+  );
+}
+
+/* Product labels that map to a Velux/roof-window-specific icon (used in "Velux Blinds") */
+const veluxBlindIcons: Record<string, () => React.JSX.Element> = {
+  "Roto Window Blinds": RotoWindowIcon,
+  "Skylight Window Blinds": SkylightWindowIcon,
+  "Fakro Window Blinds": FakroWindowIcon,
+  "Dakstra Window Blinds": DakstraWindowIcon,
+  "Roofline Window Blinds": RooflineWindowIcon,
+  "Velux Window Blinds": VeluxWindowIcon,
+};
+
+/* Perfect Fit glyphs — thin line icons used for the "Perfect Fit" mega-menu column */
+function HoneycombIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="8" y="6" width="32" height="36" rx="1" />
+      {[13, 20, 27, 34].map((y) => (
+        <path key={y} d={`M8 ${y}h4l3 3.5-3 3.5H8`} />
+      ))}
+      {[13, 20, 27, 34].map((y) => (
+        <path key={`r-${y}`} d={`M40 ${y}h-4l-3 3.5 3 3.5h4`} />
+      ))}
+    </svg>
+  );
+}
+
+function DayNightIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="8" y="6" width="32" height="36" rx="1" />
+      <rect x="8" y="12" width="32" height="5" fill="currentColor" stroke="none" />
+      <rect x="8" y="22" width="32" height="5" fill="currentColor" stroke="none" />
+      <rect x="8" y="32" width="32" height="5" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+function PerfectFitVenetianIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="8" y="6" width="32" height="36" rx="1" />
+      <line x1="8" y1="6" x2="40" y2="6" strokeWidth={3} />
+      {[13, 18, 23, 28, 33, 38].map((y) => (
+        <line key={y} x1="8" y1={y} x2="40" y2={y} />
+      ))}
+    </svg>
+  );
+}
+
+function PleatedPerfectFitIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M8 6h32v14l-32 0Z" />
+      <path d="M8 12l4-3 4 3 4-3 4 3 4-3 4 3 4-3" />
+      <path d="M8 16l4-3 4 3 4-3 4 3 4-3 4 3 4-3" />
+      <rect x="8" y="20" width="32" height="16" fill="currentColor" fillOpacity="0.12" />
+    </svg>
+  );
+}
+
+function PerfectFitRollerIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="9" y="7" width="30" height="4" rx="1" fill="currentColor" stroke="none" />
+      <path d="M12 11v18a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V11" />
+      <line x1="12" y1="20" x2="36" y2="20" />
+    </svg>
+  );
+}
+
+function WoodenVenetianPerfectFitIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="8" y="6" width="32" height="36" rx="1" />
+      {[11, 16.5, 22, 27.5, 33, 38.5].map((y) => (
+        <rect key={y} x="9.5" y={y - 1.6} width="29" height="3.2" fill="currentColor" fillOpacity="0.5" stroke="none" />
+      ))}
+    </svg>
+  );
+}
+
+/* Product labels that map to a Perfect-Fit-specific icon (used in "Perfect Fit") */
+const perfectFitIcons: Record<string, () => React.JSX.Element> = {
+  "Perfect Fit Honeycomb": HoneycombIcon,
+  "Perfect Fit Day and Night Blinds": DayNightIcon,
+  "Perfect Fit Venetian Blinds": PerfectFitVenetianIcon,
+  "Pleated Perfect Fit Blinds": PleatedPerfectFitIcon,
+  "Perfect Fit Roller Blinds": PerfectFitRollerIcon,
+  "Wooden Venetian Perfect Fit Blinds": WoodenVenetianPerfectFitIcon,
+};
+
 /* Product labels that should render the building icon instead of the generic blind icon */
 const buildingIconProducts = new Set([
   "Blinds for Commercial Buildings",
@@ -183,7 +476,25 @@ const buildingIconProducts = new Set([
   "Window Blinds for Colleges",
 ]);
 
+/* Product labels that map to a room-specific icon (used in "Blinds by Room") */
+const roomIcons: Record<string, () => React.JSX.Element> = {
+  "Bathroom Window Blinds": BathroomIcon,
+  "Bedroom Window Blinds": BedroomIcon,
+  "Kitchen Window Blinds": KitchenIcon,
+  "Dining Room Window Blinds": DiningRoomIcon,
+  "Living Room Blinds": LivingRoomIcon,
+  "Office Window Blinds": OfficeIcon,
+};
+
 function SubProductIcon({ label }: { label: string }) {
+  const RoomIcon = roomIcons[label];
+  if (RoomIcon) return <RoomIcon />;
+  const VerticalIcon = verticalBlindIcons[label];
+  if (VerticalIcon) return <VerticalIcon />;
+  const VeluxIcon = veluxBlindIcons[label];
+  if (VeluxIcon) return <VeluxIcon />;
+  const PerfectFitIcon = perfectFitIcons[label];
+  if (PerfectFitIcon) return <PerfectFitIcon />;
   return buildingIconProducts.has(label) ? <BuildingBlindIcon /> : <BlindIcon />;
 }
 
