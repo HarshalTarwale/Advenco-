@@ -22,7 +22,7 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
-import type { CommercialBlindPageContent, BenefitCard, DifferentiatorCard } from "@/data/commercialBlindsPages";
+import type { CommercialBlindPageContent, BenefitCard, DifferentiatorCard, ExtraSection } from "@/data/commercialBlindsPages";
 
 /* ---------- Icon Set ---------- */
 /* Small line-icon library covering every icon key used across the 5 pages. */
@@ -157,9 +157,11 @@ export default function CommercialBlindPage({ content }: { content: CommercialBl
               <span className="font-light block">{content.heroHeadingLines[0]}</span>
               <span className="font-bold italic text-advenco-teal block">{content.heroHeadingLines[1]}</span>
             </h1>
-            <p className="text-white/75 text-base sm:text-lg leading-relaxed max-w-xl mb-9">
-              {content.heroBody}
-            </p>
+            <div className="text-white/75 text-base sm:text-lg leading-relaxed max-w-xl mb-9 space-y-4">
+              {content.heroBody.map((para, i) => (
+                <p key={i}>{para}</p>
+              ))}
+            </div>
             <Link
               href="#contact"
               className="inline-flex items-center gap-2 px-7 py-3.5 bg-advenco-teal hover:bg-advenco-teal-dark text-white text-sm font-bold tracking-widest uppercase transition-colors rounded-sm"
@@ -191,9 +193,11 @@ export default function CommercialBlindPage({ content }: { content: CommercialBl
                 <span className="font-light block">{content.importanceHeadingLines[0]}</span>
                 <span className="font-bold italic block">{content.importanceHeadingLines[1]}</span>
               </h2>
-              <p className="text-advenco-muted leading-relaxed text-base max-w-lg">
-                {content.importanceBody}
-              </p>
+              <div className="text-advenco-muted leading-relaxed text-base max-w-lg space-y-4">
+                {content.importanceBody.map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+              </div>
             </div>
 
             {/* Image */}
@@ -245,6 +249,15 @@ export default function CommercialBlindPage({ content }: { content: CommercialBl
       </section>
 
       {/* ============================================================
+          Extra Sections — product breakdowns, buying guides, case
+          studies, etc. pulled from the source page. Alternates white/
+          alabaster backgrounds to match the rest of the page rhythm.
+      ============================================================ */}
+      {content.extraSections?.map((section, i) => (
+        <ExtraSectionBlock key={section.heading} section={section} alt={i % 2 === 1} />
+      ))}
+
+      {/* ============================================================
           Full-width banner image
       ============================================================ */}
       <section className="relative w-full h-90 sm:h-110 overflow-hidden">
@@ -267,7 +280,11 @@ export default function CommercialBlindPage({ content }: { content: CommercialBl
             <h3 className="font-heading text-2xl sm:text-3xl text-advenco-graphite-mid font-semibold mb-4">
               {content.closingHeading}
             </h3>
-            <p className="text-advenco-muted leading-relaxed">{content.closingBody}</p>
+            <div className="text-advenco-muted leading-relaxed space-y-4">
+              {content.closingBody.map((para, i) => (
+                <p key={i}>{para}</p>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -275,6 +292,37 @@ export default function CommercialBlindPage({ content }: { content: CommercialBl
       <ContactSection />
       <Footer />
     </>
+  );
+}
+
+/* ---------- Extra Section Block ---------- */
+
+function ExtraSectionBlock({ section, alt }: { section: ExtraSection; alt: boolean }) {
+  return (
+    <section className={alt ? "bg-advenco-alabaster py-16 lg:py-20" : "bg-white py-16 lg:py-20"}>
+      <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-20">
+        <div className="max-w-3xl space-y-5">
+          <h3 className="font-heading text-2xl sm:text-3xl text-advenco-graphite-mid font-semibold">
+            {section.heading}
+          </h3>
+          <div className="text-advenco-muted leading-relaxed space-y-4">
+            {section.paragraphs.map((para, i) => (
+              <p key={i}>{para}</p>
+            ))}
+          </div>
+          {section.bullets && section.bullets.length > 0 && (
+            <ul className="space-y-2.5 pt-1">
+              {section.bullets.map((bullet) => (
+                <li key={bullet} className="flex items-start gap-3">
+                  <span className="mt-2 shrink-0 w-2 h-2 rounded-full bg-advenco-teal" aria-hidden="true" />
+                  <span className="text-advenco-graphite-mid text-sm leading-relaxed">{bullet}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </div>
+    </section>
   );
 }
 

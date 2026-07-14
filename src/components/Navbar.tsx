@@ -246,6 +246,77 @@ function OfficeIcon() {
   );
 }
 
+/* Vertical-blind glyphs — thin line icons used for the "Vertical Blinds" mega-menu column */
+function WaterproofVerticalIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <line x1="10" y1="6" x2="10" y2="42" />
+      <line x1="17" y1="6" x2="17" y2="42" />
+      <line x1="24" y1="6" x2="24" y2="42" />
+      <line x1="31" y1="6" x2="31" y2="42" />
+      <line x1="38" y1="6" x2="38" y2="42" />
+      <path d="M24 12c1.6 2 2.4 3.4 2.4 4.8a2.4 2.4 0 1 1-4.8 0c0-1.4.8-2.8 2.4-4.8Z" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+function DimoutVerticalIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" aria-hidden="true">
+      <path d="M9 6 13 42" />
+      <path d="M16.5 6 20.5 42" />
+      <path d="M24 6 28 42" />
+      <path d="M31.5 6 35.5 42" />
+      <path d="M39 6 43 42" />
+    </svg>
+  );
+}
+
+function ConservatoryVerticalIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M6 18 24 7l18 11" />
+      <line x1="9" y1="18" x2="9" y2="42" />
+      <line x1="15" y1="18" x2="15" y2="42" />
+      <line x1="21" y1="18" x2="21" y2="42" />
+      <line x1="27" y1="18" x2="27" y2="42" />
+      <line x1="33" y1="18" x2="33" y2="42" />
+      <line x1="39" y1="18" x2="39" y2="42" />
+    </svg>
+  );
+}
+
+function BifoldDoorVerticalIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M8 8v32l10-4V12Z" />
+      <path d="M18 12l12-4v32l-12-4" />
+      <path d="M30 8l10 4v24l-10 4" />
+    </svg>
+  );
+}
+
+function BlackoutVerticalIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinejoin="round" aria-hidden="true">
+      <rect x="7" y="6" width="5" height="36" fill="currentColor" stroke="none" />
+      <rect x="15" y="6" width="5" height="36" fill="currentColor" stroke="none" />
+      <rect x="23" y="6" width="5" height="36" fill="currentColor" stroke="none" />
+      <rect x="31" y="6" width="5" height="36" fill="currentColor" stroke="none" />
+      <rect x="39" y="6" width="4" height="36" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+/* Product labels that map to a vertical-blind-specific icon (used in "Vertical Blinds") */
+const verticalBlindIcons: Record<string, () => React.JSX.Element> = {
+  "Waterproof Vertical Blinds": WaterproofVerticalIcon,
+  "Dimout Vertical Blinds": DimoutVerticalIcon,
+  "Conservatory Vertical Blinds": ConservatoryVerticalIcon,
+  "Bifold Door Vertical Blinds": BifoldDoorVerticalIcon,
+  "Blackout Vertical Blinds": BlackoutVerticalIcon,
+};
+
 /* Product labels that should render the building icon instead of the generic blind icon */
 const buildingIconProducts = new Set([
   "Blinds for Commercial Buildings",
@@ -267,6 +338,8 @@ const roomIcons: Record<string, () => React.JSX.Element> = {
 function SubProductIcon({ label }: { label: string }) {
   const RoomIcon = roomIcons[label];
   if (RoomIcon) return <RoomIcon />;
+  const VerticalIcon = verticalBlindIcons[label];
+  if (VerticalIcon) return <VerticalIcon />;
   return buildingIconProducts.has(label) ? <BuildingBlindIcon /> : <BlindIcon />;
 }
 
