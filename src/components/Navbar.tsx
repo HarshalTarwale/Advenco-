@@ -92,13 +92,13 @@ const blindCategories: BlindCategory[] = [
   },
   {
     label: "Perfect Fit",
-    href: "/perfect-fit-blinds/",
+    href: "/perfect-fit-honeycomb/",
     products: [
-      { label: "Venetian Perfect Fit Blinds",        href: "/venetian-perfect-fit-blinds/" },
-      { label: "Pleated Blinds",                     href: "/pleated-blinds/" },
-      { label: "Perfect Fit Blinds",                 href: "/perfect-fit-blinds/" },
       { label: "Perfect Fit Honeycomb",              href: "/perfect-fit-honeycomb/" },
       { label: "Perfect Fit Day and Night Blinds",   href: "/perfect-fit-day-and-night-blinds/" },
+      { label: "Perfect Fit Venetian Blinds",        href: "/perfect-fit-venetian-blinds/" },
+      { label: "Pleated Perfect Fit Blinds",         href: "/pleated-perfect-fit-blinds/" },
+      { label: "Perfect Fit Roller Blinds",          href: "/perfect-fit-roller-blinds/" },
       { label: "Wooden Venetian Perfect Fit Blinds", href: "/wooden-venetian-perfect-fit-blinds/" },
     ],
   },
@@ -388,6 +388,86 @@ const veluxBlindIcons: Record<string, () => React.JSX.Element> = {
   "Velux Window Blinds": VeluxWindowIcon,
 };
 
+/* Perfect Fit glyphs — thin line icons used for the "Perfect Fit" mega-menu column */
+function HoneycombIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="8" y="6" width="32" height="36" rx="1" />
+      {[13, 20, 27, 34].map((y) => (
+        <path key={y} d={`M8 ${y}h4l3 3.5-3 3.5H8`} />
+      ))}
+      {[13, 20, 27, 34].map((y) => (
+        <path key={`r-${y}`} d={`M40 ${y}h-4l-3 3.5 3 3.5h4`} />
+      ))}
+    </svg>
+  );
+}
+
+function DayNightIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="8" y="6" width="32" height="36" rx="1" />
+      <rect x="8" y="12" width="32" height="5" fill="currentColor" stroke="none" />
+      <rect x="8" y="22" width="32" height="5" fill="currentColor" stroke="none" />
+      <rect x="8" y="32" width="32" height="5" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+function PerfectFitVenetianIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="8" y="6" width="32" height="36" rx="1" />
+      <line x1="8" y1="6" x2="40" y2="6" strokeWidth={3} />
+      {[13, 18, 23, 28, 33, 38].map((y) => (
+        <line key={y} x1="8" y1={y} x2="40" y2={y} />
+      ))}
+    </svg>
+  );
+}
+
+function PleatedPerfectFitIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M8 6h32v14l-32 0Z" />
+      <path d="M8 12l4-3 4 3 4-3 4 3 4-3 4 3 4-3" />
+      <path d="M8 16l4-3 4 3 4-3 4 3 4-3 4 3 4-3" />
+      <rect x="8" y="20" width="32" height="16" fill="currentColor" fillOpacity="0.12" />
+    </svg>
+  );
+}
+
+function PerfectFitRollerIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="9" y="7" width="30" height="4" rx="1" fill="currentColor" stroke="none" />
+      <path d="M12 11v18a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V11" />
+      <line x1="12" y1="20" x2="36" y2="20" />
+    </svg>
+  );
+}
+
+function WoodenVenetianPerfectFitIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="8" y="6" width="32" height="36" rx="1" />
+      {[11, 16.5, 22, 27.5, 33, 38.5].map((y) => (
+        <rect key={y} x="9.5" y={y - 1.6} width="29" height="3.2" fill="currentColor" fillOpacity="0.5" stroke="none" />
+      ))}
+    </svg>
+  );
+}
+
+/* Product labels that map to a Perfect-Fit-specific icon (used in "Perfect Fit") */
+const perfectFitIcons: Record<string, () => React.JSX.Element> = {
+  "Perfect Fit Honeycomb": HoneycombIcon,
+  "Perfect Fit Day and Night Blinds": DayNightIcon,
+  "Perfect Fit Venetian Blinds": PerfectFitVenetianIcon,
+  "Pleated Perfect Fit Blinds": PleatedPerfectFitIcon,
+  "Perfect Fit Roller Blinds": PerfectFitRollerIcon,
+  "Wooden Venetian Perfect Fit Blinds": WoodenVenetianPerfectFitIcon,
+};
+
 /* Product labels that should render the building icon instead of the generic blind icon */
 const buildingIconProducts = new Set([
   "Blinds for Commercial Buildings",
@@ -413,6 +493,8 @@ function SubProductIcon({ label }: { label: string }) {
   if (VerticalIcon) return <VerticalIcon />;
   const VeluxIcon = veluxBlindIcons[label];
   if (VeluxIcon) return <VeluxIcon />;
+  const PerfectFitIcon = perfectFitIcons[label];
+  if (PerfectFitIcon) return <PerfectFitIcon />;
   return buildingIconProducts.has(label) ? <BuildingBlindIcon /> : <BlindIcon />;
 }
 
