@@ -14,7 +14,7 @@ export interface BenefitCard {
 }
 
 export interface DifferentiatorCard {
-  icon: "layers" | "award" | "shield-check" | "users" | "pound";
+  icon: "layers" | "award" | "shield-check" | "users" | "pound" | "sparkles";
   title: string;
   body: string;
 }

@@ -175,6 +175,77 @@ function BuildingBlindIcon() {
   );
 }
 
+/* Room glyphs — thin line icons used for the "Blinds by Room" mega-menu column */
+function BathroomIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M6 24h32a2 2 0 0 1 2 2v2a8 8 0 0 1-8 8H14a8 8 0 0 1-8-8v-2a2 2 0 0 1 2-2Z" />
+      <path d="M9 24v-9a4 4 0 0 1 4-4c1.8 0 3.3 1.1 3.8 2.7" />
+      <line x1="10" y1="36" x2="10" y2="39" />
+      <line x1="34" y1="36" x2="34" y2="39" />
+    </svg>
+  );
+}
+
+function BedroomIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M6 34V17a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v7" />
+      <path d="M42 34V22a4 4 0 0 0-4-4H16a4 4 0 0 0-4 4v3" />
+      <path d="M6 27h36" />
+      <line x1="6" y1="34" x2="6" y2="38" />
+      <line x1="42" y1="34" x2="42" y2="38" />
+    </svg>
+  );
+}
+
+function KitchenIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="7" y="12" width="34" height="26" rx="1.5" />
+      <line x1="7" y1="22" x2="41" y2="22" />
+      <line x1="24" y1="22" x2="24" y2="38" />
+      <circle cx="18" cy="17" r="1.3" fill="currentColor" stroke="none" />
+      <circle cx="30" cy="17" r="1.3" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+function DiningRoomIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <ellipse cx="24" cy="22" rx="15" ry="4" />
+      <line x1="24" y1="10" x2="24" y2="14" />
+      <path d="M18 10h12" />
+      <line x1="12" y1="26" x2="9" y2="38" />
+      <line x1="36" y1="26" x2="39" y2="38" />
+    </svg>
+  );
+}
+
+function LivingRoomIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M8 28v-6a4 4 0 0 1 4-4h1a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3h1a4 4 0 0 1 4 4v6" />
+      <path d="M6 28h36v5a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-5Z" />
+      <line x1="9" y1="35" x2="9" y2="39" />
+      <line x1="39" y1="35" x2="39" y2="39" />
+    </svg>
+  );
+}
+
+function OfficeIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="6" y="14" width="36" height="18" rx="1.5" />
+      <line x1="6" y1="20" x2="42" y2="20" />
+      <line x1="16" y1="32" x2="14" y2="38" />
+      <line x1="32" y1="32" x2="34" y2="38" />
+      <line x1="10" y1="38" x2="38" y2="38" />
+    </svg>
+  );
+}
+
 /* Product labels that should render the building icon instead of the generic blind icon */
 const buildingIconProducts = new Set([
   "Blinds for Commercial Buildings",
@@ -183,7 +254,19 @@ const buildingIconProducts = new Set([
   "Window Blinds for Colleges",
 ]);
 
+/* Product labels that map to a room-specific icon (used in "Blinds by Room") */
+const roomIcons: Record<string, () => React.JSX.Element> = {
+  "Bathroom Window Blinds": BathroomIcon,
+  "Bedroom Window Blinds": BedroomIcon,
+  "Kitchen Window Blinds": KitchenIcon,
+  "Dining Room Window Blinds": DiningRoomIcon,
+  "Living Room Blinds": LivingRoomIcon,
+  "Office Window Blinds": OfficeIcon,
+};
+
 function SubProductIcon({ label }: { label: string }) {
+  const RoomIcon = roomIcons[label];
+  if (RoomIcon) return <RoomIcon />;
   return buildingIconProducts.has(label) ? <BuildingBlindIcon /> : <BlindIcon />;
 }
 
