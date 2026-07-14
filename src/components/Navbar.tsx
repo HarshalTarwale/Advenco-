@@ -104,11 +104,11 @@ const blindCategories: BlindCategory[] = [
   },
   {
     label: "Motorized Blinds",
-    href: "/motorised-blinds/",
+    href: "/day-and-night-motorised-blinds/",
     products: [
-      { label: "Roller Motorised Blinds",        href: "/roller-motorised-blinds/" },
-      { label: "Roman Motorised Blinds",         href: "/roman-motorised-blinds/" },
       { label: "Day and Night Motorised Blinds", href: "/day-and-night-motorised-blinds/" },
+      { label: "Roman Motorised Blinds",         href: "/roman-motorised-blinds/" },
+      { label: "Roller Motorised Blinds",        href: "/roller-motorised-blinds/" },
     ],
   },
   {
@@ -468,6 +468,59 @@ const perfectFitIcons: Record<string, () => React.JSX.Element> = {
   "Wooden Venetian Perfect Fit Blinds": WoodenVenetianPerfectFitIcon,
 };
 
+/* Motorized-blind glyphs — blind + remote/wifi motif, used for the "Motorized Blinds" mega-menu column */
+function DayNightMotorisedIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="5" y="6" width="22" height="4" rx="1" fill="currentColor" stroke="none" />
+      <rect x="7" y="12" width="18" height="4" fill="currentColor" fillOpacity="0.45" stroke="none" />
+      <rect x="7" y="18" width="18" height="4" stroke="currentColor" fill="none" />
+      <rect x="7" y="24" width="18" height="4" fill="currentColor" fillOpacity="0.45" stroke="none" />
+      <line x1="10" y1="30" x2="10" y2="35" />
+      <line x1="22" y1="30" x2="22" y2="35" />
+      <rect x="33" y="18" width="9" height="16" rx="2" />
+      <line x1="37.5" y1="22" x2="37.5" y2="22" strokeWidth={2.5} />
+      <path d="M34 14a5 5 0 0 1 7 0" />
+      <path d="M35.5 11.5a8 8 0 0 1 4 0" />
+    </svg>
+  );
+}
+
+function RomanMotorisedIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M8 6h24v10l-24 0Z" />
+      <path d="M8 12l4-3 4 3 4-3 4 3 4-3" />
+      <path d="M8 16l4-3 4 3 4-3 4 3 4-3" />
+      <rect x="8" y="20" width="24" height="14" fill="currentColor" fillOpacity="0.1" />
+      <rect x="33" y="18" width="9" height="16" rx="2" />
+      <path d="M34 14a5 5 0 0 1 7 0" />
+      <path d="M35.5 11.5a8 8 0 0 1 4 0" />
+    </svg>
+  );
+}
+
+function RollerMotorisedIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="6" y="6" width="24" height="4" rx="1" fill="currentColor" stroke="none" />
+      <path d="M8 10v20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V10" />
+      <line x1="8" y1="20" x2="28" y2="20" />
+      <rect x="33" y="18" width="9" height="16" rx="2" />
+      <path d="M34 14a5 5 0 0 1 7 0" />
+      <line x1="37.5" y1="24" x2="37.5" y2="26" />
+      <path d="M35.5 25v3M39.5 25v3" />
+    </svg>
+  );
+}
+
+/* Product labels that map to a Motorized-blind-specific icon (used in "Motorized Blinds") */
+const motorizedBlindIcons: Record<string, () => React.JSX.Element> = {
+  "Day and Night Motorised Blinds": DayNightMotorisedIcon,
+  "Roman Motorised Blinds": RomanMotorisedIcon,
+  "Roller Motorised Blinds": RollerMotorisedIcon,
+};
+
 /* Product labels that should render the building icon instead of the generic blind icon */
 const buildingIconProducts = new Set([
   "Blinds for Commercial Buildings",
@@ -495,6 +548,8 @@ function SubProductIcon({ label }: { label: string }) {
   if (VeluxIcon) return <VeluxIcon />;
   const PerfectFitIcon = perfectFitIcons[label];
   if (PerfectFitIcon) return <PerfectFitIcon />;
+  const MotorizedIcon = motorizedBlindIcons[label];
+  if (MotorizedIcon) return <MotorizedIcon />;
   return buildingIconProducts.has(label) ? <BuildingBlindIcon /> : <BlindIcon />;
 }
 
