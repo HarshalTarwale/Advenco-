@@ -4,6 +4,8 @@
  * A two-tier navigation:
  *  - Top utility bar: email, phone, and "FREE CONSULTATION & INSTALLATION" tagline
  *  - Main nav bar: logo, nav links (with dropdowns), and "Get A Quote" CTA button
+ *  - BLINDS gets a two-column mega-menu: category list on the left, that
+ *    category's sub-products on the right (grid of icon + label cards)
  *
  * Features:
  *  - Sticky on scroll with shadow
@@ -26,26 +28,110 @@ interface NavItem {
   dropdown?: { label: string; href: string }[];
 }
 
+interface BlindSubProduct {
+  label: string;
+  href: string;
+}
+
+interface BlindCategory {
+  label: string;
+  href: string;
+  products: BlindSubProduct[];
+}
+
+/* ---------- Blinds Mega-Menu Data ---------- */
+/* Left column = category, right column = that category's sub-products.
+   Slugs are best-effort until real page links are supplied. */
+
+const blindCategories: BlindCategory[] = [
+  {
+    label: "Commercial Blinds",
+    href: "/commercial-blinds/",
+    products: [
+      { label: "Blinds for Hospitals",           href: "/blinds-for-hospitals/" },
+      { label: "Blinds for Commercial Buildings",href: "/blinds-for-commercial-buildings/" },
+      { label: "Blinds for School",              href: "/blinds-for-school/" },
+      { label: "Window Blinds for Hotel",        href: "/window-blinds-for-hotels/" },
+      { label: "Window Blinds for Colleges",     href: "/window-blinds-for-colleges/" },
+    ],
+  },
+  {
+    label: "Blinds by Room",
+    href: "/blinds-by-room/",
+    products: [
+      { label: "Bathroom Window Blinds",    href: "/bathroom-window-blinds/" },
+      { label: "Bedroom Window Blinds",     href: "/bedroom-window-blinds/" },
+      { label: "Kitchen Window Blinds",     href: "/kitchen-window-blinds/" },
+      { label: "Dining Room Window Blinds", href: "/dining-room-window-blinds/" },
+      { label: "Living Room Blinds",        href: "/living-room-blinds/" },
+      { label: "Office Window Blinds",      href: "/office-window-blinds/" },
+    ],
+  },
+  {
+    label: "Vertical Blinds",
+    href: "/vertical-blinds/",
+    products: [
+      { label: "Waterproof Vertical Blinds",   href: "/waterproof-vertical-blinds/" },
+      { label: "Dimout Vertical Blinds",       href: "/dimout-vertical-blinds/" },
+      { label: "Conservatory Vertical Blinds", href: "/conservatory-vertical-blinds/" },
+      { label: "Bifold Door Vertical Blinds",  href: "/bifold-door-vertical-blinds/" },
+      { label: "Blackout Vertical Blinds",     href: "/blackout-vertical-blinds/" },
+    ],
+  },
+  {
+    label: "Velux Blinds",
+    href: "/velux-blinds/",
+    products: [
+      { label: "Velux Window Blinds",    href: "/velux-window-blinds/" },
+      { label: "Skylight Window Blinds", href: "/skylight-window-blinds/" },
+      { label: "Roto Window Blinds",     href: "/roto-window-blinds/" },
+      { label: "Fakro Window Blinds",    href: "/fakro-window-blinds/" },
+      { label: "Dakstra Window Blinds",  href: "/dakstra-window-blinds/" },
+      { label: "Roofline Window Blinds", href: "/roofline-window-blinds/" },
+    ],
+  },
+  {
+    label: "Perfect Fit",
+    href: "/perfect-fit-blinds/",
+    products: [
+      { label: "Venetian Perfect Fit Blinds",        href: "/venetian-perfect-fit-blinds/" },
+      { label: "Pleated Blinds",                     href: "/pleated-blinds/" },
+      { label: "Perfect Fit Blinds",                 href: "/perfect-fit-blinds/" },
+      { label: "Perfect Fit Honeycomb",              href: "/perfect-fit-honeycomb/" },
+      { label: "Perfect Fit Day and Night Blinds",   href: "/perfect-fit-day-and-night-blinds/" },
+      { label: "Wooden Venetian Perfect Fit Blinds", href: "/wooden-venetian-perfect-fit-blinds/" },
+    ],
+  },
+  {
+    label: "Motorized Blinds",
+    href: "/motorised-blinds/",
+    products: [
+      { label: "Roller Motorised Blinds",        href: "/roller-motorised-blinds/" },
+      { label: "Roman Motorised Blinds",         href: "/roman-motorised-blinds/" },
+      { label: "Day and Night Motorised Blinds", href: "/day-and-night-motorised-blinds/" },
+    ],
+  },
+  {
+    label: "Blinds by Colour",
+    href: "/blinds-by-colour/",
+    products: [
+      { label: "Black Blinds",  href: "/black-blinds/" },
+      { label: "White Blinds",  href: "/white-blinds/" },
+      { label: "Grey Blinds",   href: "/grey-blinds/" },
+      { label: "Cream Blinds",  href: "/cream-blinds/" },
+      { label: "Blue Blinds",   href: "/blue-blinds/" },
+      { label: "Green Blinds",  href: "/green-blinds/" },
+      { label: "Brown Blinds",  href: "/brown-blinds/" },
+      { label: "Floral Blinds", href: "/floral-blinds/" },
+    ],
+  },
+];
+
 /* ---------- Navigation Data ---------- */
 
 const navItems: NavItem[] = [
   { label: "HOME", href: "/" },
-  {
-    /* BLINDS — dropdown with product sub-categories */
-    label: "BLINDS",
-    href: "#",
-    dropdown: [
-      { label: "Roller Blinds",          href: "/roller-blinds/" },
-      { label: "Roman Blinds",           href: "/roman-blinds/" },
-      { label: "Wooden Blinds",          href: "/wooden-blinds/" },
-      { label: "Venetian Blinds",        href: "/venetian-blinds/" },
-      { label: "Vertical Blinds",        href: "/vertical-blinds/" },
-      { label: "Day & Night Blinds",     href: "/day-night-blinds/" },
-      { label: "Motorised Blinds",       href: "/motorised-blinds/" },
-      { label: "Conservatory Blinds",    href: "/conservatory-blinds/" },
-    ],
-  },
-  { label: "SHUTTERS",     href: "/shutters/" },
+  { label: "SHUTTERS", href: "/shutters/" },
   {
     /* AREAS — dropdown with showroom locations */
     label: "AREAS",
@@ -61,6 +147,46 @@ const navItems: NavItem[] = [
   { label: "CONTACT US",    href: "/contact-us/" },
 ];
 
+/* ---------- Sub-product icons ---------- */
+/* Generic blind glyph — default for most sub-products */
+
+function BlindIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
+      <rect x="8" y="6" width="32" height="36" rx="1" />
+      <line x1="8" y1="14" x2="40" y2="14" />
+      <line x1="8" y1="21" x2="40" y2="21" />
+      <line x1="8" y1="28" x2="40" y2="28" />
+      <line x1="8" y1="35" x2="40" y2="35" />
+    </svg>
+  );
+}
+
+/* Blind with a small building glyph on the slat — used for commercial/institutional products */
+function BuildingBlindIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
+      <rect x="8" y="6" width="32" height="36" rx="1" />
+      <line x1="8" y1="14" x2="40" y2="14" />
+      <rect x="20" y="17" width="8" height="10" fill="currentColor" stroke="none" />
+      <line x1="8" y1="28" x2="40" y2="28" />
+      <line x1="8" y1="35" x2="40" y2="35" />
+    </svg>
+  );
+}
+
+/* Product labels that should render the building icon instead of the generic blind icon */
+const buildingIconProducts = new Set([
+  "Blinds for Commercial Buildings",
+  "Blinds for School",
+  "Window Blinds for Hotel",
+  "Window Blinds for Colleges",
+]);
+
+function SubProductIcon({ label }: { label: string }) {
+  return buildingIconProducts.has(label) ? <BuildingBlindIcon /> : <BlindIcon />;
+}
+
 /* ---------- Component ---------- */
 
 export default function Navbar() {
@@ -70,6 +196,11 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   // Track which dropdown is open (by label)
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  // BLINDS mega-menu open state + which category is active in the left column
+  const [blindsMenuOpen, setBlindsMenuOpen] = useState(false);
+  const [activeCategory, setActiveCategory] = useState(blindCategories[0].label);
+  // Mobile "BLINDS" accordion — which category is expanded
+  const [mobileActiveCategory, setMobileActiveCategory] = useState<string | null>(null);
   const navRef = useRef<HTMLElement>(null);
 
   /* ---- Scroll listener ---- */
@@ -89,11 +220,12 @@ export default function Navbar() {
     return () => document.body.classList.remove("overflow-hidden");
   }, [mobileOpen]);
 
-  /* ---- Close dropdown when clicking outside ---- */
+  /* ---- Close dropdowns/mega-menu when clicking outside ---- */
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
       if (navRef.current && !navRef.current.contains(e.target as Node)) {
         setOpenDropdown(null);
+        setBlindsMenuOpen(false);
       }
     };
     document.addEventListener("mousedown", handleClickOutside);
@@ -109,13 +241,13 @@ export default function Navbar() {
       {/* ============================================================
           Top Utility Bar — contact info + tagline
       ============================================================ */}
-      <div className="bg-[#0f172a] text-white text-xs py-2 px-4">
+      <div className="bg-advenco-graphite text-white text-xs py-2 px-4">
         <div className="max-w-7xl mx-auto flex items-center justify-between flex-wrap gap-2">
           {/* Left: email + phone */}
           <div className="flex items-center gap-6 flex-wrap">
             <a
               href="mailto:info@advencoblindsandshutters.co.uk"
-              className="flex items-center gap-2 hover:text-[#00aeef] transition-colors"
+              className="flex items-center gap-2 hover:text-advenco-teal transition-colors"
               aria-label="Email Advenco"
             >
               {/* Envelope icon */}
@@ -126,7 +258,7 @@ export default function Navbar() {
             </a>
             <a
               href="tel:08000541880"
-              className="flex items-center gap-2 hover:text-[#00aeef] transition-colors"
+              className="flex items-center gap-2 hover:text-advenco-teal transition-colors"
               aria-label="Call Advenco"
             >
               {/* Phone icon */}
@@ -172,6 +304,85 @@ export default function Navbar() {
 
             {/* ---- Desktop Navigation Links ---- */}
             <ul className="hidden lg:flex items-center gap-1 xl:gap-2" role="menubar">
+              {/* BLINDS — mega-menu trigger, always first after Home */}
+              <li className="relative" role="none">
+                <button
+                  role="menuitem"
+                  aria-haspopup="true"
+                  aria-expanded={blindsMenuOpen}
+                  onClick={() => setBlindsMenuOpen((prev) => !prev)}
+                  className="flex items-center gap-1 px-3 py-2 font-heading text-[12px] xl:text-[13px] font-semibold text-advenco-graphite-mid hover:text-advenco-teal transition-colors uppercase"
+                >
+                  Blinds
+                  <svg
+                    className={`w-3 h-3 transition-transform duration-200 ${blindsMenuOpen ? "rotate-180" : ""}`}
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    aria-hidden="true"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+
+                {/* ---- BLINDS Mega-Menu Panel ---- */}
+                {blindsMenuOpen && (
+                  <div
+                    role="menu"
+                    aria-label="Blinds submenu"
+                    className="absolute top-full left-0 mt-1 w-[min(90vw,860px)] bg-white shadow-xl rounded-lg border border-advenco-border z-50 animate-fade-in overflow-hidden"
+                  >
+                    <div className="flex max-h-[70vh]">
+                      {/* Left column — categories */}
+                      <ul className="w-56 shrink-0 bg-advenco-alabaster border-r border-advenco-border py-2 overflow-y-auto">
+                        {blindCategories.map((cat) => (
+                          <li key={cat.label}>
+                            <button
+                              role="menuitem"
+                              onMouseEnter={() => setActiveCategory(cat.label)}
+                              onFocus={() => setActiveCategory(cat.label)}
+                              onClick={() => setActiveCategory(cat.label)}
+                              className={`w-full text-left px-5 py-3 text-[12px] font-heading font-semibold tracking-wide uppercase transition-colors ${
+                                activeCategory === cat.label
+                                  ? "bg-white text-advenco-teal"
+                                  : "text-advenco-graphite-mid hover:bg-white hover:text-advenco-teal"
+                              }`}
+                            >
+                              {cat.label}
+                            </button>
+                          </li>
+                        ))}
+                      </ul>
+
+                      {/* Right column — sub-products for active category */}
+                      <div className="flex-1 p-6 overflow-y-auto">
+                        <div className="grid grid-cols-3 gap-x-4 gap-y-6">
+                          {blindCategories
+                            .find((cat) => cat.label === activeCategory)
+                            ?.products.map((product) => (
+                              <Link
+                                key={product.label}
+                                href={product.href}
+                                role="menuitem"
+                                onClick={() => setBlindsMenuOpen(false)}
+                                className="flex flex-col items-center text-center gap-2 group"
+                              >
+                                <span className="flex items-center justify-center w-16 h-16 rounded-lg border border-advenco-border text-advenco-graphite-mid group-hover:text-advenco-teal group-hover:border-advenco-teal transition-colors">
+                                  <SubProductIcon label={product.label} />
+                                </span>
+                                <span className="text-[12px] font-medium text-advenco-graphite-mid group-hover:text-advenco-teal transition-colors leading-snug">
+                                  {product.label}
+                                </span>
+                              </Link>
+                            ))}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </li>
+
               {navItems.map((item) => (
                 <li key={item.label} className="relative group" role="none">
                   {item.dropdown ? (
@@ -182,7 +393,7 @@ export default function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={openDropdown === item.label}
                         onClick={() => toggleDropdown(item.label)}
-                        className="flex items-center gap-1 px-3 py-2 text-[12px] xl:text-[13px] font-semibold text-[#1e293b] hover:text-[#00aeef] transition-colors uppercase" style={{ fontFamily: 'var(--font-heading, Outfit, sans-serif)' }}
+                        className="flex items-center gap-1 px-3 py-2 font-heading text-[12px] xl:text-[13px] font-semibold text-advenco-graphite-mid hover:text-advenco-teal transition-colors uppercase"
                       >
                         {item.label}
                         {/* Chevron icon */}
@@ -213,7 +424,7 @@ export default function Navbar() {
                                 href={sub.href}
                                 role="menuitem"
                                 onClick={() => setOpenDropdown(null)}
-                                className="block px-4 py-2.5 text-[13px] text-[#1e293b] hover:bg-[#f0f9ff] hover:text-[#00aeef] transition-colors"
+                                className="block px-4 py-2.5 text-[13px] text-advenco-graphite-mid hover:bg-[#f0f9ff] hover:text-advenco-teal transition-colors"
                               >
                                 {sub.label}
                               </Link>
@@ -227,7 +438,7 @@ export default function Navbar() {
                     <Link
                       href={item.href}
                       role="menuitem"
-                      className="block px-3 py-2 text-[12px] xl:text-[13px] font-semibold text-[#1e293b] hover:text-[#00aeef] transition-colors uppercase" style={{ fontFamily: 'var(--font-heading, Outfit, sans-serif)' }}
+                      className="block px-3 py-2 font-heading text-[12px] xl:text-[13px] font-semibold text-advenco-graphite-mid hover:text-advenco-teal transition-colors uppercase"
                     >
                       {item.label}
                     </Link>
@@ -242,7 +453,7 @@ export default function Navbar() {
               <Link
                 id="get-a-quote-nav"
                 href="#contact"
-                className="hidden lg:inline-flex items-center px-5 py-2.5 bg-[#00aeef] hover:bg-[#0099d4] text-white text-xs font-bold tracking-widest uppercase transition-colors rounded-sm"
+                className="hidden lg:inline-flex items-center px-5 py-2.5 bg-advenco-teal hover:bg-advenco-teal-dark text-white text-xs font-bold tracking-widest uppercase transition-colors rounded-sm"
               >
                 Get A Quote
               </Link>
@@ -257,17 +468,17 @@ export default function Navbar() {
                 className="lg:hidden flex flex-col justify-center items-center w-10 h-10 gap-1.5 rounded-md hover:bg-gray-100 transition-colors"
               >
                 <span
-                  className={`block h-0.5 w-6 bg-[#1e293b] transition-all duration-300 ${
+                  className={`block h-0.5 w-6 bg-advenco-graphite-mid transition-all duration-300 ${
                     mobileOpen ? "rotate-45 translate-y-2" : ""
                   }`}
                 />
                 <span
-                  className={`block h-0.5 w-6 bg-[#1e293b] transition-all duration-300 ${
+                  className={`block h-0.5 w-6 bg-advenco-graphite-mid transition-all duration-300 ${
                     mobileOpen ? "opacity-0" : ""
                   }`}
                 />
                 <span
-                  className={`block h-0.5 w-6 bg-[#1e293b] transition-all duration-300 ${
+                  className={`block h-0.5 w-6 bg-advenco-graphite-mid transition-all duration-300 ${
                     mobileOpen ? "-rotate-45 -translate-y-2" : ""
                   }`}
                 />
@@ -284,18 +495,81 @@ export default function Navbar() {
           role="dialog"
           aria-modal="true"
           aria-label="Mobile navigation"
-          className={`lg:hidden fixed inset-0 top-[calc(40px+64px)] z-40 bg-white overflow-y-auto transition-transform duration-300 ${
+          className={`lg:hidden fixed inset-0 top-26 z-40 bg-white overflow-y-auto transition-transform duration-300 ${
             mobileOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
           <div className="px-6 py-6 space-y-2">
+            {/* BLINDS — mobile accordion: category list, each expandable to its products */}
+            <div className="border-b border-gray-100">
+              <button
+                onClick={() => toggleDropdown("BLINDS")}
+                className="flex items-center justify-between w-full py-3 text-sm font-semibold tracking-widest text-advenco-graphite-mid uppercase"
+              >
+                Blinds
+                <svg
+                  className={`w-4 h-4 transition-transform ${openDropdown === "BLINDS" ? "rotate-180" : ""}`}
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                  aria-hidden="true"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {openDropdown === "BLINDS" && (
+                <div className="pl-4 pb-3 space-y-1">
+                  {blindCategories.map((cat) => (
+                    <div key={cat.label}>
+                      <button
+                        onClick={() =>
+                          setMobileActiveCategory((prev) => (prev === cat.label ? null : cat.label))
+                        }
+                        className="flex items-center justify-between w-full py-2 text-[13px] font-semibold text-advenco-graphite-mid uppercase"
+                      >
+                        {cat.label}
+                        <svg
+                          className={`w-3.5 h-3.5 transition-transform ${
+                            mobileActiveCategory === cat.label ? "rotate-180" : ""
+                          }`}
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth={2}
+                          aria-hidden="true"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </button>
+                      {mobileActiveCategory === cat.label && (
+                        <ul className="pl-3 pb-2 space-y-1.5">
+                          {cat.products.map((product) => (
+                            <li key={product.label}>
+                              <Link
+                                href={product.href}
+                                onClick={() => setMobileOpen(false)}
+                                className="block py-1 text-sm text-advenco-muted hover:text-advenco-teal transition-colors"
+                              >
+                                {product.label}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+
             {navItems.map((item) => (
               <div key={item.label} className="border-b border-gray-100 last:border-0">
                 {item.dropdown ? (
                   <>
                     <button
                       onClick={() => toggleDropdown(item.label)}
-                      className="flex items-center justify-between w-full py-3 text-sm font-semibold tracking-widest text-[#1e293b] uppercase"
+                      className="flex items-center justify-between w-full py-3 text-sm font-semibold tracking-widest text-advenco-graphite-mid uppercase"
                     >
                       {item.label}
                       <svg
@@ -318,7 +592,7 @@ export default function Navbar() {
                             <Link
                               href={sub.href}
                               onClick={() => setMobileOpen(false)}
-                              className="block py-1.5 text-sm text-[#64748b] hover:text-[#00aeef] transition-colors"
+                              className="block py-1.5 text-sm text-advenco-muted hover:text-advenco-teal transition-colors"
                             >
                               {sub.label}
                             </Link>
@@ -331,7 +605,7 @@ export default function Navbar() {
                   <Link
                     href={item.href}
                     onClick={() => setMobileOpen(false)}
-                    className="block py-3 text-sm font-semibold text-[#1e293b] uppercase hover:text-[#00aeef] transition-colors"
+                    className="block py-3 text-sm font-semibold text-advenco-graphite-mid uppercase hover:text-advenco-teal transition-colors"
                   >
                     {item.label}
                   </Link>
@@ -344,7 +618,7 @@ export default function Navbar() {
               <Link
                 href="#contact"
                 onClick={() => setMobileOpen(false)}
-                className="flex items-center justify-center w-full py-3 bg-[#00aeef] hover:bg-[#0099d4] text-white text-sm font-bold tracking-widest uppercase rounded-sm transition-colors"
+                className="flex items-center justify-center w-full py-3 bg-advenco-teal hover:bg-advenco-teal-dark text-white text-sm font-bold tracking-widest uppercase rounded-sm transition-colors"
               >
                 Get A Quote
               </Link>
