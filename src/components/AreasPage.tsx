@@ -10,6 +10,7 @@
  *  4. ContactSection + Footer — reused site-wide
  */
 
+import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -70,11 +71,17 @@ export default function AreasPage() {
             {areasIntro}
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4">
-            {areasList.map((town) => (
-              <div key={town} className="flex items-center gap-2.5">
+            {areasList.map((area, i) => (
+              <Link
+                key={`${area.name}-${i}`}
+                href={area.href}
+                className="group flex items-center gap-2.5"
+              >
                 <span className="shrink-0 w-1.5 h-1.5 rounded-full bg-advenco-teal" aria-hidden="true" />
-                <span className="text-advenco-graphite-mid text-sm leading-relaxed">{town}</span>
-              </div>
+                <span className="text-advenco-graphite-mid text-sm leading-relaxed group-hover:text-advenco-teal transition-colors">
+                  {area.name}
+                </span>
+              </Link>
             ))}
           </div>
         </div>
