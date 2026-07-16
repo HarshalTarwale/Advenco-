@@ -45,6 +45,23 @@ interface BlindCategory {
 
 const blindCategories: BlindCategory[] = [
   {
+    label: "Products",
+    href: "/roller-blinds/",
+    products: [
+      { label: "Roller Blinds",                  href: "/roller-blinds/" },
+      { label: "Roman Blinds",                   href: "/roman-blinds/" },
+      { label: "Vertical Blinds",                 href: "/vertical-blinds/" },
+      { label: "Blackout Vertical Blinds",        href: "/blackout-vertical-blinds/" },
+      { label: "Bifold Door Vertical Blinds",     href: "/bifold-door-vertical-blinds/" },
+      { label: "Wooden Window Blinds",            href: "/wooden-window-blinds/" },
+      { label: "Wooden Venetian Perfect Fit Blinds", href: "/wooden-venetian-perfect-fit-blinds/" },
+      { label: "Pleated Blinds",                  href: "/pleated-blinds/" },
+      { label: "Perfect Fit Blinds",               href: "/perfect-fit-blinds/" },
+      { label: "Skylight Window Blinds",          href: "/skylight-window-blinds/" },
+      { label: "Day and Night Motorised Blinds",  href: "/day-and-night-motorised-blinds/" },
+    ],
+  },
+  {
     label: "Commercial Blinds",
     href: "/commercial-blinds/",
     products: [
@@ -129,8 +146,11 @@ const blindCategories: BlindCategory[] = [
 
 /* ---------- Navigation Data ---------- */
 
+/** HOME renders first; the BLINDS mega-menu trigger renders right after it
+ *  (see desktop/mobile render below), then the remaining items follow. */
+const homeItem: NavItem = { label: "HOME", href: "/" };
+
 const navItems: NavItem[] = [
-  { label: "HOME", href: "/" },
   { label: "SHUTTERS", href: "/shutters/" },
   {
     /* AREAS — dropdown with showroom locations */
@@ -521,6 +541,89 @@ const motorizedBlindIcons: Record<string, () => React.JSX.Element> = {
   "Roller Motorised Blinds": RollerMotorisedIcon,
 };
 
+/* Product glyphs — used for the top-level "Products" mega-menu column */
+function RollerBlindsProductIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="7" y="7" width="34" height="4" rx="1" fill="currentColor" stroke="none" />
+      <path d="M10 11v22a3 3 0 0 0 3 3h22a3 3 0 0 0 3-3V11" />
+      <line x1="10" y1="21" x2="38" y2="21" />
+    </svg>
+  );
+}
+
+function RomanBlindsProductIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M8 6h32v10l-32 0Z" />
+      <path d="M8 12l4-3 4 3 4-3 4 3 4-3 4 3 4-3" />
+      <path d="M8 16l4-3 4 3 4-3 4 3 4-3 4 3 4-3" />
+      <rect x="8" y="20" width="32" height="16" fill="currentColor" fillOpacity="0.12" />
+    </svg>
+  );
+}
+
+function VerticalBlindsProductIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <line x1="10" y1="6" x2="10" y2="42" />
+      <line x1="17" y1="6" x2="17" y2="42" />
+      <line x1="24" y1="6" x2="24" y2="42" />
+      <line x1="31" y1="6" x2="31" y2="42" />
+      <line x1="38" y1="6" x2="38" y2="42" />
+    </svg>
+  );
+}
+
+function WoodenWindowBlindsProductIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="8" y="6" width="32" height="36" rx="1" />
+      {[13, 19, 25, 31, 37].map((y) => (
+        <rect key={y} x="9.5" y={y - 2} width="29" height="4" fill="currentColor" fillOpacity="0.55" stroke="none" />
+      ))}
+    </svg>
+  );
+}
+
+function PleatedBlindsProductIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M8 8l4-3 4 3 4-3 4 3 4-3 4 3 4-3 4 3" />
+      <path d="M8 14l4-3 4 3 4-3 4 3 4-3 4 3 4-3 4 3" />
+      <path d="M8 20l4-3 4 3 4-3 4 3 4-3 4 3 4-3 4 3" />
+      <rect x="8" y="24" width="32" height="14" fill="currentColor" fillOpacity="0.1" />
+    </svg>
+  );
+}
+
+function PerfectFitBlindsProductIcon() {
+  return (
+    <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="10" y="10" width="28" height="28" rx="1" />
+      <line x1="10" y1="17" x2="38" y2="17" />
+      <line x1="10" y1="24" x2="38" y2="24" />
+      <line x1="10" y1="31" x2="38" y2="31" />
+      <path d="M6 10v-2a2 2 0 0 1 2-2h2M40 6h2a2 2 0 0 1 2 2v2M42 38v2a2 2 0 0 1-2 2h-2M8 40H6a2 2 0 0 1-2-2v-2" />
+    </svg>
+  );
+}
+
+/* Product labels that map to a top-level-product-specific icon (used in "Products") */
+const topLevelProductIcons: Record<string, () => React.JSX.Element> = {
+  "Roller Blinds": RollerBlindsProductIcon,
+  "Roman Blinds": RomanBlindsProductIcon,
+  "Vertical Blinds": VerticalBlindsProductIcon,
+  "Blackout Vertical Blinds": BlackoutVerticalIcon,
+  "Bifold Door Vertical Blinds": BifoldDoorVerticalIcon,
+  "Wooden Window Blinds": WoodenWindowBlindsProductIcon,
+  "Wooden Venetian Perfect Fit Blinds": WoodenVenetianPerfectFitIcon,
+  "Pleated Blinds": PleatedBlindsProductIcon,
+  "Perfect Fit Blinds": PerfectFitBlindsProductIcon,
+  "Skylight Window Blinds": SkylightWindowIcon,
+  "Day and Night Motorised Blinds": DayNightMotorisedIcon,
+};
+
 /* Product labels that should render the building icon instead of the generic blind icon */
 const buildingIconProducts = new Set([
   "Blinds for Commercial Buildings",
@@ -540,6 +643,8 @@ const roomIcons: Record<string, () => React.JSX.Element> = {
 };
 
 function SubProductIcon({ label }: { label: string }) {
+  const TopLevelIcon = topLevelProductIcons[label];
+  if (TopLevelIcon) return <TopLevelIcon />;
   const RoomIcon = roomIcons[label];
   if (RoomIcon) return <RoomIcon />;
   const VerticalIcon = verticalBlindIcons[label];
@@ -670,7 +775,18 @@ export default function Navbar() {
 
             {/* ---- Desktop Navigation Links ---- */}
             <ul className="hidden lg:flex items-center gap-1 xl:gap-2" role="menubar">
-              {/* BLINDS — mega-menu trigger, always first after Home */}
+              {/* HOME — always first */}
+              <li role="none">
+                <Link
+                  href={homeItem.href}
+                  role="menuitem"
+                  className="block px-3 py-2 font-heading text-[12px] xl:text-[13px] font-semibold text-advenco-graphite-mid hover:text-advenco-teal transition-colors uppercase"
+                >
+                  {homeItem.label}
+                </Link>
+              </li>
+
+              {/* BLINDS — mega-menu trigger, right after Home */}
               <li className="relative" role="none">
                 <button
                   role="menuitem"
@@ -866,6 +982,17 @@ export default function Navbar() {
           }`}
         >
           <div className="px-6 py-6 space-y-2">
+            {/* HOME — always first */}
+            <div className="border-b border-gray-100">
+              <Link
+                href={homeItem.href}
+                onClick={() => setMobileOpen(false)}
+                className="block py-3 text-sm font-semibold text-advenco-graphite-mid uppercase hover:text-advenco-teal transition-colors"
+              >
+                {homeItem.label}
+              </Link>
+            </div>
+
             {/* BLINDS — mobile accordion: category list, each expandable to its products */}
             <div className="border-b border-gray-100">
               <button

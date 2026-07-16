@@ -1,0 +1,132 @@
+/**
+ * Town Area Pages — Registry
+ *
+ * Maps each town's URL slug to its content module. New towns are added
+ * here as their data files are built out in
+ * src/data/areas/<slug>.ts
+ */
+
+import type { TownPageContent } from "./types";
+
+type Loader = () => Promise<{ default: TownPageContent }>;
+
+export const townRegistry: Record<string, Loader> = {
+  "advenco-window-blinds-and-shutters-leeds": () => import("./leeds"),
+  "advenco-window-blinds-and-shutters-armthorpe": () => import("./armthorpe"),
+  "advenco-window-blinds-and-shutters-aldershot": () => import("./aldershot"),
+  "advenco-window-blinds-and-shutters-auckley": () => import("./auckley"),
+  "advenco-window-blinds-and-shutters-adwick-le-street": () => import("./adwick-le-street"),
+  "advenco-window-blinds-and-shutters-barlborough": () => import("./barlborough"),
+  "advenco-window-blinds-and-shutters-aylesbury": () => import("./aylesbury"),
+  "advenco-window-blinds-and-shutters-basingstoke": () => import("./basingstoke"),
+  "advenco-window-blinds-and-shutters-batley": () => import("./batley"),
+  "advenco-window-blinds-and-shutters-bolton": () => import("./bolton"),
+  "advenco-window-blinds-and-shutters-barnsley": () => import("./barnsley"),
+  "advenco-window-blinds-and-shutters-bramley": () => import("./bramley"),
+  "advenco-window-blinds-and-shutters-bradford": () => import("./bradford"),
+  "advenco-window-blinds-and-shutters-brinsworth": () => import("./brinsworth"),
+  "advenco-window-blinds-and-shutters-castleford": () => import("./castleford"),
+  "advenco-window-blinds-and-shutters-crawley": () => import("./crawley"),
+  "advenco-window-blinds-and-shutters-chesterfield": () => import("./chesterfield"),
+  "advenco-window-blinds-and-shutters-conisbrough": () => import("./conisbrough"),
+  "advenco-window-blinds-and-shutters-crowthorne": () => import("./crowthorne"),
+  "advenco-window-blinds-and-shutters-crystal-peaks": () => import("./crystal-peaks"),
+  "advenco-window-blinds-and-shutters-in-cudworth": () => import("./cudworth"),
+  "advenco-window-blinds-and-shutters-derbyshire": () => import("./derbyshire"),
+  "advenco-window-blinds-and-shutters-dewsbury": () => import("./dewsbury"),
+  "advenco-window-blinds-and-shutters-doncaster": () => import("./doncaster"),
+  "advenco-window-blinds-and-shutters-dodworth": () => import("./dodworth"),
+  "advenco-window-blinds-and-shutters-dronfield": () => import("./dronfield"),
+  "advenco-window-blinds-and-shutters-earley": () => import("./earley"),
+  "advenco-window-blinds-and-shutters-edenthorpe": () => import("./edenthorpe"),
+  "advenco-window-blinds-and-shutters-farnborough": () => import("./farnborough"),
+  "advenco-window-blinds-and-shutters-brentford": () => import("./brentford"),
+  "advenco-window-blinds-and-shutters-brighouse": () => import("./brighouse"),
+  "advenco-window-blinds-and-shutters-bury": () => import("./bury"),
+  "advenco-window-blinds-and-shutters-burngreave": () => import("./burngreave"),
+  "advenco-window-blinds-and-shutters-cleckheaton": () => import("./cleckheaton"),
+  "advenco-window-blinds-and-shutters-feltham": () => import("./feltham"),
+  "advenco-window-blinds-and-shutters-farnham": () => import("./farnham"),
+  "advenco-window-blinds-and-shutters-guildford": () => import("./guildford"),
+  "advenco-window-blinds-and-shutters-garforth": () => import("./garforth"),
+  "advenco-window-blinds-and-shutters-halifax": () => import("./halifax"),
+  "advenco-window-blinds-and-shutters-guiseley": () => import("./guiseley"),
+  "advenco-window-blinds-and-shutters-hamilton": () => import("./hamilton"),
+  "advenco-window-blinds-and-shutters-harrogate": () => import("./harrogate"),
+  "advenco-window-blinds-and-shutters-hayes": () => import("./hayes"),
+  "advenco-window-blinds-and-shutters-heckmondwike": () => import("./heckmondwike"),
+  "advenco-window-blinds-and-shutters-hemsworth": () => import("./hemsworth"),
+  "advenco-window-blinds-and-shutters-in-hemel-hempstead": () => import("./hemel-hempstead"),
+  "advenco-window-blinds-and-shutters-holmfirth": () => import("./holmfirth"),
+  "advenco-window-blinds-and-shutters-high-wycombe-2": () => import("./high-wycombe"),
+  "advenco-window-blinds-and-shutters-horsforth": () => import("./horsforth"),
+  "advenco-window-blinds-and-shutters-horley": () => import("./horley"),
+  "advenco-window-blinds-and-shutters-harrow": () => import("./harrow"),
+  "advenco-window-blinds-and-shutters-horsham": () => import("./horsham"),
+  "advenco-window-blinds-and-shutters-hoyland": () => import("./hoyland"),
+  "advenco-window-blinds-and-shutters-hounslow": () => import("./hounslow"),
+  "advenco-window-blinds-and-shutters-huddersfield": () => import("./huddersfield"),
+  "advenco-window-blinds-and-shutters-hull": () => import("./hull"),
+  "advenco-window-blinds-and-shutters-knaresborough": () => import("./knaresborough"),
+  "advenco-window-blinds-and-shutters-knottingley": () => import("./knottingley"),
+  "advenco-window-blinds-and-shutters-kingston-upon-thames": () => import("./kingston-upon-thames"),
+  "advenco-window-blinds-and-shutters-london": () => import("./london"),
+  "advenco-window-blinds-and-shutters-luton": () => import("./luton"),
+  "advenco-window-blinds-and-shutters-marlow": () => import("./marlow"),
+  "advenco-window-blinds-and-shutters-manchester": () => import("./manchester"),
+  "advenco-window-blinds-and-shutters-mirfield": () => import("./mirfield"),
+  "advenco-window-blinds-and-shutters-normanton": () => import("./normanton"),
+  "advenco-window-blinds-and-shutters-oldham": () => import("./oldham"),
+  "advenco-window-blinds-and-shutters-otley": () => import("./otley"),
+  "advenco-window-blinds-and-shutters-paisley": () => import("./paisley"),
+  "advenco-window-blinds-and-shutters-penistone": () => import("./penistone"),
+  "advenco-window-blinds-and-shutters-parkgate": () => import("./parkgate"),
+  "advenco-window-blinds-and-shutters-pudsey": () => import("./pudsey"),
+  "advenco-window-blinds-and-shutters-pontefract": () => import("./pontefract"),
+  "advenco-window-blinds-and-shutters-rawcliffe": () => import("./rawcliffe"),
+  "advenco-window-blinds-and-shutters-reading": () => import("./reading"),
+  "advenco-window-blinds-and-shutters-rochdale": () => import("./rochdale"),
+  "advenco-window-blinds-and-shutters-richmond": () => import("./richmond"),
+  "advenco-window-blinds-and-shutters-rotherham": () => import("./rotherham"),
+  "advenco-window-blinds-and-shutters-rothwell": () => import("./rothwell"),
+  "advenco-window-blinds-and-shutters-sheffield": () => import("./sheffield"),
+  "advenco-window-blinds-and-shutters-selby": () => import("./selby"),
+  "advenco-window-blinds-and-shutters-slough": () => import("./slough"),
+  "advenco-window-blinds-and-shutters-sonning": () => import("./sonning"),
+  "advenco-window-blinds-and-shutters-south-elmsall": () => import("./south-elmsall"),
+  "advenco-window-blinds-and-shutters-southhall": () => import("./southhall"),
+  "advenco-window-blinds-and-shutters-sportborough": () => import("./sportborough"),
+  "advenco-window-blinds-and-shutters-st-albans": () => import("./st-albans"),
+  "advenco-window-blinds-and-shutters-staines-upon-thames": () => import("./staines-upon-thames"),
+  "advenco-window-blinds-and-shutters-stretford": () => import("./stretford"),
+  "advenco-window-blinds-and-shutters-stocksbridge": () => import("./stocksbridge"),
+  "advenco-window-blinds-and-shutters-in-tadcaster": () => import("./tadcaster"),
+  "advenco-window-blinds-and-shutters-theale": () => import("./theale"),
+  "advenco-window-blinds-and-shutters-wadsley-bridge": () => import("./wadsley-bridge"),
+  "advenco-window-blinds-and-shutters-twickenham": () => import("./twickenham"),
+  "advenco-window-blinds-and-shutters-tingley": () => import("./tingley"),
+  "advenco-window-blinds-and-shutters-wakefield": () => import("./wakefield"),
+  "advenco-window-blinds-and-shutters-walton-upon-thames": () => import("./walton-upon-thames"),
+  "advenco-window-blinds-and-shutters-warrington": () => import("./warrington"),
+  "advenco-window-blinds-and-shutters-wembley": () => import("./wembley"),
+  "advenco-window-blinds-and-shutters-watford": () => import("./watford"),
+  "advenco-window-blinds-and-shutters-whetherby": () => import("./whetherby"),
+  "advenco-window-blinds-and-shutters-woking": () => import("./woking"),
+  "by-advenco-window-blinds-and-shutters-windsor": () => import("./windsor"),
+  "by-advenco-window-blinds-and-shutters-in-wokingham": () => import("./wokingham"),
+  "advenco-window-blinds-and-shutters-woodlands": () => import("./woodlands"),
+  "advenco-window-blinds-and-shutters-yeadon": () => import("./yeadon"),
+  "advenco-window-blinds-and-shutters-woodley": () => import("./woodley"),
+  "advenco-window-blinds-and-shutters-york": () => import("./york"),
+};
+
+export async function getTownContent(slug: string): Promise<TownPageContent | null> {
+  const loader = townRegistry[slug];
+  if (!loader) return null;
+  const mod = await loader();
+  return mod.default;
+}
+
+export function getAllTownSlugs(): string[] {
+  return Object.keys(townRegistry);
+}
