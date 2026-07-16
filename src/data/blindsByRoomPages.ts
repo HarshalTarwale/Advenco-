@@ -482,8 +482,8 @@ export const blindsByRoomPages: Record<string, CommercialBlindPageContent> = {
       "In select cities, we offer free window measuring and blinds fitting services for offices across the country. We guarantee the highest quality materials and offer a wide range of design and customization options. You can have your office blinds in the UK delivered to your doorstep whenever you need them.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1519575706483-221027bfbb31?auto=format&fit=crop&w=1600&q=80",
-    heroImageAlt: "Bright home office corner with large sash windows",
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=80",
+    heroImageAlt: "Bright modern office interior with window blinds fitted",
     sideImage:
       "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=1000&q=80",
     sideImageAlt: "Minimalist office desk positioned beside a window",

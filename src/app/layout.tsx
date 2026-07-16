@@ -11,6 +11,7 @@
 
 import type { Metadata } from "next";
 import { Outfit, Space_Grotesk } from "next/font/google";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import "./globals.css";
 
 /* ─────────────────────────────────────────────────
@@ -84,6 +85,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-white">
         {children}
+        <WhatsAppButton />
       </body>
     </html>
   );

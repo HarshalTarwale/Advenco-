@@ -211,7 +211,7 @@ export default function HeroSlider() {
           className="flex flex-wrap gap-4 animate-fade-in-up delay-300"
           style={{ animationFillMode: "both" }}
         >
-          {/* Primary CTA — filled teal */}
+          {/* Primary CTA — filled teal — scrolls to the on-page "Get In Touch" quote form */}
           <Link
             id="hero-design-your-view-btn"
             href="#contact"
@@ -223,14 +223,16 @@ export default function HeroSlider() {
             </svg>
           </Link>
 
-          {/* Secondary CTA — solid white */}
-          <Link
+          {/* Secondary CTA — solid white — external shop link */}
+          <a
             id="hero-explore-collection-btn"
-            href="#products"
+            href="https://www.onlineblindsexpress.co.uk/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 px-7 py-3.5 bg-white hover:bg-gray-50 text-[#1e293b] text-sm font-bold tracking-widest uppercase transition-colors rounded-sm"
           >
             Explore Collection
-          </Link>
+          </a>
         </div>
       </div>
 

@@ -146,8 +146,11 @@ const blindCategories: BlindCategory[] = [
 
 /* ---------- Navigation Data ---------- */
 
+/** HOME renders first; the BLINDS mega-menu trigger renders right after it
+ *  (see desktop/mobile render below), then the remaining items follow. */
+const homeItem: NavItem = { label: "HOME", href: "/" };
+
 const navItems: NavItem[] = [
-  { label: "HOME", href: "/" },
   { label: "SHUTTERS", href: "/shutters/" },
   {
     /* AREAS — dropdown with showroom locations */
@@ -772,7 +775,18 @@ export default function Navbar() {
 
             {/* ---- Desktop Navigation Links ---- */}
             <ul className="hidden lg:flex items-center gap-1 xl:gap-2" role="menubar">
-              {/* BLINDS — mega-menu trigger, always first after Home */}
+              {/* HOME — always first */}
+              <li role="none">
+                <Link
+                  href={homeItem.href}
+                  role="menuitem"
+                  className="block px-3 py-2 font-heading text-[12px] xl:text-[13px] font-semibold text-advenco-graphite-mid hover:text-advenco-teal transition-colors uppercase"
+                >
+                  {homeItem.label}
+                </Link>
+              </li>
+
+              {/* BLINDS — mega-menu trigger, right after Home */}
               <li className="relative" role="none">
                 <button
                   role="menuitem"
@@ -968,6 +982,17 @@ export default function Navbar() {
           }`}
         >
           <div className="px-6 py-6 space-y-2">
+            {/* HOME — always first */}
+            <div className="border-b border-gray-100">
+              <Link
+                href={homeItem.href}
+                onClick={() => setMobileOpen(false)}
+                className="block py-3 text-sm font-semibold text-advenco-graphite-mid uppercase hover:text-advenco-teal transition-colors"
+              >
+                {homeItem.label}
+              </Link>
+            </div>
+
             {/* BLINDS — mobile accordion: category list, each expandable to its products */}
             <div className="border-b border-gray-100">
               <button
