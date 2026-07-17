@@ -26,7 +26,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import BeyondStyle from "@/components/BeyondStyle";
 import QualitySections from "@/components/QualitySections";
 import OurProcess from "@/components/OurProcess";
-import Testimonials from "@/components/Testimonials";
+// import Testimonials from "@/components/Testimonials"; // temporarily disabled — re-enable if needed
 import MadeToMeasure from "@/components/MadeToMeasure";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -55,8 +55,8 @@ export default function HomePage() {
       {/* ── 7. Our Process ─────────────────────────────────── */}
       <OurProcess />
 
-      {/* ── 8. Testimonials ────────────────────────────────── */}
-      <Testimonials />
+      {/* ── 8. Testimonials (temporarily disabled) ─────────── */}
+      {/* <Testimonials /> */}
 
       {/* ── 9. Made to Measure (SEO Content) ───────────────── */}
       <MadeToMeasure />
