@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Unveiling Your Uniqueness",
       body: "Every Theale home is like a fingerprint, unique in its architectural charm and functional needs. That's why we offer a bespoke blinds service at Advenco Window Blinds and Shutters in Theale, where we collaborate with you to design and craft blinds in Theale that perfectly complement your space, be it a charming Victorian bay window, a modern skylight, or a quirky corner nook. Let our expert team at Advenco Window Blinds and Shutters in Theale transform your vision into reality with blinds that are as individual as your home. At Advenco Window Blinds and Shutters in Theale, we believe your windows deserve to sing in harmony with your interior design. Our bespoke service lets you orchestrate every detail, from fabric textures and colours to functionality and operation. Picture sleek roller blinds by Advenco Window Blinds and Shutters in Theale echoing the clean lines of your modern living room, or wood venetians adding warmth to your rustic kitchen. The possibilities are endless, allowing your windows to tell your design story with captivating flair.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
+      imageAlt: "Wooden Venetian blinds in a Theale kitchen",
+      imageLeft: true,
     },
     {
       heading: "Beyond the Home: Elevating Your Theale Business",
       body: "Embrace the individuality of your Theale offices with Advenco Window Blinds and Shutters made-to-measure blinds in Theale. Whether it's a charming conference room window, a grand reception window, or a space in sunshine, our blinds in Theale seamlessly integrate, amplifying its character. No more battling awkward angles or settling for ill-fitting blinds in Theale. Let our expertise translate your vision into stunning window accents that are as unique as your story. We understand the importance of creating a productive and professional environment in your Theale office. Our durable blinds by Advenco Window Blinds and Shutters in Theale offer exceptional glare control, heat regulation, and privacy, making them ideal for meeting rooms, conference spaces, and open-plan offices. Choose from a variety of materials and styles to match your brand aesthetic and boost employee comfort.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/Perfect-Fit-Kitchen-Window-Blinds-in-the-UK-for-All-Window-Types-and-Sizes-768x513.webp",
+      imageAlt: "Perfect Fit kitchen window blinds in a Theale home",
+      imageLeft: false,
     },
     {
       heading: "Virtuosity of Vertical Blinds in Theale",

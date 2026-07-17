@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Imagine waking to a gentle symphony of light",
       body: "Sunlight dances through a vibrant tapestry of fabrics, casting playful whispers on your walls. It's not just decoration; it's Advenco Window Blinds and Shutter's artistry, weaving comfort and control into every thread of your home. Blackout blinds available at Advenco Window Blinds in Basingstoke cloak your movie nights in luxurious velvet darkness, while translucent Roman shades available at Advenco Window Blinds in Basingstoke paint your child's room in the gentle blush of dawn. Each window becomes a stage, where you set the scene for light and privacy. Wake up to the sun's soft serenade through sheer fabrics or lose yourself in a good book bathed in the golden warmth of wood-toned Venetian blinds available at Advenco Window Blinds and Shutters in Basingstoke. At Advenco Window Blinds and Shutters, comfort isn't an afterthought; it's the very rhythm of your sanctuary.",
+      image: `${WP}/steptodown.com860874-768x512.webp`,
+      imageAlt: "Bedroom styled with blackout blinds",
+      imageLeft: false,
     },
     {
       heading: "But Advenco Window Blinds and Shutters's magic extends beyond cosy homes",
       body: "Your office windows are more than just openings; they're portals to success. Here, commercial blind solutions become your silent partners, creating professional havens that reflect your brand's story. Picture sunlight filtering through adjustable Venetian blinds in conference rooms, fostering focus and collaboration. Imagine open-plan offices empowered by motorized blinds that dance to your touch, adapting to the ever-changing symphony of your workspace.",
+      image: `${WP}/steptodown.com392272-768x448.webp`,
+      imageAlt: "Office conference room fitted with Venetian blinds",
+      imageLeft: true,
     },
     {
       heading: "Venetian Blinds in Basingstoke",

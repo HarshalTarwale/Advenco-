@@ -27,6 +27,9 @@ const content: TownPageContent = {
     {
       heading: "Window Treatments for Homes in Richmond",
       body: "At Advenco Window Blinds and Shutters in Richmond, we understand that your home is your sanctuary. We offer a variety of window treatments that can help you create a warm and inviting atmosphere while also providing privacy and light control. Some of our most popular options for homes include: The epitome of versatility, roller blinds in Richmond come in a breathtaking array of colors, textures, and patterns. Blackout fabrics ensure blissful sleep in bedrooms, while light, airy materials bathe living areas in natural warmth. Ideal for large windows, patio doors, and even sliding glass doors, vertical blinds in Richmond come in a plethora of materials and colors. We offer unparalleled privacy and sun protection while still allowing you to enjoy the view. Vertical blinds in Richmond are a practical choice for living areas, sunrooms, and even conservatories, adding a touch of contemporary elegance.",
+      image: `${WP}/steptodown.com241855-768x512.webp`,
+      imageAlt: "Window treatments for a Richmond home",
+      imageLeft: true,
     },
     {
       heading: "Transform Your Richmond Business",

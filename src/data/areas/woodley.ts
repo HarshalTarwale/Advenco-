@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "No Window Left Behind: Custom Blinds Woodley to Fit Your Home's Unique Charm",
       body: "Step into a world of window possibilities with Advenco Window Blinds and Shutters in Woodley. Ditch the one-size-fits-all approach and embrace blinds that seamlessly integrate with your home's unique character. Whether you're seeking the timeless elegance of bay window drapes or the contemporary chic of skylight blinds by Advenco Window Blinds in Woodley, our expert design team and skilled craftsmen collaborate with you to bring your vision to life. From oddly shaped corners to soaring expanses of glass, no window is a challenge at Advenco Window Blinds and Shutters in Woodley. We specialize in crafting blinds in Woodley that not only enhance your space's aesthetics but also cater to your functional needs. Imagine sun-drenched mornings greeted by perfectly fitted blinds by Advenco Window Blinds and Shutters in Woodley, cozy evenings bathed in the warm glow of custom blackout solutions, or child-safe havens secured with innovative Perfect Fit systems. At Advenco Window Blinds and Shutters Woodley, your windows are our canvas, and your home's uniqueness is our inspiration.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
+      imageAlt: "High quality blind materials on display",
+      imageLeft: true,
     },
     {
       heading: "From Conference Rooms to Open-Plan: Create the Perfect Work Environment with Advenco Window Blinds and Shutters in Woodley",
       body: "Transform your business into a haven of productivity and professionalism with Advenco Window Blinds and shutter's intelligent window blind solutions. Elevate your office space with durable blinds by Advenco Window Blinds and Shutters in Woodley that offer exceptional glare control, heat regulation, and privacy, ensuring optimal comfort and focus for your team. Whether you seek sleek blinds in Woodley for minimalist conference rooms or stylish options to complement your brand aesthetic, diverse collection at Advenco Window Blinds and shutters in Woodley would caters to every need. Imagine well-lit meeting rooms bathed in the soft glow of adjustable Venetian blinds by Advenco Window Blinds and Shutters in Woodley, open-plan offices empowered by motorized marvels that dance to your touch, or confidential conversations shielded by high-quality blackout solutions. At Advenco Window Blinds and Shutters in Woodley, we understand the critical role windows play in a successful business environment. Let us help you create the perfect work atmosphere that inspires, empowers, and reflects your brand identity.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/Perfect-Fit-Kitchen-Window-Blinds-in-the-UK-for-All-Window-Types-and-Sizes-768x513.webp",
+      imageAlt: "Perfect Fit blinds fitted to a kitchen window",
+      imageLeft: false,
     },
     {
       heading: "Vertical Blinds in Woodley",

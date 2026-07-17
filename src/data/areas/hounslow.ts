@@ -31,6 +31,9 @@ const content: TownPageContent = {
     {
       heading: "Commercial Allure: Blinds Crafted to Impress",
       body: "First impressions count in business, and your space is often the initial glimpse clients have of your brand. Bare windows might suffice in a minimalist cafe, but in most professional settings, they can leave an impression of incompleteness or neglect. Enter Balmoral Blinds in Hounslow, the experts in window dressing who elevate your business with blinds that are as practical as they are impressive. Balmoral's extensive collection extends beyond the practical, offering sleek vertical blinds for optimal light control in large conference rooms and durable PVC options for high-traffic areas like reception desks. Yet, they also showcase elegant metal Venetian blinds that add a touch of sophistication to executive offices and pleated fabrics that create a welcoming atmosphere in client meeting rooms.",
+      image: `${WP}/steptodown.com512006-768x512.webp`,
+      imageAlt: "Commercial blinds crafted to impress in a Hounslow business",
+      imageLeft: false,
     },
     {
       heading: "Timeless Elegance with Metal Venetian Blinds",

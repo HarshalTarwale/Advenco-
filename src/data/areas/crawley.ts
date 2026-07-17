@@ -1,6 +1,7 @@
 import type { TownPageContent } from "./types";
 
 const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
+const WP10 = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-crawley",
@@ -31,6 +32,9 @@ const content: TownPageContent = {
     {
       heading: "Privacy & Productivity for Busy Offices:",
       body: "Crawley's bustling offices demand both privacy and focus. Advenco Window Blinds and Shutters understands this, offering roller blinds that boast a clean aesthetic and come in various materials. Blackout fabrics available at Advenco Window Blinds in Crawley ensure complete concentration, while light-filtering options maintain a connection to the outside world. For a touch of luxury, consider plantation shutters available at Advenco Window Blinds and Shutters in Crawley, exuding timeless elegance and superior light control. Tech startups or bustling law firms – for Crawley's busy offices, Advenco Window Blinds and Shutters in Crawley offers privacy and focus symphonies. Roller blinds available at Advenco Window Blinds and Shutters in Crawley in light-filtering fabrics maintain a connection to the outside world, while plantation shutters exude timeless elegance with superior light control.",
+      image: `${WP10}/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp`,
+      imageAlt: "High-quality blind materials with price match guarantee",
+      imageLeft: false,
     },
     {
       heading: "1. Timeless Sophistication of Venetian Blinds in Crawley",

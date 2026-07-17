@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "More Than a Room, a Canvas: Blinds for Every Feltham Persona",
       body: "In Feltham, where history whispers through cobbled streets and character peeks from every window, your home deserves more than just coverings. It craves a canvas. Advenco Window Blinds and Shutters in Feltham helps you paint that masterpiece, offering a kaleidoscope of styles to match every Feltham persona. Each room whispers a different story. Advenco Window Blinds and Shutters in Feltham helps you find the perfect blind to orchestrate the mood. Imagine sunlight through sleek Venetian blinds in Feltham, painting playful patterns on your living room walls. Or picture the soft whisper of pleated fabrics in your bedroom, lulling you into a gentle slumber. Craving drama? Blackout roller blinds in Feltham orchestrate cinematic movie nights, while vertical blinds in Feltham effortlessly manage light in your home office, boosting productivity with each tilt. Advenco Window Blinds and Shutters in Feltham understands that windows aren't just openings, they're expressions of your Feltham soul. So, unleash your inner artist and dress your windows with timeless beauty and effortless functionality.",
+      image: `${WP}/steptodown.com418692-768x576.webp`,
+      imageAlt: "Blinds fitted in a home living space",
+      imageLeft: true,
     },
     {
       heading: "Beyond the Home, Beyond Expectations: Elevate Your Feltham Business",
       body: "Forget flimsy office blinds that whisper mediocrity. In Feltham, where commerce thrives and innovation reigns, your window treatments should be as sharp as your suits. Enter Advenco Window Blinds and Shutters in Feltham, your partner in crafting commercial spaces that impress clients and empower employees. Imagine sleek, modern blinds in Feltham reflecting Feltham's sunshine, creating a cool and inviting workspace in your tech startup. Or picture the confident lines of vertical blinds in Feltham managing light in your architect's studio, fostering a sense of precision and focus. Advenco Window Blinds and Shutters in Feltham goes beyond aesthetics. Our blinds reduce reliance on air conditioning, saving energy and your Feltham business money. They reflect heat away from your building, keeping it cool in summer and warmer in winter. This not only minimizes your environmental footprint but also boosts employee comfort and productivity. With Advenco Window Blinds and Shutters in Feltham, you can transform your Feltham business into a space that speaks volumes about your brand. So, ditch the ordinary and dress your windows with elegance and performance. Let Advenco Window Blinds and Shutters in Feltham help you elevate your business beyond expectations, just like Feltham itself.",
+      image: `${WP}/steptodown.com710744-768x512.webp`,
+      imageAlt: "Blinds fitted in a business/office setting",
+      imageLeft: false,
     },
     {
       heading: "The Traditionalist",

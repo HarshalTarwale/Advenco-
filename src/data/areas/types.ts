@@ -12,6 +12,11 @@ export interface TownSection {
   heading: string;
   body: string;
   bullets?: string[];
+  /** Optional real inline image from the source page, matching its position. */
+  image?: string;
+  imageAlt?: string;
+  /** true = image on left, false = image on right. Defaults to right if omitted. */
+  imageLeft?: boolean;
 }
 
 export interface TownPageContent {

@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Unveiling Your Uniqueness",
       body: "Every Normanton home is like a fingerprint, unique in its architectural charm and functional needs. That's why at Advenco Window Blinds and Shutters in Normanton we offer a bespoke blinds service, where we collaborate with you to design and craft blinds that perfectly complement your space, be it a charming Victorian bay window, a modern skylight, or a quirky corner nook. Let our expert team transform your vision into reality with blinds that are as individual as your home. At Advenco Window Blinds and Shutters in Normanton, we believe your windows deserve to sing in harmony with your interior design. Our bespoke service lets you orchestrate every detail, from fabric textures and colours to functionality and operation. Picture sleek roller blinds available at Advenco Window Blinds in Normanton echoing the clean lines of your modern living room, or wood venetians available at Advenco Window Blinds and Shutters in Normanton adding warmth to your rustic kitchen. The possibilities are endless, allowing your windows to tell your design story with captivating flair.",
+      image: `${WP}/Untitled-design-5-10-768x579.webp`,
+      imageAlt: "Bespoke blinds fitted in a Normanton home",
+      imageLeft: true,
     },
     {
       heading: "Beyond the Home: Elevating Your Normanton Business",
       body: "Embrace the individuality of your Normanton offices with Advenco Window Blinds and Shutters's made-to-measure blinds in Normanton. Whether it's a charming conference room window, a grand reception window, or a space in sunshine, our blinds seamlessly integrate, amplifying its character. No more battling awkward angles or settling for ill-fitting blinds. Let our expertise translate your vision into stunning window accents that are as unique as your story. We understand the importance of creating a productive and professional environment in your Normanton office. Our durable blinds available at Advenco Window Blinds and Shutters in Normanton offer exceptional glare control, heat regulation, and privacy, making them ideal for meeting rooms, conference spaces, and open-plan offices. Choose from a variety of materials and styles to match your brand aesthetic and boost employee comfort.",
+      image: `${WP}/Untitled-design-8-1-768x579.webp`,
+      imageAlt: "Office fitted with durable window blinds in Normanton",
+      imageLeft: false,
     },
     {
       heading: "Vertical Blinds in Normanton",

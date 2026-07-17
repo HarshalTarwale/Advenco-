@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Symphony of Light and Privacy",
       body: "But Advenco Window Blinds and Shutters in Watford goes beyond mere aesthetics. We understand that window treatments are an intricate dance between light control and privacy. Our extensive collection at Advenco Window Blinds and Shutter in Watford boasts a symphony of options, from blackout blinds in Watford that cloak your space in luxurious darkness to light-filtering sheers that create a dappled interplay of sunshine and shadow. Imagine movie nights enhanced by blackout roller blinds in Watford or a child's room bathed in the gentle glow of translucent Roman blinds in Watford.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
+      imageAlt: "High quality blind materials on display",
+      imageLeft: true,
     },
     {
       heading: "Dressing Your Windows for Every Story",
       body: "Whether you're seeking the timeless charm of roman blinds in Watford for your cozy cottage or the sleek minimalism of venetian blinds in Watford for your modern office, expert team at Advenco Window Blinds and Shutters in Watford helps you craft the perfect window-dressing narrative. Our meticulous attention to detail, with each blind hand-finished by skilled artisans, ensures a level of quality that transcends the ordinary.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/Perfect-Fit-Kitchen-Window-Blinds-in-the-UK-for-All-Window-Types-and-Sizes-768x513.webp",
+      imageAlt: "Perfect Fit blinds fitted to a kitchen window",
+      imageLeft: false,
     },
     {
       heading: "1. The Timeless Classics — Venetian Blinds in Watford",

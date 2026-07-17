@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Tailor-Made Elegance: Blinds Crafted to Your Home's Uniqueness",
       body: "Not all windows are created equal, and neither are your needs. Bespoke blinds service of Advenco Window Blinds and Shutters in Paisley caters to the diverse architectural styles and functional requirements of Paisley homes. We collaborate with you to design and craft blinds in Paisley that perfectly complement your space, be it a traditional bay window, a skylight, or an oddly shaped corner window. Let our expertise bring your vision to life with blinds by Advenco Window Blinds and Shutters in Paisley that are as unique as your home.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
+      imageAlt: "High-quality blind materials with price match guarantee",
+      imageLeft: true,
     },
     {
       heading: "Elevate Your Business with Efficient Window Blind Solutions",
       body: "Create a productive and professional environment in your office with practical window blinds solutions by Advenco Window Blinds and Shutters in Paisley. Our durable blinds by Advenco Window Blinds in Paisley offer exceptional glare control, heat regulation, and privacy, ideal for meeting rooms, conference spaces, and open-plan offices. Choose from a variety of materials and styles to complement your brand aesthetic and enhance employee comfort.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/Perfect-Fit-Kitchen-Window-Blinds-in-the-UK-for-All-Window-Types-and-Sizes-768x513.webp",
+      imageAlt: "Perfect Fit kitchen window blinds installed in a UK home",
+      imageLeft: false,
     },
     {
       heading: "Unveil Your Interior Vision: Blinds Tailored to Your Design Palette",

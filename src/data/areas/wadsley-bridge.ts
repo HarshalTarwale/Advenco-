@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Bespoke Elegance: Blinds Crafted for Wadsley Bridge's Character",
       body: "Wadsley bridge's windows deserve bespoke adornments. Advenco Window Blinds and Shutter's made-to-measure service caters to the architectural diversity and functional needs of each Wadsley bridge home. We collaborate with you to design and craft blinds that flawlessly complement your space, be it a majestic bay window overlooking the Castle Esplanade, a skylight illuminating your attic studio, or a charming arched window in a quaint Old Town flat. Let our expertise bring your vision to life with blinds as unique as the city itself.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
+      imageAlt: "Wooden Venetian blinds in a Wadsley Bridge kitchen",
+      imageLeft: true,
     },
     {
       heading: "Elevate Your Wadsley Bridge Business with Efficient Blind Solutions",
       body: "Foster a productive and professional atmosphere in your Wadsley bridge office with Advenco Window Blinds and Shutter's practical window blind solutions. Our durable blinds at Advenco Window Blinds and Shutters in Wadsley bridge offer exceptional glare control, heat regulation, and privacy, ideal for meeting rooms, co-working spaces, and bustling open-plan offices. Choose from a variety of materials and styles to complement your brand identity and enhance employee comfort.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/Perfect-Fit-Kitchen-Window-Blinds-in-the-UK-for-All-Window-Types-and-Sizes-768x513.webp",
+      imageAlt: "Perfect Fit kitchen window blinds in a Wadsley Bridge home",
+      imageLeft: false,
     },
     {
       heading: "Blinds Tailored to Your Design Palette",

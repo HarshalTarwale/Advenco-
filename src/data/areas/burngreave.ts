@@ -1,6 +1,7 @@
 import type { TownPageContent } from "./types";
 
 const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
+const WP10 = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-burngreave",
@@ -31,6 +32,9 @@ const content: TownPageContent = {
     {
       heading: "Beyond Beauty: A Symphony of Light, Privacy, and Business Success",
       body: "Your office windows are more than just openings; they're portals to success. Advenco Window Blinds and shutter's commercial blind solutions help you create a professional and productive environment that reflects your brand identity. Imagine well-lit conference rooms bathed in the soft glow of adjustable Venetian blinds by Advenco Window Blinds in Burngreave, allowing for optimal control over light and privacy. Picture open-plan offices empowered by motorized blinds by Advenco Window Blinds in Burngreave that dance to your touch, adjusting to the changing needs of your workspace. We offer durable blinds at Advenco Window Blinds and Shutters in Burngreave that excel at glare control, heat regulation, and noise reduction, ensuring employee comfort and focus throughout the day. Choose from a variety of materials and styles to complement your brand aesthetic, from sleek aluminum blinds for a modern touch to classic wooden blinds exuding warmth and sophistication.",
+      image: `${WP10}/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp`,
+      imageAlt: "High-quality blind materials on display for a Burngreave office",
+      imageLeft: false,
     },
     {
       heading: "The Timeless Icons",

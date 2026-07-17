@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "For Your Home, a Touch of Bespoke Magic",
       body: "Imagine sun-drenched mornings greeted by vibrant vertical blinds dancing in the breeze, casting playful shadows on your living room walls. Picture cozy evenings bathed in the warm glow of blackout roller blinds, creating a haven for movie nights and restful sleep. Or envision your child's room brimming with playful charm thanks to custom-printed blinds featuring their favorite characters. At Advenco Window Blinds and Shutters in York, we believe every window deserves a story to tell. That's why we offer a diverse range of blind styles and materials, from the timeless elegance of Venetian blinds to the luxurious folds of Roman shades by Advenco Window Blinds and Shutters in York. We even cater to unique shapes and sizes with our innovative Perfect Fit blinds, eliminating the need for drilling and ensuring a seamless fit.",
+      image: `${WP}/steptodown.com989653-768x512.webp`,
+      imageAlt: "Bespoke vertical blinds in a York home",
+      imageLeft: true,
     },
     {
       heading: "For Your Business, a Boost in Productivity and Style",
       body: "Your office windows are more than just openings; they're portals to success. Advenco Window Blinds and Shutters's commercial blind solutions help you create a professional and productive environment that reflects your brand identity. Imagine well-lit conference rooms bathed in the soft glow of adjustable Venetian blinds by Advenco Window Blinds in York, allowing for optimal control over light and privacy. Picture open-plan offices empowered by motorized blinds by Advenco Window Blinds in York that dance to your touch, adjusting to the changing needs of your workspace. We offer durable blinds at by Advenco Window Blinds in York that excel at glare control, heat regulation, and noise reduction, ensuring employee comfort and focus throughout the day. Choose from a variety of materials and styles to complement your brand aesthetic, from sleek aluminum blinds for a modern touch to classic wooden blinds by Advenco Window Blinds and Shutters in York exuding warmth and sophistication.",
+      image: `${WP}/steptodown.com861471-768x558.webp`,
+      imageAlt: "Adjustable Venetian blinds in a York office",
+      imageLeft: false,
     },
     {
       heading: "Vertical Blinds: Embrace Panoramic Elegance",

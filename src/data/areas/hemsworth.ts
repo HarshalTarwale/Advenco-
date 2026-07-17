@@ -1,6 +1,7 @@
 import type { TownPageContent } from "./types";
 
 const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
+const WP10 = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-hemsworth",
@@ -31,6 +32,9 @@ const content: TownPageContent = {
     {
       heading: "Transform Your Hemsworth Business",
       body: "First impressions matter, and your window treatments can play a big role in making a good impression on your clients or customers. At Advenco Window Blinds and Shutters in Hemsworth, we offer a variety of window treatments that can help you create a professional and inviting atmosphere in your business. Some of our most popular options for businesses include: Venetian blinds by Advenco Window Blinds in Hemsworth translate their functionality brilliantly into the business world. Opt for sleek aluminum or faux wood options for a modern feel in offices and reception areas or go for warm wood tones for a more traditional touch in conference rooms. Their excellent light control and privacy make them ideal for presentations and focused work environments. Elevate your business with the timeless elegance of shutters in Hemsworth. Crafted from wood or faux wood, we offer excellent insulation and noise reduction, making them ideal for creating a comfortable and productive work environment. Shutters in Hemsworth are perfect for executive offices, meeting rooms, and even high-end boutiques, adding a touch of luxury and refinement.",
+      image: `${WP10}/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp`,
+      imageAlt: "High-quality blind materials with price match guarantee",
+      imageLeft: false,
     },
     {
       heading: "Blackout Blinds in Hemsworth",

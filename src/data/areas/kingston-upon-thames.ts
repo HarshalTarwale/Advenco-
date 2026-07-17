@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "From Humble Panes to Captivating Canvases",
       body: "Imagine waking to the gentle hum of sunlight filtering through vertical blinds, painting playful stripes across your walls. Envision cozy evenings bathed in the warm embrace of blackout blinds, creating a haven for movie marathons and restful slumber. Or picture your child's room transformed into a joyous symphony of colors with custom-printed blinds featuring their favorite characters. At Advenco Window Blinds and Shutters in Kingston Upon Thames, we believe every window deserves a unique verse. That's why we offer a kaleidoscope of blind styles and materials, from the timeless elegance of Venetians to the luxurious drape of Roman shades. We even conquer quirky shapes and sizes with our innovative Perfect Fit blinds at Advenco Window Blinds in Kingston upon Thames, leaving your windows flawlessly dressed without a single discordant note.",
+      image: `${WP}/Untitled-design-2-12-768x579.webp`,
+      imageAlt: "Living room styled with blinds for a Kingston upon Thames home",
+      imageLeft: true,
     },
     {
       heading: "From Home Harmony to Business Brilliance",
       body: "Your office windows are more than just glass rectangles; they're portals to success. Advenco Window Blinds and Shutter's commercial blind solutions help you craft a professional and productive environment that reflects your brand's unique rhythm. Imagine well-lit conference rooms bathed in the gentle glow of adjustable Venetian blinds by Advenco Window Blinds and Shutters in Kingston upon Thames, fostering focus and collaboration. Picture open-plan offices empowered by smart blinds that dance to your touch, adapting to the ever-changing tempo of your workspace. We offer durable blinds at Advenco Window Blinds in Kingston upon Thames that excel at banishing harsh glares, regulating heat, and muffling unwanted noise, ensuring employee comfort and focus throughout the day. Choose from a symphony of materials and styles to complement your brand's melody, from sleek aluminium blinds for a modern edge to classic wooden blinds by Advenco Window Blinds and Shutters in Kingston Upon Thames exuding warmth and sophistication.",
+      image: `${WP}/Untitled-design-6-8-768x579.webp`,
+      imageAlt: "Office space fitted with commercial window blinds",
+      imageLeft: false,
     },
     {
       heading: "Vertical Blinds in Kingston Upon Thames",

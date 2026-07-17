@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Unveiling Your Uniqueness",
       body: "Every Barlborough home is like a fingerprint, unique in its architectural charm and functional needs. Bespoke services allow collaboration on design details including fabric textures and colours to functionality and operation. Examples include roller blinds for modern spaces and wood venetians for rustic kitchens.",
+      image: `${WP}/Untitled-design-20-768x579.webp`,
+      imageAlt: "Modern living space fitted with roller blinds",
+      imageLeft: false,
     },
     {
       heading: "Beyond the Home: Elevating Your Barlborough Business",
       body: "Commercial applications are addressed, with a focus on creating a productive and professional environment. Services include durable blinds offering exceptional glare control, heat regulation, and privacy, suited for meeting rooms and open-plan offices.",
+      image: `${WP}/steptodown.com281308-768x512.webp`,
+      imageAlt: "Office meeting room fitted with blinds",
+      imageLeft: true,
     },
     {
       heading: "Virtuosity of Vertical Blinds in Barlborough",

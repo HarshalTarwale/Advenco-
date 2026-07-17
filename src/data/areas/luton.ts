@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "From Culinary Spaces to Conservatories: Blinds That Enhance Every Environment",
       body: "Advenco Window Blinds and Shutters in Luton transcends the conventional notion of a store; it unfolds as a treasure trove of possibilities. Envision sunlight filtering through sleek Venetian blinds in Luton, casting playful shadows on your living room walls. Picture Roman blinds by Advenco Window Blinds in Luton, their fabric folds cascading like an opulent waterfall in your sleeping chamber. Perhaps contemporary roller blinds by Advenco Window Blinds in Luton in a vibrant burst of color resonate with your style, injecting a dash of individuality into your kitchen. Yet, Advenco Window Blinds in Luton recognizes that homes extend beyond living quarters. They engineer moisture-resistant guardians for your bathroom, safeguarding against steamy showers. Nurseries are adorned with child-safe sanctuaries, offering reassurance to busy parents. For an outdoor ambiance, woven blinds by Advenco Window Blinds and Shutters in Luton usher in fresh air while tempering harsh sunlight.",
+      image: `${WP}/Untitled-design-3-7-768x579.webp`,
+      imageAlt: "Sleek Venetian blinds in a Luton living room",
+      imageLeft: true,
     },
     {
       heading: "From Domestic Retreats to Corporate Concertos",
       body: "Luton's thriving workplaces demand a distinct melody. Advenco Window Blinds and Shutters in Luton presents roller blinds in a sleek, professional aesthetic, featuring light-filtering options to maintain a connection with the external world and blackout fabrics ensuring unwavering concentration. Craving enduring sophistication? Plantation shutters in Luton exude refinement and superior light management, ideal for boardrooms or solo entrepreneur lofts. For expansive open areas, contemplate panel blinds, their broad panels gliding effortlessly to delineate zones for focused meetings. And for a touch of timeless grace, plantation shutters by Advenco Window Blinds and Shutters in Luton radiate enduring elegance while delivering unparalleled light control. However, office blinds by Advenco Window Blinds and Shutters in Luton serve a dual purpose beyond aesthetics. They act as silent champions of thermal regulation, maintaining a comfortable workspace throughout seasons and conserving energy. Child-safe options offer peace of mind, while moisture-resistant materials safeguard against spills and steamy kitchens.",
+      image: `${WP}/Untitled-design-16-768x579.webp`,
+      imageAlt: "Professional office blinds in a Luton workplace",
+      imageLeft: false,
     },
     {
       heading: "Venetian Blinds in Luton",

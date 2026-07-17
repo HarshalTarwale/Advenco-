@@ -15,6 +15,7 @@
  *  6. ContactSection + Footer — reused site-wide
  */
 
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -97,33 +98,65 @@ export default function TownAreaPage({ content }: { content: TownPageContent }) 
       </section>
 
       {/* ============================================================
-          Remaining sections — alternating background tint
+          Remaining sections — alternating background tint,
+          optional inline image (matches real position on source page)
       ============================================================ */}
-      {sections.map((section, i) => (
-        <section
-          key={section.heading}
-          className={i % 2 === 0 ? "bg-advenco-alabaster py-16 lg:py-20" : "bg-white py-16 lg:py-20"}
-        >
-          <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-20">
-            <div className="max-w-3xl space-y-4">
-              <h3 className="font-heading text-2xl sm:text-3xl text-advenco-graphite-mid font-bold leading-tight">
-                {section.heading}
-              </h3>
-              <p className="text-advenco-muted leading-relaxed">{section.body}</p>
-              {section.bullets && (
-                <ul className="space-y-2.5 pt-1">
-                  {section.bullets.map((bullet) => (
-                    <li key={bullet} className="flex items-start gap-3">
-                      <span className="mt-2 shrink-0 w-2 h-2 rounded-full bg-advenco-teal" aria-hidden="true" />
-                      <span className="text-advenco-graphite-mid text-sm leading-relaxed">{bullet}</span>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div>
+      {sections.map((section, i) => {
+        const bgClass = i % 2 === 0 ? "bg-advenco-alabaster py-16 lg:py-20" : "bg-white py-16 lg:py-20";
+        const textBlock = (
+          <div className="max-w-3xl space-y-4">
+            <h3 className="font-heading text-2xl sm:text-3xl text-advenco-graphite-mid font-bold leading-tight">
+              {section.heading}
+            </h3>
+            <p className="text-advenco-muted leading-relaxed">{section.body}</p>
+            {section.bullets && (
+              <ul className="space-y-2.5 pt-1">
+                {section.bullets.map((bullet) => (
+                  <li key={bullet} className="flex items-start gap-3">
+                    <span className="mt-2 shrink-0 w-2 h-2 rounded-full bg-advenco-teal" aria-hidden="true" />
+                    <span className="text-advenco-graphite-mid text-sm leading-relaxed">{bullet}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
-        </section>
-      ))}
+        );
+
+        if (!section.image) {
+          return (
+            <section key={section.heading} className={bgClass}>
+              <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-20">{textBlock}</div>
+            </section>
+          );
+        }
+
+        const imageLeft = section.imageLeft ?? false;
+        return (
+          <section key={section.heading} className={bgClass}>
+            <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-20">
+              <div
+                className={`grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center ${
+                  !imageLeft ? "lg:grid-flow-col-dense" : ""
+                }`}
+              >
+                <div className={`relative ${!imageLeft ? "lg:col-start-2" : ""}`}>
+                  <div className="relative overflow-hidden rounded-sm border-l-4 border-advenco-teal">
+                    <Image
+                      src={section.image}
+                      alt={section.imageAlt ?? section.heading}
+                      width={700}
+                      height={470}
+                      className="w-full h-auto object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+                <div className={!imageLeft ? "lg:col-start-1 lg:row-start-1" : ""}>{textBlock}</div>
+              </div>
+            </div>
+          </section>
+        );
+      })}
 
       {/* ============================================================
           Closing CTA

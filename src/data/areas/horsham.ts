@@ -1,6 +1,7 @@
 import type { TownPageContent } from "./types";
 
 const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
+const WP10 = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-horsham",
@@ -31,6 +32,9 @@ const content: TownPageContent = {
     {
       heading: "Beyond the Home, Elevate Your Horsham Business",
       body: "Forget flimsy office blinds that whisper \"mediocrity.\" In Horsham, where businesses thrive and innovation reigns, your window treatments should be as sharp as your suits. Enter Advenco Window Blinds and Shutters in Horsham, your partner in crafting commercial spaces that impress clients and empower employees. Imagine sleek, modern blinds in Horsham reflecting sunshine, creating a cool and inviting workspace in your tech startup. Or picture the confident lines of vertical blinds in Horsham managing light in your architect's studio, fostering a sense of precision and focus. Advenco Window Blinds and Shutters in Horsham goes beyond aesthetics. Our blinds in Horsham reduce reliance on air conditioning, saving energy and your Horsham business money. They reflect heat away from your building, keeping it cool in summer and warmer in winter. This not only minimizes your environmental footprint but also boosts employee comfort and productivity. With Advenco Window Blinds and Shutters in Horsham, you can transform our business into a space that speaks volumes about your brand. So, ditch the ordinary and dress your windows with elegance and performance. Let Advenco Window Blinds and Shutters in Horsham help you elevate your business beyond expectations, just like Horsham itself.",
+      image: `${WP10}/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp`,
+      imageAlt: "High-quality blind materials with price match guarantee",
+      imageLeft: false,
     },
     {
       heading: "Venetian Blinds in Horsham",

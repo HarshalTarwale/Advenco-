@@ -31,6 +31,9 @@ const content: TownPageContent = {
     {
       heading: "But Advenco Window Blinds and Shutters enchantment extends beyond cozy homes",
       body: "Your office windows aren't mere openings; they are gateways to success. Here, commercial blind solutions become your silent collaborators, crafting professional havens that mirror your brand's narrative. Picture sunlight filtering through adjustable Venetian blinds by Advenco Window Blinds and Shutters in Sportboroughs in conference rooms, fostering concentration and collaboration. Envision open-plan offices energized by motorized blinds by Advenco Window Blinds and Shutters in Sportboroughs that dance to your touch, adapting to the ever-changing rhythm of your workspace.",
+      image: `${WP}/Untitled-design-3-12-768x694.webp`,
+      imageAlt: "Commercial blind solutions for a Sportborough business",
+      imageLeft: false,
     },
     {
       heading: "Venetian Blinds in Sportborough",

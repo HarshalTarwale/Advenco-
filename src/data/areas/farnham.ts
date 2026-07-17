@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Bespoke Elegance: Blinds Crafted for Farnham's Character",
       body: "Farnham's windows deserve bespoke adornments. Advenco Window Blinds and Shutter's made-to-measure service caters to the architectural diversity and functional needs of each Farnham home. We collaborate with you to design and craft blinds that flawlessly complement your space, be it a majestic bay window overlooking the Castle Esplanade, a skylight illuminating your attic studio, or a charming arched window in a quaint Old Town flat. Let our expertise bring your vision to life with blinds as unique as the city itself.",
+      image: `${WP}/steptodown.com578445-768x512.webp`,
+      imageAlt: "Blinds fitted in a home living space",
+      imageLeft: true,
     },
     {
       heading: "Elevate Your Farnham Business with Efficient Blind Solutions",
       body: "Foster a productive and professional atmosphere in your Farnham office with Advenco Window Blinds and Shutter's practical window blind solutions. Our durable blinds at Advenco Window Blinds and Shutters in Farnham offer exceptional glare control, heat regulation, and privacy, ideal for meeting rooms, co-working spaces, and bustling open-plan offices. Choose from a variety of materials and styles to complement your brand identity and enhance employee comfort.",
+      image: `${WP}/steptodown.com192284-768x512.webp`,
+      imageAlt: "Blinds fitted in a business/office setting",
+      imageLeft: false,
     },
     {
       heading: "Blinds Tailored to Your Design Palette",

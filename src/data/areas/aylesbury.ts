@@ -27,6 +27,9 @@ const content: TownPageContent = {
     {
       heading: "Window Treatments for Homes in Aylesbury",
       body: "At Advenco Window Blinds in Aylesbury, we understand that your home is your sanctuary. We offer a variety of window treatments that can help you create a warm and inviting atmosphere while also providing privacy and light control. The epitome of versatility, roller blinds by Advenco Window Blinds in Aylesbury come in a breathtaking array of colours, textures, and patterns. Blackout fabrics ensure blissful sleep in bedrooms, while light, airy materials bathe living areas in natural warmth. Ideal for large windows, patio doors, and even sliding glass doors, vertical blinds by Advenco Window Blinds in Aylesbury come in a plethora of materials and colours. We offer unparalleled privacy and sun protection while still allowing you to enjoy the view. Vertical blinds by Advenco Window Blinds in Aylesbury are a practical choice for living areas, sunrooms, and even conservatories, adding a touch of contemporary elegance.",
+      image: `${WP}/steptodown.com855250-768x513.webp`,
+      imageAlt: "Living room styled with window blinds",
+      imageLeft: false,
     },
     {
       heading: "Transform Your Aylesbury Business",

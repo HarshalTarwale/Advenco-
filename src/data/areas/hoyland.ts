@@ -31,6 +31,9 @@ const content: TownPageContent = {
     {
       heading: "Boost Your Business with Advenco Window Blinds and shutter's Window Solutions",
       body: "Create a productive and professional haven for your Hoyland business with Advenco Window Blinds and shutter's practical window blind solutions. Our durable blinds by Advenco Window Blinds and Shutters in Hoyland offer exceptional glare control, heat regulation, and privacy, making them ideal for meeting rooms, conference spaces, and open-plan offices. Choose from a variety of materials and styles to seamlessly blend with your brand aesthetic and enhance employee comfort.",
+      image: `${WP}/steptodown.com177594-768x512.webp`,
+      imageAlt: "Window blind solutions boosting a Hoyland business",
+      imageLeft: false,
     },
     {
       heading: "Vertical Blinds in Hoyland",

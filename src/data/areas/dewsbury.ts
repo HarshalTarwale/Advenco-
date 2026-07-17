@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Windows are the eyes of your home.",
       body: "More than just beauty. At Advenco Window Blinds Dewsbury, we understand that windows are the eyes of your home. They bring in light, frame the view, and whisper stories of life within. That's why we offer not just stunning aesthetics, but also solutions for every need. Imagine well-lit rooms where adjustable Venetian blinds by Advenco Window Blinds in Dewsbury dance with the sun, open-plan offices empowered by motorized blinds by Advenco Window Blinds in Dewsbury that respond to your touch, or confidential conversations shielded by high-quality blackout rolls by Advenco Window Blinds and Shutters in Dewsbury. We craft the perfect window symphony for every room.",
+      image: `${WP}/Untitled-design-2-768x579.webp`,
+      imageAlt: "Adjustable Venetian blinds in a Dewsbury home",
+      imageLeft: true,
     },
     {
       heading: "But Advenco Window Blinds and Shutters's magic extends beyond homes.",
       body: "We're the secret weapon for Dewsbury businesses seeking to impress. Imagine conference rooms empowered by motorized blinds by Advenco Window Blinds in Dewsbury that adjust to the mood of every meeting, open-plan offices bathed in the soft glow of adjustable Venetian blinds by Advenco Window Blinds in Dewsbury, or sleek reception areas dazzled by vertical wonders that add a touch of drama. We at Advenco Window Blinds and Shutters in Dewsbury understand the power of windows in shaping your brand identity, and we're here to help you craft the perfect work environment that inspires, empowers, and reflects your unique vision.",
+      image: `${WP}/Untitled-design-6-768x576.webp`,
+      imageAlt: "Motorized blinds in a Dewsbury office conference room",
+      imageLeft: false,
     },
     {
       heading: "Vertical Symphony",

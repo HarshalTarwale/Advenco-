@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Bespoke Magic for Every Nook",
       body: "Imagine waking to sunbeams dancing through vibrant vertical blinds by Advenco Window Blinds in Barnsley, painting playful patterns on your walls. Picture cosy nights bathed in the warm embrace of blackout blinds by Advenco Window Blinds in Barnsley, creating a haven for movie marathons and restful slumber. Or envision your child's room bursting with joy thanks to custom-printed blinds featuring their favourite superheroes by Advenco Window Blinds in Barnsley. At Advenco Window Blinds and Shutters in Barnsley, we believe every window deserves a story. That's why we offer a kaleidoscope of blind styles and materials, from the timeless whisper of Venetian blinds to the luxurious drape of Roman shades by Advenco Window Blinds in Barnsley. We even conquer quirky shapes and sizes with our innovative Perfect Fit blinds, leaving your windows impeccably dressed without a drill in sight.",
+      image: `${WP}/steptodown.com563545-1-768x512.webp`,
+      imageAlt: "Living room styled with vertical blinds",
+      imageLeft: false,
     },
     {
       heading: "From Home Haven to Business Hub",
       body: "Your office windows are more than just panes; they're portals to success. Advenco Window Blinds and Shutters's commercial blind solutions help you craft a professional and productive environment that reflects your brand's heartbeat. Imagine well-lit conference rooms bathed in the gentle glow of adjustable Venetian blinds by Advenco Window Blinds and Shutters in Barnsley, fostering focus and collaboration. Picture open-plan offices empowered by smart blinds that respond to your touch, adapting to the ever-changing rhythm of your workspace. We offer durable blinds at Advenco Window Blinds in Barnsley that excel at banishing glare, regulating heat, and muffling noise, ensuring employee comfort and focus throughout the day. Choose from a symphony of materials and styles to complement your brand aesthetic, from sleek aluminium blinds for a modern edge to classic wooden blinds exuding warmth and sophistication.",
+      image: `${WP}/steptodown.com358133-768x512.webp`,
+      imageAlt: "Office conference room fitted with Venetian blinds",
+      imageLeft: true,
     },
     {
       heading: "Vertical Blinds in Barnsley",

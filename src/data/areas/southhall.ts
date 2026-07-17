@@ -27,6 +27,9 @@ const content: TownPageContent = {
     {
       heading: "For Your Home, a Touch of Bespoke Magic",
       body: "Imagine sun-drenched mornings greeted by vibrant vertical blinds in Southhall dancing in the breeze, casting playful shadows on your living room walls. Picture cozy evenings bathed in the warm glow of blackout roller blinds in Southhall, creating a haven for movie nights and restful sleep. Or envision your child's room brimming with playful charm thanks to custom-printed blinds in Southhall featuring their favorite characters. At Advenco Window Blinds and Shutters in Southhall, we believe every window deserves a story to tell. That's why we offer a diverse range of blind and Shutters in Southhall, from the timeless elegance of Venetian blinds to the luxurious folds of Roman shades or Plantation shutters. We even cater to unique shapes and sizes with our innovative Perfect Fit blinds in Southhall, eliminating the need for drilling and ensuring a seamless fit.",
+      image: `${WP}/Untitled-design-1-11-768x579.webp`,
+      imageAlt: "Bespoke blinds for a Southhall home",
+      imageLeft: true,
     },
     {
       heading: "For Your Business, a Boost in Productivity and Style",

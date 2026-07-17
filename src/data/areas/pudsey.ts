@@ -31,6 +31,9 @@ const content: TownPageContent = {
     {
       heading: "Commercial Appeal: Blinds Built to Impress",
       body: "First impressions matter in business, and your office space is often the first glimpse clients get of your brand. Bare windows might work in a minimalist cafe, but for most professional settings, they can leave a sense of incompleteness or even neglect. Enter Advenco Window Blinds and Shutters in Pudsey, the window dressing experts who transform your business with blinds that are as functional as they are impressive. Advenco Window Blinds and Shutters' extensive collection goes beyond the utilitarian. Sure, we offer sleek vertical blinds for optimal light control in large conference rooms and durable PVC options for high-traffic areas like reception desks. But they also boast elegant metal Venetian blinds that add a touch of sophistication to executive offices and pleated fabrics that create a welcoming ambiance in client meeting rooms.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
+      imageAlt: "High-quality blind materials with price match guarantee",
+      imageLeft: false,
     },
     {
       heading: "Classic Chic with Metal Venetian Blinds in Pudsey",

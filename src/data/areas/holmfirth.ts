@@ -31,6 +31,9 @@ const content: TownPageContent = {
     {
       heading: "Privacy & Productivity in Busy Offices: A Balance of Serenity and Focus",
       body: "Holmfirth's bustling offices demand both privacy and concentration. Advenco Window Blinds in Holmfirth recognizes this need, presenting roller blinds with a sleek aesthetic in diverse materials. Blackout fabrics ensure undivided focus, while light-filtering options sustain a connection to the outside world. For a touch of opulence, contemplate plantation shutters by Advenco Window Blinds in Holmfirth, emanating timeless grace with superior light control.",
+      image: `${WP}/steptodown.com193215-768x513.webp`,
+      imageAlt: "Blinds providing privacy and productivity in a Holmfirth office",
+      imageLeft: false,
     },
     {
       heading: "Timeless Opulence",

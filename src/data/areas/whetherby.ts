@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "More than just beauty",
       body: "At Advenco Window Blinds and Shutters in Whetherby, we understand that windows are the eyes of your home. They frame the view, bring in light, and whisper stories of life within. That's why we offer not just stunning aesthetics, but also solutions for every need. Imagine well-lit rooms where adjustable Venetian blinds in Whetherby dance with the sun, open-plan offices empowered by motorized blinds in Whetherby, or cozy bedrooms shielded by high-quality blackout rolls. We craft the perfect window symphony for every room.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
+      imageAlt: "High quality blind materials on display",
+      imageLeft: true,
     },
     {
       heading: "Advenco Window Blinds and shutter's magic in Whetherby extends beyond homes",
       body: "We're the secret weapon for Whetherby businesses seeking to impress. Imagine conference rooms where motorized blinds in Whetherby adjust to the mood of every meeting, open-plan offices bathed in the soft glow of Venetian blinds in Whetherby, or sleek reception areas dazzled by vertical wonders that add a touch of drama. We understand the power of windows in shaping your brand identity, and we're here to help you craft the perfect work environment that inspires, empowers, and reflects your unique vision.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/Perfect-Fit-Kitchen-Window-Blinds-in-the-UK-for-All-Window-Types-and-Sizes-768x513.webp",
+      imageAlt: "Perfect Fit blinds fitted to a kitchen window",
+      imageLeft: false,
     },
     {
       heading: "Symphony of Vertical Blinds in Whetherby",

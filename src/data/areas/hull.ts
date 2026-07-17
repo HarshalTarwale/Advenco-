@@ -27,6 +27,9 @@ const content: TownPageContent = {
     {
       heading: "Blinds Crafted to Your Home's Uniqueness",
       body: "Not all windows are created equal, and neither are your needs. Advenco Window Blinds and Shutters in Hull have bespoke blinds service caters to the diverse architectural styles and functional requirements of Hull homes. We collaborate with you to design and craft blinds that perfectly complement your space, be it a traditional bay window, a skylight, or an oddly shaped corner window. Let our expertise bring your vision to life with blinds that are as unique as your home.",
+      image: `${WP}/Untitled-design-1-1-768x579.webp`,
+      imageAlt: "Bespoke blinds crafted for a Hull home",
+      imageLeft: true,
     },
     {
       heading: "Elevate Your Business with Efficient Window Blind Solutions",

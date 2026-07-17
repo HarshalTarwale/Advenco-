@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Weaving Comfort and Control, Thread by Thread",
       body: "Visualize sunlight dancing through a vibrant tapestry of blinds by Advenco Blinds in Rawcliffe, casting playful patterns on your Rawcliffe walls. This isn't mere decoration; it's Advenco Blinds and Shutter's artistry weaving comfort and control into every thread of your home. Their symphony of options goes beyond the ordinary. Blackout roller blinds by Advenco Window Blinds and Shutters in Rawcliffe cloak your movie nights in luxurious darkness, while translucent Roman shades by Advenco Blinds in Rawcliffe paint your child's room in the gentle glow of dawn. Each window becomes a canvas, where you sculpt the perfect balance of light and privacy. Wake up to the sun's soft caress through sheer fabrics, or enjoy a book bathed in the golden warmth of wood-toned Venetian blinds by Advenco Window Blinds and Shutters in Rawcliffe. At Advenco Window Blinds and Shutters in Rawcliffe, comfort isn't an afterthought, it's woven into the very fabric of your sanctuary.",
+      image: `${WP}/steptodown.com455431-768x512.webp`,
+      imageAlt: "Cosy living room with fitted window blinds in Rawcliffe",
+      imageLeft: true,
     },
     {
       heading: "Beyond Beauty: Rawcliffe office windows are more than just openings",
       body: "Your Rawcliffe office windows are more than just openings; they're portals to success. Advenco Blinds and Shutter's commercial blind solutions help you create a professional and productive environment that reflects your brand identity. Imagine well-lit conference rooms bathed in the soft glow of adjustable venetian blinds by Advenco Window Blinds and Shutters in Rawcliffe, allowing for optimal control over light and privacy. Picture open-plan offices empowered by motorized blinds that dance to your touch, adjusting to the changing needs of your workspace in Rawcliffe. They offer durable blinds that excel at glare control, heat regulation, and noise reduction, ensuring employee comfort and focus throughout the day. Choose from a variety of materials and styles to complement your brand aesthetic, from sleek aluminum blinds by Advenco Window Blinds and Shutters in Rawcliffe for a modern touch to classic wooden blinds exuding warmth and sophistication.",
+      image: `${WP}/steptodown.com640323-768x525.webp`,
+      imageAlt: "Office fitted with adjustable Venetian blinds in Rawcliffe",
+      imageLeft: false,
     },
     {
       heading: "Venetian Blinds: Timeless Icons of Elegance",

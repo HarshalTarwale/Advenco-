@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Blinds Crafted to Your Home's Uniqueness",
       body: "Not all windows are created equal, and neither are your needs. Advenco Window Blinds and Shutters in Staines upon Thames have bespoke blinds service caters to the diverse architectural styles and functional requirements of Staines upon Thames homes. We collaborate with you to design and craft blinds that perfectly complement your space, be it a traditional bay window, a skylight, or an oddly shaped corner window. Let our expertise bring your vision to life with blinds that are as unique as your home.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11/steptodown.com165590-768x512.webp",
+      imageAlt: "Bespoke made-to-measure blinds in a Staines upon Thames home",
+      imageLeft: true,
     },
     {
       heading: "Elevate Your Business with Efficient Window Blind Solutions",
       body: "Create a productive and professional environment in your office with Advenco Window Blinds and Shutter's practical window blinds solutions. Our durable blinds by Advenco Window Blinds and Shutters in Staines upon Thames offer exceptional glare control, heat regulation, and privacy, ideal for meeting rooms, conference spaces, and open-plan offices. Choose from a variety of materials and styles to complement your brand aesthetic and enhance employee comfort.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11/steptodown.com602541-768x520.webp",
+      imageAlt: "Window blinds installed in a Staines upon Thames office",
+      imageLeft: false,
     },
     {
       heading: "Unveil Your Interior Vision: Blinds Tailored to Your Design Palette",

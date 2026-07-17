@@ -46,6 +46,16 @@ export interface ShowroomPageContent {
   /** Optional free-standing closing paragraphs (Maidenhead has these; Morley doesn't) */
   closingParagraphs?: string[];
 
+  /** Mid-page showcase image, placed after the "Why Choose" section — matches
+   *  the real image position on the source WordPress page. */
+  midImage: string;
+  midImageAlt: string;
+
+  /** Second showcase image, placed before the closing/"Why Visit" section —
+   *  matches the real image position on the source WordPress page. */
+  secondImage: string;
+  secondImageAlt: string;
+
   /** "How to Find Us" address block */
   findUsHeading: string;
   address: string;
@@ -142,6 +152,11 @@ export const morleyShowroom: ShowroomPageContent = {
     },
   ],
 
+  midImage: `${WP}/steptodown.com270369-768x576.webp`,
+  midImageAlt: "Motorized blind example on display in the Advenco showroom",
+  secondImage: `${WP}/steptodown.com423056-768x504.webp`,
+  secondImageAlt: "Shutter example on display in the Advenco showroom",
+
   findUsHeading: "How to Find Us",
   address: "57 Queen Street, Morley, Leeds, England, LS27 8EB",
   hours: "Monday – Saturday: 9am-5pm",
@@ -233,6 +248,11 @@ export const maidenheadShowroom: ShowroomPageContent = {
   closingParagraphs: [
     "Advenco window blinds and shutters in Maidenhead offer a wide range of products that combine style, function, and quality. From their custom-made window blinds and shutters to their professional installation services, Advenco ensures that your window treatment needs are met with the highest standards. Visit the Advenco showroom in Maidenhead today and experience for yourself the exceptional quality and service that sets them apart. Whether you're upgrading your home, office, or commercial space, Advenco is the trusted name for all your window treatment solutions.",
   ],
+
+  midImage: `${WP}/steptodown.com270369-768x576.webp`,
+  midImageAlt: "Motorized blind example on display in the Advenco showroom",
+  secondImage: `${WP}/steptodown.com423056-768x504.webp`,
+  secondImageAlt: "Shutter example on display in the Advenco showroom",
 
   findUsHeading: "Visit Our Maidenhead Showroom",
   address: "28 Kings Street, Maidenhead SL6 1EF",

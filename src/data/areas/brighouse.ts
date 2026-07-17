@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Window Treatments for Homes in Brighouse",
       body: "At Advenco Window Blinds and Shutters in Brighouse, we understand that your home is your sanctuary. We offer a variety of window treatments that can help you create a warm and inviting atmosphere while also providing privacy and light control. The epitome of versatility, roller blinds by Advenco Window Blinds and Shutters in Brighouse come in a breathtaking array of colors, textures, and patterns. Blackout fabrics ensure blissful sleep in bedrooms, while light, airy materials bathe living areas in natural warmth. While shutters by Advenco Window Blinds and Shutters in Brighouse crafted from wood or faux wood. Shutters by Advenco Window Blinds and Shutters in Brighouse offer excellent insulation and noise reduction, making them ideal for creating a comfortable and productive work environment. Shutters by Advenco Window Blinds and Shutters in Brighouse are perfect for living rooms, bedrooms, and even kitchens, adding a touch of timeless elegance.",
+      image: `${WP}/steptodown.com172772-768x549.webp`,
+      imageAlt: "Roller blinds in a Brighouse living room",
+      imageLeft: true,
     },
     {
       heading: "Transform Your Brighouse Business",
       body: "First impressions matter, and your window treatments can play a big role in making a good impression on your clients or customers. At Advenco Window Blinds and Shutters in Brighouse, we offer a variety of window treatments that can help you create a professional and inviting atmosphere in your business. Some of our most popular options for businesses include Roman blinds by Advenco Window Blinds in Brighouse which add a touch of refined elegance to any office space. Choose from a variety of fabrics and textures to create the perfect look for your business. While vertical blinds by Advenco Window Blinds in Brighouse are a great choice for large windows and patio doors. They offer excellent privacy and sun protection while still allowing you to enjoy the view.",
+      image: `${WP}/steptodown.com995759-768x502.webp`,
+      imageAlt: "Vertical blinds in a Brighouse office",
+      imageLeft: false,
     },
     {
       heading: "Blackout blinds in Brighouse",

@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Blinds for Every Room and Style",
       body: "Living room Venetian blinds, bedroom pleated fabrics, blackout roller blinds for entertainment spaces, and waterproof bathroom options all feature in our collection. Vertical blinds by Advenco Window Blinds in Aldershot in your home office effortlessly control light, boosting productivity with every tilt. We also offer specialized conservatory blinds for temperature regulation and UV protection.",
+      image: `${WP}/Untitled-design-1-768x579.jpg`,
+      imageAlt: "Living room styled with Venetian blinds",
+      imageLeft: false,
     },
     {
       heading: "Commercial Appeal: Blinds Built to Impress",
       body: "First impressions matter in business, and your office space is often the first glimpse clients get of your brand. Our range includes conference room vertical blinds, reception area PVC options, executive office Venetian blinds, and client meeting room pleated fabrics.",
+      image: `${WP}/Untitled-design-2-5-768x579.webp`,
+      imageAlt: "Conservatory fitted with blinds",
+      imageLeft: true,
     },
     {
       heading: "Classic Chic with Metal Venetian Blinds in Aldershot",

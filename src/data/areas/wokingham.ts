@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "For Your Home: A Tapestry of Comfort and Control",
       body: "Imagine sunlight filtering through a vibrant tapestry of fabrics, casting playful patterns on your living room walls. This isn't mere decoration; it's the artistry of Advenco Window Blinds and Shutters in Wokingham weaving comfort and control into every thread of your home. Our symphony of options transcends the ordinary. Blackout roller blinds in Wokingham cloak your movie nights in luxurious darkness, while translucent Roman shades paint your child's room in the gentle glow of dawn. Each window becomes a canvas, where you sculpt the perfect balance of light and privacy. Imagine waking up to the sun's soft caress through sheer fabrics, or enjoying a book bathed in the golden warmth of wood-toned Venetian blinds. At Advenco Window Blinds and Shutter in Wokingham, comfort isn't an afterthought; it's woven into the very fabric of your sanctuary.",
+      image: `${WP}/steptodown.com857576-768x504.webp`,
+      imageAlt: "Living room with Venetian blinds fitted",
+      imageLeft: true,
     },
     {
       heading: "Beyond Beauty: A Symphony of Light, Privacy, and Business Success",
       body: "Your office windows are more than just openings; they're portals to success. by Advenco Window Blinds and Shutters in Wokingham's commercial blind solutions help you create a professional and productive environment that reflects your brand identity. Imagine well-lit conference rooms bathed in the soft glow of adjustable venetian blinds, allowing for optimal control over light and privacy. Picture open-plan offices empowered by motorized blinds that dance to your touch, adjusting to the changing needs of your workspace. We offer durable blinds in Wokingham that excel at glare control, heat regulation, and noise reduction, ensuring employee comfort and focus throughout the day. Choose from a variety of materials and styles to complement your brand aesthetic, from sleek aluminum blinds for a modern touch to classic wooden blinds exuding warmth and sophistication.",
+      image: `${WP}/steptodown.com259914-768x509.webp`,
+      imageAlt: "Office conference room with adjustable blinds",
+      imageLeft: false,
     },
     {
       heading: "The Timeless Icons",

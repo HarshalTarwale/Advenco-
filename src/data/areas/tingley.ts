@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "From Bland to Grand: A Symphony of Light and Design",
       body: "Imagine sun-kissed mornings serenaded by vertical blinds by Advenco Window Blinds in Tingley dancing in the breeze, painting playful patterns on your walls. Cozy evenings bathed in the warm embrace of blackout rollers, creating a haven for restful slumber and cinematic adventures. Or picture your child's room transformed into a wonderland with custom-printed blinds by Advenco Window Blinds in Tingley featuring their beloved heroes. At Advenco Window Blinds and Shutters in Tingley, we believe windows are more than just openings; they are gateways to a life orchestrated by light, comfort, and bespoke beauty. We offer a mesmerizing symphony of blind styles and materials, from the timeless elegance of Venetian blinds by Advenco Window Blinds in Tingley to the luxurious whispers of Roman shades. We conquer even the most awkward shapes and sizes with our innovative Perfect Fit blinds by Advenco Window Blinds in Tingley, eliminating the need for intrusive drilling and ensuring a seamless fit.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
+      imageAlt: "Wooden Venetian blinds in a Tingley kitchen",
+      imageLeft: true,
     },
     {
       heading: "Elevate Your Business: Where Productivity Meets Panache",
       body: "Your Tingley office windows are more than just panes of glass; they are portals to success. Advenco Window Blinds and shutter's commercial blind solutions help you craft a professional and productive environment that speaks volumes about your brand identity. Imagine well-lit conference rooms basking in the gentle glow of adjustable Venetian blinds by Advenco Window Blinds in Tingley, empowering seamless control over light and privacy. Picture open-plan offices where motorized blinds by Advenco Window Blinds and Shutters in Tingley dance to your touch, adapting to the ever-changing needs of your dynamic workspace. We offer durable blinds by Advenco Window Blinds in Tingley that excel at banishing glare, regulating heat, and muffling noise, ensuring employee comfort and focus throughout the day. Choose from a diverse palette of materials and styles to complement your brand aesthetic, from sleek aluminium blinds for a modern edge to classic wooden blinds by Advenco Window Blinds in Tingley exuding warmth and sophistication.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/Perfect-Fit-Kitchen-Window-Blinds-in-the-UK-for-All-Window-Types-and-Sizes-768x513.webp",
+      imageAlt: "Perfect Fit kitchen window blinds in a Tingley home",
+      imageLeft: false,
     },
     {
       heading: "1. Embrace Panoramic Elegance",

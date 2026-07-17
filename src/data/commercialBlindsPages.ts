@@ -67,6 +67,9 @@ export interface CommercialBlindPageContent {
   extraSections?: ExtraSection[];
   bannerImage: string;
   bannerImageAlt: string;
+  /** Optional real inline image from the source page, rendered above the closing statement. */
+  closingImage?: string;
+  closingImageAlt?: string;
   closingHeading: string;
   /** Full closing copy — one or more paragraphs, rendered in order */
   closingBody: string[];

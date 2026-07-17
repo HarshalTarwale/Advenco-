@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Unveiling Your Uniqueness",
       body: "Every Leeds home is like a fingerprint, unique in its architectural charm and functional needs. That's why we offer a bespoke blinds service at Advenco Window Blinds and Shutters in Leeds, where we collaborate with you to design and craft blinds in Leeds that perfectly complement your space, be it a charming Victorian bay window, a modern skylight, or a quirky corner nook. Let our expert team at Advenco Window Blinds and Shutters in Leeds transform your vision into reality with blinds that are as individual as your home. At Advenco Window Blinds and Shutters in Leeds, we believe your windows deserve to sing in harmony with your interior design. Our bespoke service lets you orchestrate every detail, from fabric textures and colours to functionality and operation. Picture sleek roller blinds by Advenco Window Blinds and Shutters in Leeds echoing the clean lines of your modern living room, or wood venetians adding warmth to your rustic kitchen. The possibilities are endless, allowing your windows to tell your design story with captivating flair.",
+      image: `${WP}/Untitled-design-1-7-768x579.webp`,
+      imageAlt: "Bespoke made-to-measure blinds in a Leeds home",
+      imageLeft: true,
     },
     {
       heading: "Beyond the Home: Elevating Your Leeds Business",
       body: "Embrace the individuality of your Leeds offices with Advenco Window Blinds and Shutters made-to-measure blinds in Leeds. Whether it's a charming conference room window, a grand reception window, or a space in sunshine, our blinds in Leeds seamlessly integrate, amplifying its character. No more battling awkward angles or settling for ill-fitting blinds in Leeds. Let our expertise translate your vision into stunning window accents that are as unique as your story. We understand the importance of creating a productive and professional environment in your Leeds office. Our durable blinds by Advenco Window Blinds and Shutters in Leeds offer exceptional glare control, heat regulation, and privacy, making them ideal for meeting rooms, conference spaces, and open-plan offices. Choose from a variety of materials and styles to match your brand aesthetic and boost employee comfort.",
+      image: `${WP}/Untitled-design-3-5-768x579.webp`,
+      imageAlt: "Made-to-measure blinds for a Leeds office",
+      imageLeft: false,
     },
     {
       heading: "Virtuosity of Vertical Blinds in Leeds",

@@ -28,10 +28,17 @@ const content: TownPageContent = {
     {
       heading: "From Bland to Grand: A Symphony of Light and Design",
       body: "Blackout rollers keep bedrooms and cinema rooms dark, while custom-printed blinds bring character to children's rooms. Our range includes Venetian blinds, Roman blinds, and Perfect Fit blinds that eliminate the need for drilling entirely.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
+      imageAlt: "High quality blind materials with price match guarantee",
+      imageLeft: false,
     },
     {
       heading: "Elevate Your Business: Where Productivity Meets Panache",
       body: "For Adwick le Street offices, we offer adjustable Venetian blinds, motorized blinds, and durable materials for glare reduction and noise control, including aluminum and wooden blind options.",
+      image:
+        "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/Perfect-Fit-Kitchen-Window-Blinds-in-the-UK-for-All-Window-Types-and-Sizes-768x513.webp",
+      imageAlt: "Perfect Fit kitchen window blinds",
+      imageLeft: true,
     },
     {
       heading: "Embrace Panoramic Elegance of Vertical Blinds in Adwick le Street",
