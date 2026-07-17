@@ -10,7 +10,7 @@
  *  - Subtitle in grey
  *  - Three steps in a row, separated by thin horizontal dividers
  *  - Each step has:
- *      â€¢ Large, very faint teal step number (01, 02, 03)
+ *      â€¢ Large, soft teal step number (01, 02, 03)
  *      â€¢ Thin top border
  *      â€¢ Bold step title
  *      â€¢ Grey description text (small)
@@ -98,7 +98,7 @@ export default function OurProcess() {
               {/* Large faded step number â€” very light teal, decorative */}
               <span
                 className="block text-[5rem] font-bold leading-none mb-4"
-                style={{ color: "rgba(0, 174, 239, 0.12)" }}
+                style={{ color: "rgba(0, 174, 239, 0.35)" }}
                 aria-hidden="true"
               >
                 {step.number}
