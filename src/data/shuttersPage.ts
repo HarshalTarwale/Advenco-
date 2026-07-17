@@ -81,10 +81,6 @@ export const shuttersContent: ShuttersPageContent = {
       ],
     },
     {
-      heading: "Tier on Tier Plantation Shutters in the UK: Versatile and Functional",
-      body: "Are you searching for premium plantation shutters in the UK? Advenco Window Blinds and Shutters has the perfect solution. We offer high-quality plantation shutters crafted from the finest materials, ensuring they enhance natural light while maintaining privacy. Our shutters in the UK are ideal for living rooms, bedrooms, and offices. Available in various colours, designs, styles, and sizes, our shutters cater to all needs. Don't hesitate – get the best plantation shutters in the UK with free fitting services in our coverage areas. We are the leading supplier of plantation shutters, offering top-quality products for all requirements.",
-    },
-    {
       heading: "Full Window Control with Premium Shutters",
       body: "Advenco Window Blinds and Shutters offers stylish shutters and window coverings designed to provide excellent window control. Choose our café style shutters for abundant daylight with privacy control, or opt for our tier on tier shutters for maximum daylight and fresh air management. We also provide the best full height shutters in the UK, perfect for blackout conditions when required.",
       bullets: [
@@ -98,6 +94,13 @@ export const shuttersContent: ShuttersPageContent = {
   ],
 
   imageSections: [
+    {
+      heading: "Tier on Tier Plantation Shutters in the UK: Versatile and Functional",
+      body: "Are you searching for premium plantation shutters in the UK? Advenco Window Blinds and Shutters has the perfect solution. We offer high-quality plantation shutters crafted from the finest materials, ensuring they enhance natural light while maintaining privacy. Our shutters in the UK are ideal for living rooms, bedrooms, and offices. Available in various colours, designs, styles, and sizes, our shutters cater to all needs. Don't hesitate – get the best plantation shutters in the UK with free fitting services in our coverage areas. We are the leading supplier of plantation shutters, offering top-quality products for all requirements.",
+      image: `${WP}/steptodown.com768564-768x512.webp`,
+      imageAlt: "Close-up of wooden Venetian shutter slats on a balcony window",
+      imageLeft: true,
+    },
     {
       heading: "Café Style Shutters in the UK: Elegant and Practical",
       body: "Our classic café style shutters in the UK are perfect for living rooms, office windows, and other spaces requiring ample daylight. With an open top for maximum daylight and a closed bottom for privacy, these shutters offer versatility and style. They can be fully opened for even more light when privacy is not a concern.",

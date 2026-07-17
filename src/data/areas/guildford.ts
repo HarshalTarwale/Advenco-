@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "No Window at you Home Left Behind",
       body: "Step into a world of window possibilities with Advenco Window Blinds and Shutters in Guilford. Ditch the one-size-fits-all approach and embrace blinds that seamlessly integrate with your home's unique character. Whether you're seeking the timeless elegance of bay window drapes or the contemporary chic of skylight blinds in Guilford, our expert design team and skilled craftsmen collaborate with you to bring your vision to life. From oddly shaped corners to soaring expanses of glass, no window is a challenge at Advenco Window Blinds and Shutters in Guilford. We specialize in crafting blinds that not only enhance your space's aesthetics but also cater to your functional needs. Imagine sun-drenched mornings greeted by perfectly fitted blinds in Guilford, cozy evenings bathed in the warm glow of custom blackout solutions, or child-safe havens secured with innovative Perfect Fit systems. At Advenco Window Blinds and Shutters in Guilford, your windows are our canvas, and your home's uniqueness is our inspiration.",
+      image: `${WP}/steptodown.com354755-768x512.webp`,
+      imageAlt: "Blinds fitted in a home living space",
+      imageLeft: true,
     },
     {
       heading: "From Conference Rooms to Open-Plan Perfect Work Environment with Advenco Window Blinds and Shutters",
       body: "Transform your business into a haven of productivity and professionalism with Advenco Window Blinds and Shutter's intelligent window blind solutions. Elevate your office space with durable blinds in Guilford that offer exceptional glare control, heat regulation, and privacy, ensuring optimal comfort and focus for your team. Whether you seek sleek blinds in Guilford for minimalist conference rooms or stylish options to complement your brand aesthetic, Advenco Window Blinds and Shutter's diverse collection caters to every need. Imagine well-lit meeting rooms bathed in the soft glow of adjustable venetian blinds in Guilford, open-plan offices empowered by motorized marvels that dance to your touch, or confidential conversations shielded by high-quality blackout solutions. At Advenco Window Blinds and Shutters in Guilford, we understand the critical role windows play in a successful business environment. Let us help you create the perfect work atmosphere that inspires, empowers, and reflects your brand identity.",
+      image: `${WP}/steptodown.com802274-768x512.webp`,
+      imageAlt: "Blinds fitted in a business/office setting",
+      imageLeft: false,
     },
     {
       heading: "Vertical Blinds in Guilford",

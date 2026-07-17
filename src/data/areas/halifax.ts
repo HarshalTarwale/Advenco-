@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Window Treatments for Homes in Halifax",
       body: "At Advenco Window Blinds in Halifax, we understand that your home is your sanctuary. We offer a variety of window treatments that can help you create a warm and inviting atmosphere while also providing privacy and light control. The epitome of versatility, roller blinds at Advenco Window Blinds in Halifax comes in a breathtaking array of colors, textures, and patterns. Blackout fabrics ensure blissful sleep in bedrooms, while light, airy materials bathe living areas in natural warmth. While plantation shutters at Advenco Window Blinds and Shutters in Halifax are crafted from wood or faux wood, shutters offer excellent insulation and noise reduction, making them ideal for creating a comfortable and productive work environment. Shutters by Advenco Window Blinds and Shutters in Halifax are perfect for living rooms, bedrooms, and even kitchens, adding a touch of timeless elegance.",
+      image: `${WP}/steptodown.com491340-768x513.webp`,
+      imageAlt: "Blinds fitted in a home living space",
+      imageLeft: true,
     },
     {
       heading: "Transform Your Halifax Business",
       body: "First impressions matter, and your window treatments can play a big role in making a good impression on your clients or customers. At Advenco Window Blinds in Halifax, we offer a variety of window treatments that can help you create a professional and inviting atmosphere in your business. Some of our most popular options for businesses include Roman blinds which add a touch of refined elegance to any office space. Choose from a variety of fabrics and textures to create the perfect look for your business. While vertical blinds at Advenco Window Blinds in Halifax are a great choice for large windows and patio doors. They offer excellent privacy and sun protection while still allowing you to enjoy the view.",
+      image: `${WP}/steptodown.com814074-768x512.webp`,
+      imageAlt: "Blinds fitted in a business/office setting",
+      imageLeft: false,
     },
     {
       heading: "Blackout blinds in Halifax",

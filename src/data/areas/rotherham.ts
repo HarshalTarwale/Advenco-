@@ -27,6 +27,9 @@ const content: TownPageContent = {
     {
       heading: "Unveiling Your Uniqueness",
       body: "Every Rotherham home is like a fingerprint, unique in its architectural charm and functional needs. That's why we offer a bespoke blinds service, where we collaborate with you to design and craft blinds that perfectly complement your space, be it a charming Victorian bay window, a modern skylight, or a quirky corner nook. Let our expert team transform your vision into reality with blinds in Rotherham that are as individual as your home. At Advenco Window Blinds and Shutters in Rotherham, we believe your windows deserve to sing in harmony with your interior design. Our bespoke service at Advenco Window Blinds and Shutters in Rotherham lets you orchestrate every detail, from fabric textures and colours to functionality and operation. Picture sleek roller blinds echoing the clean lines of your modern living room, or wood venetians adding warmth to your rustic kitchen. The possibilities are endless, allowing your windows to tell your design story with captivating flair.",
+      image: `${WP}/steptodown.com216426-768x431.webp`,
+      imageAlt: "Bespoke made-to-measure blinds in a Rotherham home",
+      imageLeft: true,
     },
     {
       heading: "Beyond the Home: Elevating Your Rotherham Business",

@@ -1,6 +1,7 @@
 import type { TownPageContent } from "./types";
 
 const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
+const WP10 = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-chesterfield",
@@ -27,6 +28,9 @@ const content: TownPageContent = {
     {
       heading: "Window Treatments for Homes in Chesterfield",
       body: "At Advenco Window Blinds and Shutters in Chesterfield, we understand that your home is your sanctuary. We offer a variety of window treatments that can help you create a warm and inviting atmosphere while also providing privacy and light control. Some of our most popular options for homes include: The epitome of versatility, roller blinds by Advenco Window Blinds in Chesterfield come in a breathtaking array of colors, textures, and patterns. Blackout fabrics ensure blissful sleep in bedrooms, while light, airy materials bathe living areas in natural warmth. Ideal for large windows, patio doors, and even sliding glass doors, vertical blinds by Advenco Window Blinds in Chesterfield come in a plethora of materials and colors. We offer unparalleled privacy and sun protection while still allowing you to enjoy the view. Vertical blinds by Advenco Window Blinds in Chesterfield are a practical choice for living areas, sunrooms, and even conservatories, adding a touch of contemporary elegance.",
+      image: `${WP10}/Perfect-Fit-Kitchen-Window-Blinds-in-the-UK-for-All-Window-Types-and-Sizes-768x513.webp`,
+      imageAlt: "Perfect Fit blinds fitted in a Chesterfield home",
+      imageLeft: true,
     },
     {
       heading: "Transform Your Chesterfield Business",

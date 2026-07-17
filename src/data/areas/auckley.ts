@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "From Kitchens to Conservatories: Blinds That Elevate Every Space",
       body: "Advenco Window Blinds and Shutters isn't just a shop; it's an Aladdin's cave of possibilities. Imagine sunlight filtering through sleek Venetian blinds by Advenco Window Blinds and Shutters in Auckley, casting dancing shadows on your living room wall. Or picture Roman blinds by Advenco Window Blinds in Auckley, their fabric folds cascading like a luxurious waterfall in your bedroom. Maybe modern roller blinds by Advenco Window Blinds in Auckley in a vibrant pop of color are your jam, adding a touch of personality to your kitchen. But Advenco Window Blinds and Shutters in Auckley understands that homes are more than just living rooms and bedrooms. They craft moisture-resistant warriors for your bathroom, shielding you from steamy showers. Child-safe havens grace nurseries, offering peace of mind for busy parents. And for that coveted outdoor feel, woven blinds by Advenco Window Blinds and Shutters in Auckley and solar shades let the fresh air in while filtering harsh sunlight.",
+      image: `${WP}/Untitled-design-4-5-768x579.webp`,
+      imageAlt: "Living room styled with Venetian blinds",
+      imageLeft: false,
     },
     {
       heading: "From Home Havens to Office Harmonies",
       body: "Auckley's bustling offices need a different tune. Advenco Window Blinds and Shutters in Auckley offers roller blinds in a clean, professional aesthetic, with light filtering options keeping you connected to the outside world and blackout fabrics ensuring laser-sharp focus. Craving timeless elegance? Shutters by Advenco Window Blinds and Shutters in Auckley exude sophistication and superior light control, perfect for boardrooms or solopreneur lofts. For bustling open spaces, consider panel blinds by Advenco Window Blinds in Auckley, their wide panels gliding effortlessly to section off areas for focused meetings. But office blinds by Advenco Window Blinds in Auckley are more than just aesthetics. They're the silent heroes of thermal regulation, keeping your workspace cool in summer and warm in winter, saving energy and boosting employee comfort. Plus, child-safe options ensure peace of mind, and moisture-resistant materials protect against spills and steamy kitchens.",
+      image: `${WP}/Untitled-design-3-6-768x579.webp`,
+      imageAlt: "Office space fitted with roller blinds",
+      imageLeft: true,
     },
     {
       heading: "Venetian Blinds in Auckley",

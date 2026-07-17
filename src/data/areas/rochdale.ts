@@ -31,6 +31,9 @@ const content: TownPageContent = {
     {
       heading: "Beyond the Boardroom: by Advenco Window Blinds and Shutters in Rochdale That Elevate Your Business",
       body: "Your office windows are more than just openings; they're portals to success. Advenco Window Blinds and Shutters in Rochdale's commercial solutions create professional havens that reflect your brand's unique story. Imagine conference rooms bathed in the soft glow of adjustable Venetian blinds by Advenco Window Blinds in Rochdale, fostering focus and collaboration. Picture open-plan offices empowered by motorized blinds that dance to your touch, adapting to he ever-changing rhythm of your workspace.",
+      image: `${WP}/steptodown.com933214-768x576.webp`,
+      imageAlt: "Commercial blinds elevating a Rochdale business",
+      imageLeft: false,
     },
     {
       heading: "Venetian Blinds by Advenco Window Blinds and Shutters in Rochdale – Timeless Icons",

@@ -19,6 +19,7 @@
  * Content is copied verbatim from the source WordPress pages.
  */
 
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -43,6 +44,10 @@ export default function ShowroomPage({ content }: { content: ShowroomPageContent
     visitIntro,
     visitSections,
     closingParagraphs,
+    midImage,
+    midImageAlt,
+    secondImage,
+    secondImageAlt,
     findUsHeading,
     address,
     hours,
@@ -159,6 +164,23 @@ export default function ShowroomPage({ content }: { content: ShowroomPageContent
       </section>
 
       {/* ============================================================
+          Mid-page showcase image — matches source page image placement
+      ============================================================ */}
+      <section className="bg-white pb-16 lg:pb-20">
+        <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-20">
+          <div className="relative w-full aspect-video sm:aspect-21/9 overflow-hidden rounded-sm border-l-4 border-advenco-teal">
+            <Image
+              src={midImage}
+              alt={midImageAlt}
+              fill
+              className="object-cover"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* ============================================================
           Why Visit — subsections
       ============================================================ */}
       <section className="bg-advenco-alabaster py-16 lg:py-20">
@@ -178,6 +200,23 @@ export default function ShowroomPage({ content }: { content: ShowroomPageContent
                 <p className="text-advenco-muted text-sm leading-relaxed">{section.body}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============================================================
+          Second showcase image — matches source page image placement
+      ============================================================ */}
+      <section className="bg-advenco-alabaster py-16 lg:py-20">
+        <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-20">
+          <div className="relative w-full aspect-video sm:aspect-21/9 overflow-hidden rounded-sm border-l-4 border-advenco-teal">
+            <Image
+              src={secondImage}
+              alt={secondImageAlt}
+              fill
+              className="object-cover"
+              loading="lazy"
+            />
           </div>
         </div>
       </section>

@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "A Symphony of Light and Comfort",
       body: "Imagine waking to a gentle symphony of light. Sunlight dances through a vibrant tapestry of fabrics, casting playful whispers on your walls. It's not just decoration; it's Advenco Window Blinds and shutter's artistry, weaving comfort, and control into every thread of your home. Blackout blinds by Advenco Window Blinds and Shutters in Derbyshire cloak your movie nights in luxurious velvet darkness, while translucent Roman blinds by Advenco Window Blinds in Derbyshire paint your child's room in the gentle blush of dawn. Each window becomes a stage, where you set the scene for light and privacy. Wake up to the sun's soft serenade through sheer fabrics or lose yourself in a good book bathed in the golden warmth of wood-toned Venetian blinds by Advenco Window Blinds in Derbyshire. At Advenco Window Blinds and Shutters in Derbyshire, comfort isn't an afterthought; it's the very rhythm of your sanctuary.",
+      image: `${WP}/steptodown.com163076-1-768x517.webp`,
+      imageAlt: "Blinds bringing light and comfort to a Derbyshire home",
+      imageLeft: true,
     },
     {
       heading: "Beyond Cosy Homes: Tailored Solutions for Every Space",
       body: "But Advenco Window Blinds and shutter's magic extends beyond cosy homes. Your office windows are more than just openings; they're portals to success. Here, commercial blind solutions become your silent partners, creating professional havens that reflect your brand's story. Picture sunlight filtering through adjustable Venetian blinds by Advenco Window Blinds and Shutters in Derbyshire in conference rooms, fostering focus and collaboration. Imagine open-plan offices empowered by motorized blinds available at Advenco Window Blinds and Shutters in Derbyshire that dance to your touch, adapting to the ever-changing symphony of your workspace.",
+      image: `${WP}/steptodown.com566004-1-768x512.webp`,
+      imageAlt: "Commercial blind solutions for a Derbyshire office",
+      imageLeft: false,
     },
     {
       heading: "Venetian Blinds in Derbyshire",

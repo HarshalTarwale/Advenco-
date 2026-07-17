@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Tailor-Made Beauty: Blinds Designed Just for Your St Albans Home",
       body: "Every home is a masterpiece, and your windows deserve to be adorned accordingly. Advenco Window Blinds and shutter's bespoke blinds service understands that one size doesn't fit all. We work hand-in-hand with you to create blinds that flawlessly complement your St Albans architecture, be it a traditional bay window, a dramatic skylight, or a charmingly quirky corner window. Let our expert craftsmanship at Advenco Window Blinds and Shutters in St Albans bring your vision to life with blinds that are as unique and captivating as your home.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11/steptodown.com775348-768x512.webp",
+      imageAlt: "Bespoke made-to-measure blinds in a St Albans home",
+      imageLeft: true,
     },
     {
       heading: "Boost Your Business with Advenco Window Blinds and shutter's Window Solutions",
       body: "Create a productive and professional haven for your St Albans business with Advenco Window Blinds and shutter's practical window blind solutions. Our durable blinds by Advenco Window Blinds and Shutters in St Albans offer exceptional glare control, heat regulation, and privacy, making them ideal for meeting rooms, conference spaces, and open-plan offices. Choose from a variety of materials and styles to seamlessly blend with your brand aesthetic and enhance employee comfort.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11/steptodown.com388873-768x512.webp",
+      imageAlt: "Window blinds installed in a St Albans office",
+      imageLeft: false,
     },
     {
       heading: "Vertical Blinds in St Albans",

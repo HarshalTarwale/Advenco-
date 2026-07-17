@@ -1,6 +1,7 @@
 import type { TownPageContent } from "./types";
 
 const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
+const WP10 = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-bramley",
@@ -27,6 +28,9 @@ const content: TownPageContent = {
     {
       heading: "No Window at Your Home Left Behind",
       body: "Step into a world of window possibilities with Advenco Window Blinds and Shutters in Bramley. Ditch the one-size-fits-all approach and embrace blinds that seamlessly integrate with your home's unique character. Whether you're seeking the timeless elegance of bay window drapes or the contemporary chic of skylight blinds in Bramley, our expert design team and skilled craftsmen collaborate with you to bring your vision to life. From oddly shaped corners to soaring expanses of glass, no window is a challenge at Advenco Window Blinds and Shutters in Bramley. We specialize in crafting blinds that not only enhance your space's aesthetics but also cater to your functional needs. Imagine sun-drenched mornings greeted by perfectly fitted blinds in Bramley, cozy evenings bathed in the warm glow of custom blackout solutions, or child-safe havens secured with innovative Perfect Fit systems. At Advenco Window Blinds and Shutters in Bramley, your windows are our canvas, and your home's uniqueness is our inspiration.",
+      image: `${WP10}/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp`,
+      imageAlt: "High-quality blind materials on display for a Bramley home",
+      imageLeft: true,
     },
     {
       heading: "From Conference Rooms to Open-Plan Perfect Work Environment with Advenco Window Blinds and Shutters",

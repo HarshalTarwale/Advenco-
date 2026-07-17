@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Window Treatments for Homes in Penistone",
       body: "At Advenco Window Blinds in Penistone, we understand that your home is your sanctuary. We offer a variety of window treatments that can help you create a warm and inviting atmosphere while also providing privacy and light control. Some of our most popular options for homes include: The epitome of versatility, roller blinds by Advenco Window Blinds in Penistone come in a breathtaking array of colours, textures, and patterns. Blackout fabrics Advenco Window Blinds in Penistone ensure blissful sleep in bedrooms, while light, airy materials bathe living areas in natural warmth. Ideal for large windows, patio doors, and even sliding glass doors, vertical blinds by Advenco Window Blinds in Penistone come in a plethora of materials and colours. We offer unparalleled privacy and sun protection while still allowing you to enjoy the view. Vertical blinds by Advenco Window Blinds in Penistone are a practical choice for living areas, sunrooms, and even conservatories, adding a touch of contemporary elegance.",
+      image: `${WP}/steptodown.com786494-768x576.webp`,
+      imageAlt: "Living area styled with window blinds in a Penistone home",
+      imageLeft: true,
     },
     {
       heading: "Transform Your Penistone Business",
       body: "First impressions matter, and your window treatments can play a big role in making a good impression on your clients or customers. At Advenco Window Blinds and Shutters in Penistone, we offer a variety of window treatments that can help you create a professional and inviting atmosphere in your business. Some of our most popular options for businesses include: Venetian blinds by Advenco Window Blinds in Penistone translate their functionality brilliantly into the business world. Opt for sleek aluminium or faux wood options available at Advenco Window Blinds in Penistone for a modern feel in offices and reception areas or go for warm wood tones for a more traditional touch in conference rooms. Their excellent light control and privacy make them ideal for presentations and focused work environments. Elevate your business with the timeless elegance of shutters by Advenco Window Blinds and Shutters in Penistone. Crafted from wood or faux wood, we offer excellent insulation and noise reduction, making them ideal for creating a comfortable and productive work environment. Shutters available at Advenco Window Blinds and Shutters in Penistone are perfect for executive offices, meeting rooms, and even high-end boutiques, adding a touch of luxury and refinement.",
+      image: `${WP}/steptodown.com859934-768x512.webp`,
+      imageAlt: "Office space fitted with Venetian blinds in Penistone",
+      imageLeft: false,
     },
     {
       heading: "Blackout Blinds in Penistone",

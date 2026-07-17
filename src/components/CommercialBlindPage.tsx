@@ -276,6 +276,18 @@ export default function CommercialBlindPage({ content }: { content: CommercialBl
       ============================================================ */}
       <section className="bg-advenco-alabaster py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-20">
+          {content.closingImage && (
+            <div className="relative overflow-hidden rounded-sm border-l-4 border-advenco-teal mb-12 max-w-3xl">
+              <Image
+                src={content.closingImage}
+                alt={content.closingImageAlt ?? content.closingHeading}
+                width={700}
+                height={470}
+                className="w-full h-auto object-cover"
+                loading="lazy"
+              />
+            </div>
+          )}
           <div className="max-w-3xl">
             <h3 className="font-heading text-2xl sm:text-3xl text-advenco-graphite-mid font-semibold mb-4">
               {content.closingHeading}

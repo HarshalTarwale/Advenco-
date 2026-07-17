@@ -31,6 +31,25 @@ import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import { shuttersContent } from "@/data/shuttersPage";
 
+/* ---------- Highlight standalone "UK" in blue + bold, rest in default colour ---------- */
+
+function HighlightUK({ text }: { text: string }) {
+  const parts = text.split(/\b(UK)\b/g);
+  return (
+    <>
+      {parts.map((part, i) =>
+        part === "UK" ? (
+          <span key={i} className="text-advenco-teal font-bold">
+            {part}
+          </span>
+        ) : (
+          <span key={i}>{part}</span>
+        )
+      )}
+    </>
+  );
+}
+
 export default function ShuttersPage() {
   const {
     badgeLabel,
@@ -82,10 +101,12 @@ export default function ShuttersPage() {
               style={{ fontSize: "clamp(2rem, 4.5vw, 3.5rem)" }}
             >
               <span className="font-light block">{heroHeading}</span>
-              <span className="font-bold italic text-advenco-teal block">{heroSubheading}</span>
+              <span className="font-bold italic block">
+                <HighlightUK text={heroSubheading} />
+              </span>
             </h1>
             <p className="text-white/75 text-base sm:text-lg leading-relaxed max-w-xl mb-9">
-              {heroBody}
+              <HighlightUK text={heroBody} />
             </p>
             <Link
               href="#contact"
@@ -161,15 +182,19 @@ function TextSection({ section, alt }: { section: TextSectionData; alt: boolean 
             </p>
           )}
           <h2 className="font-heading text-3xl sm:text-4xl text-advenco-graphite-mid font-bold leading-tight">
-            {section.heading}
+            <HighlightUK text={section.heading} />
           </h2>
-          <p className="text-advenco-muted leading-relaxed text-base">{section.body}</p>
+          <p className="text-advenco-muted leading-relaxed text-base">
+            <HighlightUK text={section.body} />
+          </p>
           {section.bullets && (
             <ul className="space-y-2.5 pt-1">
               {section.bullets.map((bullet) => (
                 <li key={bullet} className="flex items-start gap-3">
                   <span className="mt-2 shrink-0 w-2 h-2 rounded-full bg-advenco-teal" aria-hidden="true" />
-                  <span className="text-advenco-graphite-mid text-sm leading-relaxed">{bullet}</span>
+                  <span className="text-advenco-graphite-mid text-sm leading-relaxed">
+                    <HighlightUK text={bullet} />
+                  </span>
                 </li>
               ))}
             </ul>
@@ -217,9 +242,11 @@ function ImageSection({ section, bgAlt }: { section: ImageSectionData; bgAlt: bo
           {/* Text */}
           <div className={`space-y-5 ${!section.imageLeft ? "lg:col-start-1 lg:row-start-1" : ""}`}>
             <h2 className="font-heading text-3xl sm:text-4xl text-advenco-graphite-mid font-bold leading-tight">
-              {section.heading}
+              <HighlightUK text={section.heading} />
             </h2>
-            <p className="text-advenco-muted leading-relaxed text-base">{section.body}</p>
+            <p className="text-advenco-muted leading-relaxed text-base">
+              <HighlightUK text={section.body} />
+            </p>
           </div>
         </div>
       </div>

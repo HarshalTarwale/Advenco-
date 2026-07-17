@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Custom Blinds to Fit Your Knaresborough Home's Unique Charm",
       body: "Step into a world of window possibilities with Advenco Window Blinds and Shutters. Ditch the one-size-fits-all approach and embrace blinds that seamlessly integrate with your home's unique character. Whether you're seeking the timeless elegance of bay window drapes or the contemporary chic of skylight blinds available at Advenco Window Blinds in Knaresborough, our expert design team and skilled craftsmen collaborate with you to bring your vision to life. From oddly shaped corners to soaring expanses of glass, no window is a challenge at Advenco Window Blinds and Shutters in Knaresborough. We specialize in crafting blinds that not only enhance your space's aesthetics but also cater to your functional needs. Imagine sun-drenched mornings greeted by perfectly fitted blinds, cozy evenings bathed in the warm glow of custom blackout solutions, or child-safe havens secured with innovative Perfect Fit systems. At Advenco Window Blinds and Shutters in Knaresborough, your windows are our canvas, and your home's uniqueness is our inspiration.",
+      image: `${WP}/Untitled-design-2-4-768x579.webp`,
+      imageAlt: "Custom-fitted blinds in a Knaresborough home",
+      imageLeft: true,
     },
     {
       heading: "Create the Perfect Work Environment with Advenco Window Blinds and Shutters",
       body: "Transform your business into a haven of productivity and professionalism with Advenco Window Blinds and Shutter's intelligent window blind solutions. Elevate your office space with durable blinds available at Advenco Window Blinds in Knaresborough that offer exceptional glare control, heat regulation, and privacy, ensuring optimal comfort and focus for your team. Whether you seek sleek blinds available at Advenco Window Blinds in Knaresborough for minimalist conference rooms or stylish options to complement your brand aesthetic, Advenco Window Blinds and Shutter's diverse collection caters to every need. Imagine well-lit meeting rooms bathed in the soft glow of adjustable venetian blinds, open-plan offices empowered by motorized marvels that dance to your touch, or confidential conversations shielded by high-quality blackout solutions. At Advenco Window Blinds and Shutters in Knaresborough, we understand the critical role windows play in a successful business environment. Let us help you create the perfect work atmosphere that inspires, empowers, and reflects your brand identity.",
+      image: `${WP}/steptodown.com334093-768x513.webp`,
+      imageAlt: "Office interior fitted with adjustable Venetian blinds",
+      imageLeft: false,
     },
     {
       heading: "Vertical Blinds in Knaresborough",

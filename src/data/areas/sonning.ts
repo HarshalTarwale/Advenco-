@@ -1,6 +1,7 @@
 import type { TownPageContent } from "./types";
 
 const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
+const WP10 = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-sonning",
@@ -31,6 +32,9 @@ const content: TownPageContent = {
     {
       heading: "For Your Business, a Surge in Efficiency and Sophistication",
       body: "Your office windows are not merely openings; they are gateways to triumph. Advenco Window Blinds and Shutter's commercial blind solutions assist you in establishing a professional and productive atmosphere that mirrors your brand essence. Envision well-lit meeting rooms bathed in the gentle radiance of adjustable venetian blinds in Sonning, allowing for optimum control over light and privacy. Picture open-plan workspaces empowered by motorized blinds in Sonning that respond to your touch, adapting to the evolving demands of your workspace. We present robust blinds in Sonning excelling in glare control, temperature regulation, and noise reduction, guaranteeing employee comfort and concentration throughout the day. Choose from an array of materials and styles to harmonize with your brand's aesthetic, whether it's sleek aluminum blinds for a contemporary touch or classic wooden blinds in Sonning exuding warmth and sophistication.",
+      image: `${WP10}/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp`,
+      imageAlt: "High-quality blind materials with price match guarantee",
+      imageLeft: false,
     },
     {
       heading: "Vertical Blinds in Sonning: Embrace Stunning Vistas",

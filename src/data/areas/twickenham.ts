@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Weaving Comfort and Control, Thread by Thread",
       body: "Visualize sunlight dancing through a vibrant tapestry of blinds, casting playful patterns on your Twickenham walls. This isn't mere decoration; it's Advenco Window Blinds and shutter's artistry weaving comfort and control into every thread of your home. Their symphony of options goes beyond the ordinary. Blackout roller blinds in Twickenham cloak your movie nights in luxurious darkness, while translucent Roman blinds by Advenco Window Blinds and Shutters in Twickenham paint your child's room in the gentle glow of dawn. Each window becomes a canvas, where you sculpt the perfect balance of light and privacy. Wake up to the sun's soft caress through sheer fabrics, or enjoy a book bathed in the golden warmth of wood-toned Venetian blinds in Twickenham. At Advenco Window Blinds and Shutters in Twickenham, comfort isn't an afterthought, it's woven into the very fabric of your sanctuary.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11/steptodown.com315928-768x512.webp",
+      imageAlt: "Blinds fitted in a Twickenham home",
+      imageLeft: true,
     },
     {
       heading: "Beyond Beauty: Success in Every Light",
       body: "Your Twickenham office windows are more than just openings; they're portals to success. Advenco Window Blinds and shutter's commercial blind solutions help you create a professional and productive environment that reflects your brand identity. Imagine well-lit conference rooms bathed in the soft glow of adjustable venetian blinds in Twickenham, allowing for optimal control over light and privacy. Picture open-plan offices empowered by motorized blinds in Twickeham that dance to your touch, adjusting to the changing needs of your workspace. We offer durable blinds at Advenco Window Blinds and Shutters in Twickenham that excel at glare control, heat regulation, and noise reduction, ensuring employee comfort and focus throughout the day. Choose from a variety of materials and styles to complement your brand aesthetic, from sleek aluminum blinds in Twickenahm for a modern touch to classic wooden blinds in Twickenham exuding warmth and sophistication.",
+      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11/steptodown.com569774-768x513.webp",
+      imageAlt: "Venetian blinds in a Twickenham office",
+      imageLeft: false,
     },
     {
       heading: "Venetian Blinds in Twickenham",

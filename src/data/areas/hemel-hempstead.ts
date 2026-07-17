@@ -27,6 +27,9 @@ const content: TownPageContent = {
     {
       heading: "Bespoke Magic for Your Home and for Every Hemel Hempstead Story",
       body: "Light & Privacy in Perfect Harmony: Rollerblinds by Advenco Window Blinds and Shutters in Hemel Hempstead, with their breathtaking spectrum of fabrics, let you bask in the golden glow or create a cocoon of privacy, ideal for movie nights or restful slumber. For grand windows and patio doors, let vertical blinds by Advenco Window Blinds in Hemel Hempstead take centre stage. Their clean lines and effortless control offer unparalleled sun protection and privacy, while still letting you savor the Hemel Hempstead landscape. In the heart of your home, Venetian blinds by Advenco Window Blinds in Hemel Hempstead reign supreme. Their timeless elegance and adjustable slats add a touch of sophistication, whether you choose sleek aluminium for a modern vibe or warm wood tones for a touch of tradition.",
+      image: `${WP}/steptodown.com514183-768x576.webp`,
+      imageAlt: "Bespoke blinds bringing light and privacy to a Hemel Hempstead home",
+      imageLeft: true,
     },
     {
       heading: "Beyond the Home: Transforming Hemel Hempstead's Businesses",

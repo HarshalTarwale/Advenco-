@@ -1,6 +1,7 @@
 import type { TownPageContent } from "./types";
 
 const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
+const WP10 = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-crowthorne",
@@ -31,6 +32,9 @@ const content: TownPageContent = {
     {
       heading: "Create the Perfect Work Environment with Advenco Window Blinds and Shutters",
       body: "Transform your business into a haven of productivity and professionalism with Advenco Window Blinds and Shutter's intelligent window blind solutions. Elevate your office space with durable blinds available at Advenco Window Blinds in Crowthorne that offer exceptional glare control, heat regulation, and privacy, ensuring optimal comfort and focus for your team. Whether you seek sleek blinds available at Advenco Window Blinds in Crowthorne for minimalist conference rooms or stylish options to complement your brand aesthetic, Advenco Window Blinds and Shutter's diverse collection caters to every need. Imagine well-lit meeting rooms bathed in the soft glow of adjustable venetian blinds, open-plan offices empowered by motorized marvels that dance to your touch, or confidential conversations shielded by high-quality blackout solutions. At Advenco Window Blinds and Shutters in Crowthorne, we understand the critical role windows play in a successful business environment. Let us help you create the perfect work atmosphere that inspires, empowers, and reflects your brand identity.",
+      image: `${WP10}/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp`,
+      imageAlt: "High-quality blind materials with price match guarantee",
+      imageLeft: false,
     },
     {
       heading: "Vertical Blinds in Crowthorne",

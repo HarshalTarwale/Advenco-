@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Invest in Your Home, Invest in Advenco Window Blinds and Shutters",
       body: "Advenco Window Blinds and Shutters are more than just window coverings; we're an investment in your Bradford lifestyle. We offer quality, style, and functionality, transforming your house into a home that reflects your unique personality. So, ditch the drafty curtains and let Advenco Window Blinds and Shutters in Bradford brighten your Bradford home with the perfect blend of light, privacy, and style. Advenco Window Blinds and Shutter's expertise extends beyond living rooms and bedrooms. Find the perfect window blinds and shutter for your Bradford kitchen, bathroom, or even conservatory by Advenco Window Blinds in Bradford. Advenco's moisture-resistant blinds and shutters are ideal for humid environments, while their child-safe options offer peace of mind for families.",
+      image: `${WP}/steptodown.com847393-768x512.webp`,
+      imageAlt: "Blinds fitted in a Bradford home",
+      imageLeft: true,
     },
     {
       heading: "Privacy and Productivity: Advenco Window Blinds and Shutter's for Bradford's Busy Offices",
       body: "Whether you're a tech startup or a bustling law firm, privacy and focus are key in any Bradford office. Advenco's Roller blinds in Bradford offer a clean, minimalist aesthetic and come in various materials, from blackout fabrics for complete concentration to light-filtering options for maintaining a connection to the outside world. For a touch of luxury, consider plantation shutters by Advenco Window Blinds and Shutters in Bradford, which exude timeless elegance and superior light control. The right blinds and shutters by Advenco Window Blinds and Shutters in Bradford can transform your Bradford eatery into a haven for delectable dining. Advenco's roman blinds in Bradford add a touch of warmth and texture, ideal for creating an intimate atmosphere. For larger spaces, panel blinds offer a dramatic and versatile option, allowing you to section off areas or create a seamless flow.",
+      image: `${WP}/steptodown.com802521-768x512.webp`,
+      imageAlt: "Roller blinds in a Bradford office",
+      imageLeft: false,
     },
     {
       heading: "Classic Charm: Venetian Blinds",

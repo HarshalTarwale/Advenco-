@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Bespoke Magic for Your Brentford Home",
       body: "Imagine sun-drenched mornings dancing with vibrant vertical blinds, casting playful shadows on your living room walls. Picture cozy evenings bathed in the warm embrace of blackout roller blinds available at Advenco Window Blinds in Brentford, creating a sanctuary for movie nights and restful slumber. Or envision your child's room brimming with playful charm thanks to custom-printed blinds featuring their beloved characters. At Advenco Window Blinds and Shutters in Brentford, we believe every window deserves a voice. That's why we offer a diverse symphony of blind styles and materials, from the timeless elegance of Venetian blinds to the luxurious folds of Roman shades. We even cater to unique shapes and sizes with our innovative Perfect Fit blinds available at Advenco Window Blinds and Shutters in Brentford, eliminating drilling and ensuring a seamless fit for even the most unconventional windows.",
+      image: `${WP}/steptodown.com452911-768x512.webp`,
+      imageAlt: "Vertical blinds in a Brentford living room",
+      imageLeft: true,
     },
     {
       heading: "Beyond Homes, We Elevate Businesses with Style and Function",
       body: "Your office windows are more than just openings; they're gateways to success. Advenco Window Blinds and Shutter's commercial blind solutions help you craft a professional and productive environment that reflects your brand identity. Imagine well-lit conference rooms bathed in the gentle glow of adjustable venetian blinds available at Advenco Window Blinds in Brentford, allowing effortless control over light and privacy. Picture open-plan offices empowered by motorized blinds available at Advenco Window Blinds in Brentford that dance to your touch, adapting to the ever-changing needs of your workspace. We offer durable blinds available at Advenco Window Blinds in Brentford that excel at glare control, heat regulation, and noise reduction, ensuring employee comfort and focus throughout the day. Choose from a variety of materials and styles to complement your brand aesthetic, from sleek aluminium blinds for a modern touch to classic wooden blinds exuding warmth and sophistication.",
+      image: `${WP}/steptodown.com252342-768x512.webp`,
+      imageAlt: "Adjustable Venetian blinds in a Brentford office",
+      imageLeft: false,
     },
     {
       heading: "Embrace Expansive Vistas",

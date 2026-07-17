@@ -31,6 +31,9 @@ const content: TownPageContent = {
     {
       heading: "Beyond Beauty: Success in Every Light",
       body: "Your Selby office windows are more than just openings; they're portals to success. Advenco Window Blinds and shutter's commercial blind solutions help you create a professional and productive environment that reflects your brand identity. Imagine well-lit conference rooms bathed in the soft glow of adjustable venetian blinds in Selby, allowing for optimal control over light and privacy. Picture open-plan offices empowered by motorized blinds in Twickeham that dance to your touch, adjusting to the changing needs of your workspace. We offer durable blinds at Advenco Window Blinds and Shutters in Selby that excel at glare control, heat regulation, and noise reduction, ensuring employee comfort and focus throughout the day. Choose from a variety of materials and styles to complement your brand aesthetic, from sleek aluminum blinds in Twickenahm for a modern touch to classic wooden blinds in Selby exuding warmth and sophistication.",
+      image: `${WP}/steptodown.com649908-768x433.webp`,
+      imageAlt: "Commercial blind solutions for a Selby business",
+      imageLeft: false,
     },
     {
       heading: "Venetian Blinds in Selby",

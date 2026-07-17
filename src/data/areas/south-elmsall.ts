@@ -27,6 +27,9 @@ const content: TownPageContent = {
     {
       heading: "Tailor-Made Beauty: Blinds Designed Just for Your South Elmsall Home",
       body: "Every home is a masterpiece, and your windows deserve to be adorned accordingly. Advenco Window Blinds and shutter's bespoke blinds service understands that one size doesn't fit all. We work hand-in-hand with you to create blinds that flawlessly complement your South Elmsall architecture, be it a traditional bay window, a dramatic skylight, or a charmingly quirky corner window. Let our expert craftsmanship at Advenco Window Blinds and Shutters in South Elmsall bring your vision to life with blinds that are as unique and captivating as your home.",
+      image: `${WP}/Untitled-design-14-768x579.webp`,
+      imageAlt: "Tailor-made blinds for a South Elmsall home",
+      imageLeft: true,
     },
     {
       heading: "Boost Your Business with Advenco Window Blinds and shutter's Window Solutions",

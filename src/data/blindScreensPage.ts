@@ -130,6 +130,8 @@ export const blindScreensPage: CommercialBlindPageContent = {
   ],
   bannerImage: `${WP}/steptodown.com666830-768x512.webp`,
   bannerImageAlt: "Hand operating a remote control for motorised blind screens",
+  closingImage: `${WP}/steptodown.com219118-768x512.webp`,
+  closingImageAlt: "Bright living room window fitted with a blind screen",
   closingHeading: "Transform Your Home with Advenco Blind Screens",
   closingBody: [
     "Advenco window blinds and shutters in UK is your one-stop shop for all your blind screen needs in the UK. Contact us today for a free consultation and discover the perfect solution for your windows.",

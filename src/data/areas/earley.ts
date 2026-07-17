@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "No Window Left Behind: Custom Blinds to Fit Your Earley Home's Unique Charm",
       body: "Step into a world of window possibilities with Advenco Window Blinds and Shutters in Earley. Ditch the one-size-fits-all approach and embrace blinds by Advenco Window Blinds in Earley that seamlessly integrate with your home's unique character. Whether you're seeking the timeless elegance of bay window drapes or the contemporary chic of skylight blinds by Advenco Window Blinds in Earley, our expert design team and skilled craftsmen collaborate with you to bring you to life. From oddly shaped corners to soaring expanses of glass, no window is a challenge at Advenco Window Blinds in Earley. We specialize in crafting blinds that not only enhance your space's aesthetics but also cater to your functional needs. Imagine sun-drenched mornings greeted by perfectly fitted blinds, cozy evenings bathed in the warm glow of custom blackout solutions, or child-safe havens secured with innovative Perfect Fit systems. At Advenco Window Blinds and Shutters in Earley, your windows are our canvas, and your home's uniqueness is our inspiration.",
+      image: `${WP}/Untitled-design-1-12-768x579.webp`,
+      imageAlt: "Custom-fitted blinds in a home setting",
+      imageLeft: true,
     },
     {
       heading: "From Conference Rooms to Open-Plan: Create the Perfect Work Environment with Advenco Window Blinds and Shutters in Earley",
       body: "Transform your business into a haven of productivity and professionalism with intelligent window blind solutions of Advenco Window Blinds and Shutters in Earley. Elevate your office space with durable blinds by Advenco Window Blinds and Shutters in Earley that offer exceptional glare control, heat regulation, and privacy, ensuring optimal comfort and focus for your team. Whether you seek sleek blinds in Earley for minimalist conference rooms or stylish options to complement your brand aesthetic, our diverse collection caters to every need. Imagine well-lit meeting rooms bathed in the soft glow of adjustable Venetian blinds by Advenco Window Blinds in Earley, open-plan offices empowered by motorized marvels that dance to your touch, or confidential conversations shielded by high-quality blackout solutions. At Advenco Window Blinds and Shutters in Earley, we understand the critical role windows play in a successful business environment. Let us help you create the perfect work atmosphere that inspires, empowers, and reflects your brand identity.",
+      image: `${WP}/Untitled-design-3-9-768x579.webp`,
+      imageAlt: "Blinds fitted in a conference room / office setting",
+      imageLeft: false,
     },
     {
       heading: "Vertical Blinds in Earley:",

@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Imagine waking to a gentle symphony of light",
       body: "Sunlight dances through a vibrant tapestry of fabrics, casting playful whispers on your walls. It's not just decoration; it's Advenco Window Blinds and Shutter's artistry, weaving comfort and control into every thread of your home. Blackout blinds by Advenco Window Blinds in Knottingley cloak your movie nights in luxurious velvet darkness, while translucent Roman shades paint your child's room in the gentle blush of dawn. Each window becomes a stage, where you set the scene for light and privacy. Wake up to the sun's soft serenade through sheer fabrics or lose yourself in a good book bathed in the golden warmth of wood-toned Venetian blinds in Knottingley. At Advenco Window Blinds and Shutters in Knottingley, comfort isn't an afterthought; it's the very rhythm of your sanctuary.",
+      image: `${WP}/Untitled-design-1-16-768x579.webp`,
+      imageAlt: "Cosy living room with fitted window blinds in Knottingley",
+      imageLeft: true,
     },
     {
       heading: "But Advenco Window Blinds and Shutter's magic extends beyond cosy homes",
       body: "Your office windows are more than just openings; they're portals to success. Here, commercial blind solutions become your silent partners, creating professional havens that reflect your brand's story. Picture sunlight filtering through adjustable Venetian blinds in conference rooms, fostering focus and collaboration. Imagine open-plan offices empowered by motorized blinds that dance to your touch, adapting to the ever-changing symphony of your workspace.",
+      image: `${WP}/Untitled-design-21.webp`,
+      imageAlt: "Commercial office space fitted with Venetian blinds",
+      imageLeft: false,
     },
     {
       heading: "Venetian Blinds in Knottingley",

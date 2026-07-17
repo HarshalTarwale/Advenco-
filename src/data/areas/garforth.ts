@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "From Culinary Spaces to Conservatories: Blinds That Enhance Every Environment",
       body: "Advenco Window Blinds and Shutters in Garforth transcends the conventional notion of a store; it unfolds as a treasure trove of possibilities. Envision sunlight filtering through sleek Venetian blinds in Garforth, casting playful shadows on your living room walls. Picture Roman blinds by Advenco Window Blinds in Garforth, their fabric folds cascading like an opulent waterfall in your sleeping chamber. Perhaps contemporary roller blinds by Advenco Window Blinds in Garforth in a vibrant burst of color resonate with your style, injecting a dash of individuality into your kitchen. Yet, Advenco Window Blinds in Garforth recognizes that homes extend beyond living quarters. They engineer moisture-resistant guardians for your bathroom, safeguarding against steamy showers. Nurseries are adorned with child-safe sanctuaries, offering reassurance to busy parents. For an outdoor ambiance, woven blinds by Advenco Window Blinds and Shutters in Garforth usher in fresh air while tempering harsh sunlight.",
+      image: `${WP}/Untitled-design-1-18-768x579.webp`,
+      imageAlt: "Blinds fitted in a home living space",
+      imageLeft: true,
     },
     {
       heading: "From Domestic Retreats to Corporate Concertos",
       body: "Garforth's thriving workplaces demand a distinct melody. Advenco Window Blinds and Shutters in Garforth presents roller blinds in a sleek, professional aesthetic, featuring light-filtering options to maintain a connection with the external world and blackout fabrics ensuring unwavering concentration. Craving enduring sophistication? Plantation shutters in Garforth exude refinement and superior light management, ideal for boardrooms or solo entrepreneur lofts. For expansive open areas, contemplate panel blinds, their broad panels gliding effortlessly to delineate zones for focused meetings. And for a touch of timeless grace, plantation shutters by Advenco Window Blinds and Shutters in Garforth radiate enduring elegance while delivering unparalleled light control. However, office blinds by Advenco Window Blinds and Shutters in Garforth serve a dual purpose beyond aesthetics. They act as silent champions of thermal regulation, maintaining a comfortable workspace throughout seasons and conserving energy. Child-safe options offer peace of mind, while moisture-resistant materials safeguard against spills and steamy kitchens.",
+      image: `${WP}/steptodown.com949197-768x512.webp`,
+      imageAlt: "Blinds fitted in a business/office setting",
+      imageLeft: false,
     },
     {
       heading: "Venetian Blinds in Garforth",

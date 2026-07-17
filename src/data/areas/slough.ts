@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Expanding Beyond the Living Quarters: Elevate Your Dining Experience",
       body: "The magic of Advenco Window Blinds and Shutter in Slough transcends the confines of living rooms and bedrooms. Discover the perfect blinds for your Slough kitchen, bathroom, or even your conservatory. With moisture-resistant options ensuring functionality in humid environments and child-safe blinds providing peace of mind for families at Advenco Window Blinds and Shutters in Slough bringing transformation to every corner of your home. Turn your Slough dining space into a retreat for delightful meals with Roman blinds in Slough introduce warmth and texture, fostering an intimate ambiance. For more expansive areas, consider the drama and versatility of panel blinds in Slough, enabling you to partition spaces or maintain a seamless flow. And for that coveted outdoor patio feel, explore woven blinds in Slough or solar shades that filter harsh sunlight while allowing in the refreshing breeze.",
+      image: `${WP}/Untitled-design-4-1-768x579.webp`,
+      imageAlt: "Blinds elevating a Slough dining experience",
+      imageLeft: true,
     },
     {
       heading: "Privacy & Productivity in Busy Offices: A Balance of Serenity and Focus",
       body: "Slough's bustling offices demand both privacy and concentration. Advenco Window Blinds in Slough recognizes this need, presenting roller blinds with a sleek aesthetic in diverse materials. Blackout fabrics ensure undivided focus, while light-filtering options sustain a connection to the outside world. For a touch of opulence, contemplate plantation shutters by Advenco Window Blinds in Slough, emanating timeless grace with superior light control.",
+      image: `${WP}/Untitled-design-1-2-768x579.webp`,
+      imageAlt: "Blinds providing privacy and productivity in a Slough office",
+      imageLeft: false,
     },
     {
       heading: "Timeless Opulence",

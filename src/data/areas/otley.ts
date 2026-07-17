@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "Bespoke Magic for Your Otley Home",
       body: "Imagine sun-drenched mornings dancing with vibrant vertical blinds by Advenco Window Blinds in Bathgate, casting playful shadows on your living room walls. Picture cozy evenings bathed in the warm embrace of blackout roller blinds by Advenco Window Blinds in Bathgate, creating a sanctuary for movie nights and restful slumber. Or envision your child's room brimming with playful charm thanks to custom-printed blinds in Otley featuring their beloved characters. At Advenco Window Blinds and Shutters in Bathgate, we believe every window deserves a voice. That's why we offer a diverse symphony of blind styles and materials, from the timeless elegance of Venetian blinds by Advenco Window Blinds and Shutters in Otley to the luxurious folds of Roman shades. We even cater to unique shapes and sizes with our innovative Perfect Fit blinds in Bathgate, eliminating drilling and ensuring a seamless fit for even the most unconventional windows.",
+      image: `${WP}/steptodown.com652998-768x512.webp`,
+      imageAlt: "Vibrant vertical blinds in an Otley living room",
+      imageLeft: true,
     },
     {
       heading: "Beyond Homes, We Elevate Businesses with Style and Function",
       body: "Your office windows are more than just openings; they're gateways to success. Advenco Window Blinds and Shutters's commercial blind solutions help you craft a professional and productive environment that reflects your brand identity. Imagine well-lit conference rooms bathed in the gentle glow of adjustable Venetian blinds in Bathgate, allowing effortless control over light and privacy. Picture open-plan offices empowered by motorized blinds in Otley that dance to your touch, adapting to the ever changing needs of your workspace. We offer durable blinds by Advenco Window Blinds and Shutters in Otley that excel at glare control, heat regulation, and noise reduction, ensuring employee comfort and focus throughout the day. Choose from a variety of materials and styles to complement your brand aesthetic, from sleek aluminium blinds for a modern touch to classic wooden blinds in Otley exuding warmth and sophistication.",
+      image: `${WP}/steptodown.com155368-768x485.webp`,
+      imageAlt: "Office conference room with adjustable Venetian blinds in Otley",
+      imageLeft: false,
     },
     {
       heading: "Embrace Expansive Vistas of Vertical Blinds in Bathgate",

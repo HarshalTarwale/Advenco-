@@ -1,6 +1,7 @@
 import type { TownPageContent } from "./types";
 
 const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
+const WP10 = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-cleckheaton",
@@ -31,6 +32,9 @@ const content: TownPageContent = {
     {
       heading: "Boost Your Business with Advenco Window Blinds and Shutters in Cleckheaton",
       body: "Create a productive and professional haven for your Cleckheaton business with Advenco Window Blinds and Shutter's practical window blind solutions. Our durable blinds available at Advenco Window Blinds and Shutters in Cleckheaton offer exceptional glare control, heat regulation, and privacy, making them ideal for meeting rooms, conference spaces, and open-plan offices. Choose from a variety of materials and styles to seamlessly blend with your brand aesthetic and enhance employee comfort.",
+      image: `${WP10}/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp`,
+      imageAlt: "High-quality blind materials on display for a Cleckheaton business",
+      imageLeft: false,
     },
     {
       heading: "Vertical Blinds in Cleckheaton",

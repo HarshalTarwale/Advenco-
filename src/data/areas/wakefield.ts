@@ -27,10 +27,16 @@ const content: TownPageContent = {
     {
       heading: "For Your Home: A Tapestry of Comfort and Control",
       body: "Imagine sunlight filtering through a vibrant tapestry of fabrics, casting playful patterns on your living room walls. This isn't mere decoration; it's the artistry of Advenco Window Blinds and Shutters in Wakefield weaving comfort and control into every thread of your home. Our symphony of options transcends the ordinary. Blackout roller blinds by Advenco Window Blinds in Wakefield cloak your movie nights in luxurious darkness, while translucent Roman shades by Advenco Window Blinds in Wakefield paint your child's room in the gentle glow of dawn. Each window becomes a canvas, where you sculpt the perfect balance of light and privacy. Imagine waking up to the sun's soft caress through sheer fabrics, or enjoying a book bathed in the golden warmth of wood-toned Venetian blinds by Advenco Window Blinds in Wakefield. At Advenco Window Blinds and Shutters in Wakefield, comfort isn't an afterthought; it's woven into the very fabric of your sanctuary.",
+      image: `${WP}/steptodown.com799673-768x512.webp`,
+      imageAlt: "Venetian blinds in a Wakefield living room",
+      imageLeft: true,
     },
     {
       heading: "Beyond Beauty: A Symphony of Light, Privacy, and Business Success",
       body: "Your office windows are more than just openings; they're portals to success. Advenco Window Blinds and Shutter's commercial blind solutions help you create a professional and productive environment that reflects your brand identity. Imagine well-lit conference rooms bathed in the soft glow of adjustable Venetian blinds Advenco Window Blinds in Wakefield, allowing for optimal control over light and privacy. Picture open-plan offices empowered by motorized blinds that dance to your touch, adjusting to the changing needs of your workspace. We offer durable blinds by Advenco Window Blinds in Wakefield that excel at glare control, heat regulation, and noise reduction, ensuring employee comfort and focus throughout the day. Choose from a variety of materials and styles to complement your brand aesthetic, from sleek aluminum blinds for a modern touch to classic wooden blinds exuding warmth and sophistication.",
+      image: `${WP}/steptodown.com902762-768x512.webp`,
+      imageAlt: "Adjustable Venetian blinds in a Wakefield office",
+      imageLeft: false,
     },
     {
       heading: "Venetian Blinds: The Timeless Icons",

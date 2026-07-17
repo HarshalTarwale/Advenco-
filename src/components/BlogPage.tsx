@@ -12,6 +12,7 @@
  * verbatim from the source WordPress blog listing.
  */
 
+import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import ContactSection from "@/components/ContactSection";
@@ -87,7 +88,10 @@ export default function BlogPage() {
 
 function PostCard({ post }: { post: BlogPost }) {
   return (
-    <article className="group flex flex-col bg-white border border-advenco-border rounded-sm overflow-hidden hover:shadow-lg transition-shadow">
+    <Link
+      href={`/blog/${post.slug}/`}
+      className="group flex flex-col bg-white border border-advenco-border rounded-sm overflow-hidden hover:shadow-lg transition-shadow"
+    >
       <div className="relative w-full aspect-4/3 overflow-hidden">
         <Image
           src={post.image}
@@ -114,6 +118,6 @@ function PostCard({ post }: { post: BlogPost }) {
           </svg>
         </span>
       </div>
-    </article>
+    </Link>
   );
 }
