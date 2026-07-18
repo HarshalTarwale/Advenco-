@@ -22,6 +22,7 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import MidPageCTA, { productNameFromSlug } from "@/components/MidPageCTA";
 import type { CommercialBlindPageContent, BenefitCard, DifferentiatorCard, ExtraSection } from "@/data/commercialBlindsPages";
 
 /* ---------- Icon Set ---------- */
@@ -119,6 +120,8 @@ function Icon({ name, className = "w-5 h-5" }: { name: string; className?: strin
 /* ---------- Component ---------- */
 
 export default function CommercialBlindPage({ content }: { content: CommercialBlindPageContent }) {
+  const productName = productNameFromSlug(content.slug);
+
   return (
     <>
       <Navbar />
@@ -221,6 +224,12 @@ export default function CommercialBlindPage({ content }: { content: CommercialBl
           </div>
         </div>
       </section>
+
+      {/* ============================================================
+          Mid-page CTA — right after the benefits grid, while interest
+          in this specific product is freshest
+      ============================================================ */}
+      <MidPageCTA productName={productName} />
 
       {/* ============================================================
           Why Choose Advenco — 5-card differentiators grid

@@ -29,6 +29,7 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import MidPageCTA from "@/components/MidPageCTA";
 import { shuttersContent } from "@/data/shuttersPage";
 
 /* ---------- Highlight standalone "UK" in blue + bold, rest in default colour ---------- */
@@ -141,6 +142,12 @@ export default function ShuttersPage() {
       {textSections.slice(3).map((section, i) => (
         <TextSection key={section.heading} section={section} alt={i % 2 === 0} />
       ))}
+
+      {/* ============================================================
+          Mid-page CTA — right after "Full Window Control", the last
+          content section before the closing statement
+      ============================================================ */}
+      <MidPageCTA productName="Shutters" />
 
       {/* ============================================================
           Closing statement
