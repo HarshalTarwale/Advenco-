@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-london",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in London",
   heroBody:
     "Gone are the days of cookie-cutter window treatments. In London, Advenco Window Blinds and Shutters elevates your windows from mere openings to canvases for expressing your unique home's personality.",
-  heroImage: `${WP}/steptodown.com791645-768x502.webp`,
+  heroImage: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
   heroImageAlt: "Blue café style shutters on a white house exterior",
 
   introHeading: "Conquer Sunlight with Style: Unveiling By Advenco Window Blinds and Shutters in London",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Unveiling Your Uniqueness",
       body: "Every London home is like a fingerprint, unique in its architectural charm and functional needs. That's why we offer a bespoke blinds service, where we collaborate with you to design and craft blinds that perfectly complement your space, be it a charming Victorian bay window, a modern skylight, or a quirky corner nook. Let our expert team transform your vision into reality with blinds in London that are as individual as your home. At Advenco Window Blinds and Shutters in London, we believe your windows deserve to sing in harmony with your interior design. Our bespoke service at Advenco Window Blinds and Shutters in London lets you orchestrate every detail, from fabric textures and colours to functionality and operation. Picture sleek roller blinds echoing the clean lines of your modern living room, or wood venetians adding warmth to your rustic kitchen. The possibilities are endless, allowing your windows to tell your design story with captivating flair.",
-      image: `${WP}/steptodown.com480920-768x576.webp`,
+      image: "/images/stock/photo-1757359056339-22968344cce6.jpg",
       imageAlt: "Bespoke blinds fitted in a London living room",
       imageLeft: true,
     },
     {
       heading: "Beyond the Home: Elevating Your London Business",
       body: "Embrace the individuality of your London offices with made-to-measure blinds by Advenco Window Blinds and Shutters in London. Whether it's a charming conference room window, a grand reception window, or a space in sunshine, our blinds in London seamlessly integrate, amplifying its character. No more battling awkward angles or settling for ill-fitting blinds and shutters in London. Let our expertise translate your vision into stunning window accents that are as unique as your story. We understand the importance of creating a productive and professional environment in your London office. Our durable blinds at Advenco Window Blinds in London offer exceptional glare control, heat regulation, and privacy, making them ideal for meeting rooms, conference spaces, and open-plan offices. Choose from a variety of materials and styles to match your brand aesthetic and boost employee comfort.",
-      image: `${WP}/steptodown.com615297-768x512.webp`,
+      image: "/images/stock/photo-1653134641891-118e3094fc42.jpg",
       imageAlt: "Office fitted with durable window blinds in London",
       imageLeft: false,
     },

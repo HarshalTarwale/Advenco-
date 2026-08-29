@@ -1,7 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
-const WP10 = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-heckmondwike",
@@ -16,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Heckmondwike",
   heroBody:
     "Nestled in the heart of Heckmondwike, where historic paths converge with contemporary marvels, stands a treasure unlike any other: Advenco Window Blinds and Shutters in Heckmondwike.",
-  heroImage: `${WP}/steptodown.com791645-768x502.webp`,
+  heroImage: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
   heroImageAlt: "Blue café style shutters on a white house exterior",
 
   introHeading: "Revealing the Enchantment of Advenco Window Blinds and Shutters: More Than Window Coverings, Heckmondwike's Crown Jewels",
@@ -28,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Envision awakening to a soft symphony of light",
       body: "Sunlight pirouettes through a lively tapestry of fabrics, casting playful whispers on your walls. It's not just decor; it's Advenco Window Blinds and Shutters in Heckmondwike craftsmanship, weaving ease, and control into every strand of your abode. Blackout blinds by Advenco Window Blinds and Shutters in Heckmondwike envelop your movie nights in opulent velvet darkness, while translucent Roman shades bathe your child's room in the gentle blush of dawn. Every window transforms into a stage where you orchestrate the interplay of light and privacy. Awaken to the sun's gentle serenade through sheer fabrics or immerse yourself in a good book bathed in the golden warmth of wood-toned Venetian blinds. At Advenco Window Blinds and Shutters in Heckmondwike, comfort is not an afterthought; it's the very heartbeat of your sanctuary.",
-      image: `${WP10}/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp`,
+      image: "/images/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
       imageAlt: "High-quality blind materials with price match guarantee",
       imageLeft: true,
     },
     {
       heading: "But Advenco Window Blinds and Shutters enchantment extends beyond cozy homes",
       body: "Your office windows aren't mere openings; they are gateways to success. Here, commercial blind solutions become your silent collaborators, crafting professional havens that mirror your brand's narrative. Picture sunlight filtering through adjustable Venetian blinds by Advenco Window Blinds and Shutters in Heckmondwikes in conference rooms, fostering concentration and collaboration. Envision open-plan offices energized by motorized blinds by Advenco Window Blinds and Shutters in Heckmondwikes that dance to your touch, adapting to the ever-changing rhythm of your workspace.",
-      image: `${WP10}/Perfect-Fit-Kitchen-Window-Blinds-in-the-UK-for-All-Window-Types-and-Sizes-768x513.webp`,
+      image: "/images/2024/10/Perfect-Fit-Kitchen-Window-Blinds-in-the-UK-for-All-Window-Types-and-Sizes-768x513.webp",
       imageAlt: "Perfect Fit window blinds for a Heckmondwike business",
       imageLeft: false,
     },

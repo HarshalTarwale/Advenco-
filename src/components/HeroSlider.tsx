@@ -38,7 +38,7 @@ const slides: Slide[] = [
     description:
       "Discover premium window blinds and shutters that blend style, innovation, and comfort to elevate your home.",
     image:
-      "https://advencoblindsandshutters.co.uk/wp-content/uploads/2026/07/Transform-Your-Space-with-Elegance-scaled.jpeg",
+      "/images/stock/photo-1758448756207-54505680d130.jpg",
     alt: "Transform Your Space with Elegance — Advenco Blinds",
   },
   {
@@ -48,7 +48,7 @@ const slides: Slide[] = [
     description:
       "Enhance your living spaces with our beautifully crafted blinds and shutters, designed to add elegance and functionality to every room.",
     image:
-      "https://advencoblindsandshutters.co.uk/wp-content/uploads/2026/07/Where-Style-Meets-Innovation-scaled.jpeg",
+      "/images/stock/photo-1757452608866-0b9c2f3e2d6b.jpg",
     alt: "Where Style Meets Innovation — Advenco Blinds",
   },
   {
@@ -58,7 +58,7 @@ const slides: Slide[] = [
     description:
       "Premium blinds and shutters that bring sophistication and practical comfort to your home, one window at a time.",
     image:
-      "https://advencoblindsandshutters.co.uk/wp-content/uploads/2026/07/Redefining-Window-Elegance-scaled.jpeg",
+      "/images/stock/photo-1603673319826-2f109cbf42aa.jpg",
     alt: "Redefining Window Elegance — Advenco Blinds",
   },
   {
@@ -68,7 +68,7 @@ const slides: Slide[] = [
     description:
       "Upgrade your home's aesthetics and functionality with our high-quality window blinds and shutters, tailored for modern living.",
     image:
-      "https://advencoblindsandshutters.co.uk/wp-content/uploads/2026/07/Crafting-Comfort-One-Window-at-a-Time-scaled.jpeg",
+      "/images/stock/photo-1653134641891-118e3094fc42.jpg",
     alt: "Crafting Comfort One Window at a Time — Advenco Blinds",
   },
   {
@@ -78,7 +78,7 @@ const slides: Slide[] = [
     description:
       "Experience the perfect balance of beauty and innovation with our bespoke window solutions, crafted for style and comfort.",
     image:
-      "https://advencoblindsandshutters.co.uk/wp-content/uploads/2026/07/Blinds-and-Shutters-Designed-for-You-scaled.jpeg",
+      "/images/stock/photo-1745761264415-6acbdb47a0c7.jpg",
     alt: "Blinds and Shutters Designed for You — Advenco Blinds",
   },
 ];

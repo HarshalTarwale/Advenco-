@@ -12,7 +12,6 @@
 
 import type { CommercialBlindPageContent } from "./commercialBlindsPages";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 export const productBlindsPages: Record<string, CommercialBlindPageContent> = {
   "roller-blinds": {
@@ -26,9 +25,9 @@ export const productBlindsPages: Record<string, CommercialBlindPageContent> = {
       "Roller blinds in UK are a timeless choice for various window styles, offering a broad range of designs and colours. They can be customized with different bases, shapes, and edges, from modern straight lines to elegant waves and classical designs. Most of our roller blinds in UK are crafted using high-quality components with a standard aluminum tube and are available with either side chain control or spring operation. The innovative Soft Rise option allows the blinds to retract gently and smoothly.",
       "The same control mechanism is used to adjust the height of the roller blind, enabling you to raise or lower it to any desired position, just like a standard roller blind. This feature allows the Vision Blind to roll up completely into the stylish cassette headrail, providing an uninterrupted view of the outdoors.",
     ],
-    heroImage: `${WP}/b-2-768x512.webp`,
+    heroImage: "/images/stock/photo-1600493867499-4882d15a30ad.jpg",
     heroImageAlt: "Roller blind product showcase",
-    sideImage: `${WP}/c-2-768x512.webp`,
+    sideImage: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
     sideImageAlt: "Roller blind product showcase",
     importanceLabel: "Leading the Market",
     importanceHeadingLines: ["Advenco Window Blinds and Shutters:", "Affordable Roller Blinds in UK"],
@@ -90,7 +89,7 @@ export const productBlindsPages: Record<string, CommercialBlindPageContent> = {
         body: "Even the smallest mistake in window measuring or blinds fitting can affect functionality or appearance. Advenco offers free window measuring and fitting services in select areas, with next-day appointments available in many parts of the country including Manchester, Leeds, Stoke, Nottingham, Sheffield, Birmingham, Luton, and Watford.",
       },
     ],
-    bannerImage: `${WP}/steptodown.com791645-768x502.webp`,
+    bannerImage: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
     bannerImageAlt: "Blue café style shutters on a white house exterior",
     closingHeading: "Roller Blinds for Home and Office",
     closingBody: [
@@ -110,9 +109,9 @@ export const productBlindsPages: Record<string, CommercialBlindPageContent> = {
       "At Advenco Window Blinds and Shutters, we take pride in offering bespoke Roman blinds in UK crafted from luxurious designer fabrics. When you pull the chain along the edge, these blinds ascend vertically, folding neatly into horizontal pleats. Each blind is meticulously handcrafted in the UK by our skilled artisans, ensuring that you invest in a stunning product that not only meets but exceeds your expectations.",
       "With a diverse range of exquisite designs, rich textures, and vibrant fabrics, finding a style that complements your interior has never been easier. You also have the option to add a free blackout and energy-saving lining, enhancing the blinds' effectiveness in blocking out light, making them perfect for your bedroom or home office. All our fabric Roman blinds in UK come with a variety of operating mechanisms and linings, including blackout, thermal, and interlining options. Our Roman blinds in UK are delivered with all necessary fixtures and fittings, including child safety features. Explore our range of fabrics below and order a free fabric sample before you buy to ensure you get your perfect Roman blinds in a fabric you love.",
     ],
-    heroImage: `${WP}/b-3-768x512.webp`,
+    heroImage: "/images/2024/11/b-3-768x512.webp",
     heroImageAlt: "Roman blind samples and installation",
-    sideImage: `${WP}/e-768x512.webp`,
+    sideImage: "/images/2024/11/e-768x512.webp",
     sideImageAlt: "Roman blind samples and installation",
     importanceLabel: "Affordable & Custom",
     importanceHeadingLines: ["Affordable and Custom", "Roman Blinds in UK"],
@@ -174,7 +173,7 @@ export const productBlindsPages: Record<string, CommercialBlindPageContent> = {
         body: "Do you want a hassle-free window blinds experience? Advenco Window Blinds and Shutters in UK now offers free window measuring and Roman blinds fitting across UK. Call now to learn more.",
       },
     ],
-    bannerImage: `${WP}/g-768x570.webp`,
+    bannerImage: "/images/2024/11/g-768x570.webp",
     bannerImageAlt: "Roman blind samples and installation",
     closingHeading: "Custom Made-to-Measure Roman Blinds with Free Measuring and Fitting",
     closingBody: [
@@ -193,9 +192,9 @@ export const productBlindsPages: Record<string, CommercialBlindPageContent> = {
       "Wooden blinds are crafted from genuine wood, offering a remarkable appearance that brings a warm and natural feel to your home decor. Many individuals prefer real wooden blinds for their sophistication and the refined quality they add to any room. Wood blinds resemble a finely crafted piece of furniture, with a distinctive fine grain and an exquisite surface featuring unique details. These blinds are mostly made from North American hardwoods, using sustainable forestry practices crucial in today's era of dwindling tree supplies.",
       "The patina of genuine wood blinds is unmatched and inimitable. This elegant look requires some care, as harsh chemicals should be avoided when cleaning. Wooden Venetian blinds provide excellent insulation due to their sturdy wood construction, and they offer superior privacy, shielding furniture and artwork from harsh sunlight. Genuine wood blinds are lightweight, durable, and available in a variety of sizes, which is important when covering large or oversized windows.",
     ],
-    heroImage: `${WP}/b-5-768x507.webp`,
+    heroImage: "/images/stock/photo-1757359056339-22968344cce6.jpg",
     heroImageAlt: "Wooden blinds display",
-    sideImage: `${WP}/c-4-768x512.webp`,
+    sideImage: "/images/stock/photo-1745761264415-6acbdb47a0c7.jpg",
     sideImageAlt: "Installation and measuring service for wooden blinds",
     importanceLabel: "Diverse Finishes",
     importanceHeadingLines: ["Diverse Finish Options for", "Wooden Window Blinds in UK"],
@@ -257,7 +256,7 @@ export const productBlindsPages: Record<string, CommercialBlindPageContent> = {
         body: "We are available any day of the week. Call now to book your doorstep visit for today or any other day of the week.",
       },
     ],
-    bannerImage: `${WP}/d-3-768x512.webp`,
+    bannerImage: "/images/stock/photo-1728532966669-cde5cd5886a6.jpg",
     bannerImageAlt: "Quality finished wooden blinds",
     closingHeading: "Beautiful Wooden Window Blinds in UK to Elevate Your Home",
     closingBody: [
@@ -276,9 +275,9 @@ export const productBlindsPages: Record<string, CommercialBlindPageContent> = {
     heroBody: [
       "When it comes to enhancing your home's interior, window treatments play a crucial role. Among the various options available, pleated blinds in UK stand out for their elegance and functionality. At Advenco Window Blinds and Shutters in UK, we offer a stunning range of pleated blinds in UK that can transform your living space. Based in the UK, we are committed to providing high-quality window treatments that blend style and practicality.",
     ],
-    heroImage: `${WP}/2-3-768x512.webp`,
+    heroImage: "/images/stock/photo-1688818228795-d465bf6e3c35.jpg",
     heroImageAlt: "Pleated blinds product showcase",
-    sideImage: `${WP}/3-3-768x513.webp`,
+    sideImage: "/images/stock/photo-1688818228795-d465bf6e3c35.jpg",
     sideImageAlt: "Pleated blinds product showcase",
     importanceLabel: "Why Choose Pleated Blinds",
     importanceHeadingLines: ["Why Choose Pleated", "Blinds in UK?"],
@@ -359,7 +358,7 @@ export const productBlindsPages: Record<string, CommercialBlindPageContent> = {
         ],
       },
     ],
-    bannerImage: `${WP}/5-3-768x632.webp`,
+    bannerImage: "/images/stock/photo-1653134641891-118e3094fc42.jpg",
     bannerImageAlt: "Pleated blinds product showcase",
     closingHeading: "Contact Us Today",
     closingBody: [
@@ -377,9 +376,9 @@ export const productBlindsPages: Record<string, CommercialBlindPageContent> = {
     heroBody: [
       "When it comes to window treatments that offer both style and functionality, Perfect Fit blinds in UK are an excellent choice. At Advenco Window Blinds and Shutters in UK, we pride ourselves on offering top-quality window solutions tailored to your needs. In this guide, we'll explore everything you need to know about Perfect Fit blinds in UK, why they're a great choice, and how they can enhance your home.",
     ],
-    heroImage: `${WP}/Perfect-Fit-Kitchen-Window-Blinds-in-the-UK-for-All-Window-Types-and-Sizes-768x513.webp`,
+    heroImage: "/images/stock/photo-1748939832727-a2f0abdff540.jpg",
     heroImageAlt: "Perfect Fit kitchen window blinds in the UK for all window types and sizes",
-    sideImage: `${WP}/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp`,
+    sideImage: "/images/stock/photo-1728532966669-cde5cd5886a6.jpg",
     sideImageAlt: "High quality materials with price match guarantee",
     importanceLabel: "What are Perfect Fit Blinds?",
     importanceHeadingLines: ["What are Perfect Fit", "Blinds in UK?"],
@@ -453,7 +452,7 @@ export const productBlindsPages: Record<string, CommercialBlindPageContent> = {
         ],
       },
     ],
-    bannerImage: `${WP}/Free-Fitting-for-Kitchen-Blinds-in-Select-Areas-768x508.webp`,
+    bannerImage: "/images/stock/photo-1600493867499-4882d15a30ad.jpg",
     bannerImageAlt: "Free fitting for kitchen blinds in select areas",
     closingHeading: "Conclusion",
     closingBody: [
@@ -473,9 +472,9 @@ export const productBlindsPages: Record<string, CommercialBlindPageContent> = {
       "Vertical blinds in UK offer the perfect balance between light control and privacy, making them ideal for a range of window types including large and small windows, French doors, patio doors, and bay windows. They can open fully or bunch to each side, providing flexible coverage options. Available in a vast array of colours with 89mm louvre size, vertical blinds in UK are both practical and affordable while adding a touch of elegance to any space.",
       "All our vertical blinds in UK come with either wand (stick) control or chain control, and our advanced machinery and robotics ensure custom-made vertical blinds in UK of any size.",
     ],
-    heroImage: `${WP}/2-2-768x433.webp`,
+    heroImage: "/images/stock/photo-1711006295130-406e8e9057f2.jpg",
     heroImageAlt: "Vertical blinds product showcase",
-    sideImage: `${WP}/4-2-768x512.webp`,
+    sideImage: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
     sideImageAlt: "Vertical blinds product showcase",
     importanceLabel: "Diverse Range",
     importanceHeadingLines: ["Diverse Range of", "Styles and Colours"],
@@ -536,7 +535,7 @@ export const productBlindsPages: Record<string, CommercialBlindPageContent> = {
         body: "Avoid the hassle of incorrect measurements with our free onsite measuring and fitting service available in many parts of the UK. Advenco Window Blinds and Shutters in UK ensures precise measurements and professional installation for your vertical blinds in UK.",
       },
     ],
-    bannerImage: `${WP}/7-1-768x512.webp`,
+    bannerImage: "/images/stock/photo-1688818228795-d465bf6e3c35.jpg",
     bannerImageAlt: "Vertical blinds product showcase",
     closingHeading: "Elegant Designs and Long-Lasting Functionality",
     closingBody: [

@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-farnham",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Farnham",
   heroBody:
     "Seeking exquisite window blinds that perfectly capture Farnham's elegance? Look no further than Advenco Window Blinds and Shutters in Farnham.",
-  heroImage: `${WP}/steptodown.com906820-768x512.webp`,
+  heroImage: "/images/stock/photo-1710773697318-d50ff2492556.jpg",
   heroImageAlt: "White plantation shutters beside a sofa with red and white cushions",
 
   introHeading: "Elevate your home windows with Advenco Window Blinds and Shutters in Farnham",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Bespoke Elegance: Blinds Crafted for Farnham's Character",
       body: "Farnham's windows deserve bespoke adornments. Advenco Window Blinds and Shutter's made-to-measure service caters to the architectural diversity and functional needs of each Farnham home. We collaborate with you to design and craft blinds that flawlessly complement your space, be it a majestic bay window overlooking the Castle Esplanade, a skylight illuminating your attic studio, or a charming arched window in a quaint Old Town flat. Let our expertise bring your vision to life with blinds as unique as the city itself.",
-      image: `${WP}/steptodown.com578445-768x512.webp`,
+      image: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
       imageAlt: "Blinds fitted in a home living space",
       imageLeft: true,
     },
     {
       heading: "Elevate Your Farnham Business with Efficient Blind Solutions",
       body: "Foster a productive and professional atmosphere in your Farnham office with Advenco Window Blinds and Shutter's practical window blind solutions. Our durable blinds at Advenco Window Blinds and Shutters in Farnham offer exceptional glare control, heat regulation, and privacy, ideal for meeting rooms, co-working spaces, and bustling open-plan offices. Choose from a variety of materials and styles to complement your brand identity and enhance employee comfort.",
-      image: `${WP}/steptodown.com192284-768x512.webp`,
+      image: "/images/stock/photo-1587475240624-96f0e3dfd2bf.jpg",
       imageAlt: "Blinds fitted in a business/office setting",
       imageLeft: false,
     },

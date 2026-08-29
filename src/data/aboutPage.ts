@@ -5,14 +5,13 @@
  * WordPress site page.
  */
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 export const aboutHero = {
   badgeLabel: "About Advenco",
   heading: "Who We Are",
   subheading: "Advenco Window Blinds and Shutters",
   body: "Welcome to Advenco Window Blinds and Shutters, your premier destination for high-quality window coverings in the UK.",
-  image: `${WP}/2024/12/steptodown.com675276-768x512.webp`,
+  image: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
   imageAlt: "Elegant living room window dressed with Advenco blinds",
 };
 
@@ -93,12 +92,12 @@ export const aboutClosing: AboutSection = {
 };
 
 export const aboutSideImage = {
-  image: `${WP}/2024/12/Untitled-design-5-768x579.webp`,
+  image: "/images/stock/photo-1701836924593-40a62ee74184.jpg",
   imageAlt: "Advenco showroom display of blinds and shutters",
 };
 
 export const aboutBannerImage = {
-  image: `${WP}/2024/11/steptodown.com694616-768x456.webp`,
+  image: "/images/stock/photo-1587475240624-96f0e3dfd2bf.jpg",
   imageAlt: "Dark tier-on-tier shutters on an interior window with an ocean view",
 };
 

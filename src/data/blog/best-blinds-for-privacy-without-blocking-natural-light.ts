@@ -1,6 +1,5 @@
 import type { BlogPostDetail } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 const content: BlogPostDetail = {
   slug: "best-blinds-for-privacy-without-blocking-natural-light",
@@ -11,7 +10,7 @@ const content: BlogPostDetail = {
   metaDescription:
     "Sheer, top-down bottom-up, day and night, Venetian, vertical, and cellular blinds — the best ways to get privacy without sacrificing natural light.",
 
-  image: `${WP}/2025/05/Blinds-for-Privacy.webp`,
+  image: "/images/stock/photo-1758448756207-54505680d130.jpg",
   imageAlt: "Sheer blinds providing privacy without blocking light",
 
   introParagraphs: [

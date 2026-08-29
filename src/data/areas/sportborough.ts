@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-sportborough",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Sportborough",
   heroBody:
     "Nestled in the heart of Sportborough, where historic paths converge with contemporary marvels, stands a treasure unlike any other: Advenco Window Blinds and Shutters in Sportborough.",
-  heroImage: `${WP}/steptodown.com781237-768x486.webp`,
+  heroImage: "/images/stock/photo-1728532966669-cde5cd5886a6.jpg",
   heroImageAlt: "Warm wooden shutter slats beside a green plant",
 
   introHeading: "Revealing the Enchantment of Advenco Window Blinds and Shutters: More Than Window Coverings, Sportborough's Crown Jewels",
@@ -31,7 +30,7 @@ const content: TownPageContent = {
     {
       heading: "But Advenco Window Blinds and Shutters enchantment extends beyond cozy homes",
       body: "Your office windows aren't mere openings; they are gateways to success. Here, commercial blind solutions become your silent collaborators, crafting professional havens that mirror your brand's narrative. Picture sunlight filtering through adjustable Venetian blinds by Advenco Window Blinds and Shutters in Sportboroughs in conference rooms, fostering concentration and collaboration. Envision open-plan offices energized by motorized blinds by Advenco Window Blinds and Shutters in Sportboroughs that dance to your touch, adapting to the ever-changing rhythm of your workspace.",
-      image: `${WP}/Untitled-design-3-12-768x694.webp`,
+      image: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
       imageAlt: "Commercial blind solutions for a Sportborough business",
       imageLeft: false,
     },

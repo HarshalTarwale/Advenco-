@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/why-choose-advenco-window-blinds-and-shutters-in-uk-home-page.webp",
+        url: "/images/stock/photo-1745761264415-6acbdb47a0c7.jpg",
         width: 1200,
         height: 800,
       },
@@ -65,8 +65,8 @@ export const metadata: Metadata = {
     description: "Premium window blinds and shutters in the UK.",
   },
   icons: {
-    icon: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/cropped-favicon-32x32.webp",
-    apple: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/cropped-favicon-180x180.webp",
+    icon: "/images/2024/10/cropped-favicon-32x32.webp",
+    apple: "/images/2024/10/cropped-favicon-180x180.webp",
   },
 };
 

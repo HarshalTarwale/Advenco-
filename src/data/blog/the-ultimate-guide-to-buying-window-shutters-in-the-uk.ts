@@ -1,6 +1,5 @@
 import type { BlogPostDetail } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 const content: BlogPostDetail = {
   slug: "the-ultimate-guide-to-buying-window-shutters-in-the-uk",
@@ -11,7 +10,7 @@ const content: BlogPostDetail = {
   metaDescription:
     "Full height, tier-on-tier, café style, and tracked shutters — everything UK homeowners need to know before buying window shutters, from Advenco Blinds and Shutters.",
 
-  image: `${WP}/2025/07/july-blog-image-3.jpg`,
+  image: "/images/stock/photo-1728532966669-cde5cd5886a6.jpg",
   imageAlt: "Classic wood window shutters in a bright room",
 
   introParagraphs: [

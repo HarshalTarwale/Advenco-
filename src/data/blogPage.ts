@@ -7,7 +7,6 @@
  * the source site, not stock substitutes.
  */
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 export interface BlogPost {
   title: string;
@@ -24,7 +23,7 @@ export const blogHero = {
   heading: "The Advenco",
   subheading: "Journal",
   body: "Ideas, guides, and inspiration for dressing your windows — from choosing the right blinds and shutters to seasonal care and the latest trends across the UK.",
-  image: `${WP}/2025/09/advenco-sep-blog.jpg`,
+  image: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
   imageAlt: "Cozy living room with white plantation shutters open to a snowy garden",
 };
 
@@ -35,7 +34,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "There's something about bay windows that instantly adds charm to a home. They invite more natural light, create extra space, and give a room that timeless, elegant look. But here's...",
     category: "Blinds",
-    image: `${WP}/2025/09/unnamed-2.png`,
+    image: "/images/stock/photo-1603673319826-2f109cbf42aa.jpg",
     imageAlt: "Elegant bay window fitted with shutters",
   },
   {
@@ -44,7 +43,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "If there's one home feature that truly works year-round, it's window shutters. In the UK, we're no strangers to unpredictable weather. Some days the sun is blazing, other days it...",
     category: "Shutters",
-    image: `${WP}/2025/09/advenco-sep-blog.jpg`,
+    image: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
     imageAlt: "Living room with plantation shutters open to a snowy garden",
   },
   {
@@ -52,7 +51,7 @@ export const blogPosts: BlogPost[] = [
     slug: "add-blind-screens-to-your-bay-windows-for-extra-privacy",
     excerpt:
       "Bay windows are a beautiful feature in any UK home. They let in more natural light, open up your space, and create a cosy nook perfect for reading, relaxing, or...",
-    image: `${WP}/2025/09/unnamed-3.jpg`,
+    image: "/images/stock/photo-1696123460860-db4ba71573b8.jpg",
     imageAlt: "Bay window fitted with a blind screen",
   },
   {
@@ -61,7 +60,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "When it comes to styling your living room, sometimes it's not about big, expensive makeovers. It's often the little upgrades that make the biggest difference. One of those surprisingly powerful...",
     category: "Blinds & Shutters",
-    image: `${WP}/2025/08/unnamed-1.jpg`,
+    image: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
     imageAlt: "Living room styled with new window blinds",
   },
   {
@@ -70,7 +69,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Hey interior-lovers! If you're on a mission to bring stylish comfort into your living room, you've landed in the right place. We're Advenco Blinds & Shutters, proudly UK-based, specialising in...",
     category: "Blinds",
-    image: `${WP}/2025/08/advenco-blog-aug-1.webp`,
+    image: "/images/stock/photo-1748939832727-a2f0abdff540.jpg",
     imageAlt: "Living room window fitted with a sheer Roman blind",
   },
   {
@@ -78,7 +77,7 @@ export const blogPosts: BlogPost[] = [
     slug: "best-bedroom-window-blinds-for-a-cozy-and-stylish-look",
     excerpt:
       "Hey there, interior enthusiasts! If you've been hunting for the perfect bedroom window blinds, welcome home. Whether you're chasing that snug, stylish vibe or simply trying to block out the...",
-    image: `${WP}/2025/08/advenco-blog-aug-2.webp`,
+    image: "/images/stock/photo-1748939832727-a2f0abdff540.jpg",
     imageAlt: "Bedroom window fitted with cosy blinds",
   },
   {
@@ -87,7 +86,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "When it comes to updating your windows, it's easy to get lost in a sea of choices but if you're looking for a sleek, smart, and hassle-free solution, perfect fit...",
     category: "Blinds & Shutters",
-    image: `${WP}/2025/07/july-blog-image-4.webp`,
+    image: "/images/stock/photo-1696123460860-db4ba71573b8.jpg",
     imageAlt: "Perfect Fit blinds installed in a modern home",
   },
   {
@@ -96,7 +95,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Thinking of upgrading your home with window shutters but not sure where to begin? You're in the right place. Whether you're leaning towards a classic wood window shutter, considering modern...",
     category: "Blinds & Shutters",
-    image: `${WP}/2025/07/july-blog-image-3.jpg`,
+    image: "/images/stock/photo-1728532966669-cde5cd5886a6.jpg",
     imageAlt: "Classic wood window shutters in a bright room",
   },
   {
@@ -104,7 +103,7 @@ export const blogPosts: BlogPost[] = [
     slug: "perfect-fit-roller-blinds-for-every-space",
     excerpt:
       "Looking for roller blinds that slide in like they were born for your window? Say hello to perfect fit blinds. These sleek, frame-mounted roller blinds snap into place inside your...",
-    image: `${WP}/2025/05/Benefits-of-Shutters.webp`,
+    image: "/images/stock/photo-1757452608866-0b9c2f3e2d6b.jpg",
     imageAlt: "Perfect Fit roller blinds installed in a window frame",
   },
   {
@@ -113,7 +112,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Although window blinds are sometimes overlooked in terms of home décor, they can drastically change the atmosphere of a room. For window blinds trends, 2025 looks to be an interesting...",
     category: "Blinds",
-    image: `${WP}/2025/05/Window-Blinds-Trends-UK.webp`,
+    image: "/images/stock/photo-1758448756207-54505680d130.jpg",
     imageAlt: "Stylish window blinds representing 2025 trends",
   },
   {
@@ -122,7 +121,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "When it comes to choosing the perfect window covering for your home, two of the most popular options are blinds and shutters. Both have their own unique features, and making...",
     category: "Blinds & Shutters",
-    image: `${WP}/2025/05/Blinds-vs-Shutters.webp`,
+    image: "/images/stock/photo-1757359056339-22968344cce6.jpg",
     imageAlt: "Side-by-side comparison of blinds and shutters",
   },
   {
@@ -131,7 +130,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "When it comes to enhancing your home's style, comfort, and functionality, few things achieve this better than shutters. Whether you're considering plantation shutters to modernize your living room or classic...",
     category: "Shutters",
-    image: `${WP}/2025/05/Benefits-of-Shutters.webp`,
+    image: "/images/stock/photo-1757452608866-0b9c2f3e2d6b.jpg",
     imageAlt: "Plantation shutters installed in a modern living room",
   },
   {
@@ -140,7 +139,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "One of the toughest problems in interior design is striking the ideal mix between natural light and privacy. Although heavy drapes or blackout blinds guarantee privacy, they often leave rooms...",
     category: "Blinds",
-    image: `${WP}/2025/05/Blinds-for-Privacy.webp`,
+    image: "/images/stock/photo-1758448756207-54505680d130.jpg",
     imageAlt: "Sheer blinds providing privacy without blocking light",
   },
   {
@@ -149,7 +148,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Few things can compare to the impact of window shutters when it comes to giving your interiors a dash of classic elegance and functionality. They...",
     category: "Shutters",
-    image: `${WP}/2025/04/Window-Shutters.webp`,
+    image: "/images/stock/photo-1748939832727-a2f0abdff540.jpg",
     imageAlt: "Window shutters fitted across different rooms of a house",
   },
   {
@@ -158,7 +157,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Few solutions are as classic and practical as window shutters when it comes to improving the appearance, seclusion, and energy efficiency of your house. These...",
     category: "Shutters",
-    image: `${WP}/2025/04/ChatGPT-Image-Apr-21-2025-05_07_17-PM.png`,
+    image: "/images/stock/photo-1758448756207-54505680d130.jpg",
     imageAlt: "Guide illustration of shutter styles and materials",
   },
   {
@@ -167,7 +166,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Selecting the correct blinds and shutters is rather important when trying to improve the appearance and utility of your house. They not only bring privacy and style but also management...",
     category: "Blinds & Shutters",
-    image: `${WP}/2025/03/Right-Blinds-Shutters-%E2%80%93-A-Complete-Guide-by-Advenco-Blinds.jpg`,
+    image: "/images/stock/photo-1757359056339-22968344cce6.jpg",
     imageAlt: "Guide to choosing the right blinds and shutters",
   },
   {
@@ -176,7 +175,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Regarding improving the insulation, security, and appearance of your house, shutters for windows UK are a great option. There are lots of choices to fit every requirement and budget whether...",
     category: "Shutters",
-    image: `${WP}/2025/03/Best-Shutters-for-Windows-in-the-UK-%E2%80%93-Top-Picks-by-Advenco-Blinds.jpg`,
+    image: "/images/stock/photo-1758448756207-54505680d130.jpg",
     imageAlt: "Top shutter picks for UK windows",
   },
 ];

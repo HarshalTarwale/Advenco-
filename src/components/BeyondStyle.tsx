@@ -98,7 +98,7 @@ export default function BeyondStyle() {
             {/* Left border accent using brand navy */}
             <div className="relative overflow-hidden rounded-sm border-l-4 border-[#234896]">
               <Image
-                src="https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/advenco-blind-home-page-expert-installation.webp"
+                src="/images/stock/photo-1757452608866-0b9c2f3e2d6b.jpg"
                 alt="Kitchen with beautiful plantation shutters from Advenco"
                 width={700}
                 height={470}

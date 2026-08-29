@@ -24,10 +24,10 @@ export const motorizedBlindsPages: Record<string, CommercialBlindPageContent> = 
       "Advenco Window Blinds and Shutters is at the forefront of this revolution, offering cutting-edge solutions that combine functionality, elegance, and ease of use. Let's dive into the benefits and features of these innovative window treatments.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1743689377719-76800a2143fe?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1743689377719-76800a2143fe.jpg",
     heroImageAlt: "Dark modern kitchen window fitted with a zebra-stripe day and night blind",
     sideImage:
-      "https://images.unsplash.com/photo-1611085904467-5f0c11f93f49?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1611085904467-5f0c11f93f49.jpg",
     sideImageAlt: "Day and night blinds fitted to windows in a sunlit balcony room",
     importanceLabel: "What Are These Blinds",
     importanceHeadingLines: ["Alternating Sheer and", "Opaque Fabric Stripes"],
@@ -97,7 +97,7 @@ export const motorizedBlindsPages: Record<string, CommercialBlindPageContent> = 
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1613020740416-eae8945bdcdb?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1613020740416-eae8945bdcdb.jpg",
     bannerImageAlt: "Day and night blind above a desk workspace catching afternoon light",
     closingHeading: "Transform Your Home Today",
     closingBody: [
@@ -118,10 +118,10 @@ export const motorizedBlindsPages: Record<string, CommercialBlindPageContent> = 
       "Our Roman motorised blinds in UK not only enhance the aesthetics of your space but also provide unparalleled ease of use, making them a perfect addition to any home in the UK.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1704824351530-d6567e7adba8?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1704824351530-d6567e7adba8.jpg",
     heroImageAlt: "Roman blind fitted above a farmhouse window with a cat on the sill",
     sideImage:
-      "https://images.unsplash.com/photo-1705304367364-05fa6db71329?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1705304367364-05fa6db71329.jpg",
     sideImageAlt: "Warm Roman fold blind glowing over a bed at dusk",
     importanceLabel: "Why Choose Roman Motorised Blinds",
     importanceHeadingLines: ["Sophisticated Design,", "Effortless Control"],
@@ -185,7 +185,7 @@ export const motorizedBlindsPages: Record<string, CommercialBlindPageContent> = 
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1732973708124-444694c08759?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1732973708124-444694c08759.jpg",
     bannerImageAlt: "Roman fold blind above a windowsill with houseplants",
     closingHeading: "Upgrade Your Home Today",
     closingBody: [
@@ -206,10 +206,10 @@ export const motorizedBlindsPages: Record<string, CommercialBlindPageContent> = 
       "Welcome to the world of roller motorised blinds in UK by Advenco Window Blinds and Shutters in the UK.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1776261293170-66fd3b09273e?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1776261293170-66fd3b09273e.jpg",
     heroImageAlt: "Modern grey roller blind fitted above a black-framed window",
     sideImage:
-      "https://images.unsplash.com/photo-1712149456089-de1ae3471c6c?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1712149456089-de1ae3471c6c.jpg",
     sideImageAlt: "Roller blind fitted to a window overlooking green foliage",
     importanceLabel: "What Are These Blinds",
     importanceHeadingLines: ["Traditional Roller Simplicity,", "Modern Technology"],
@@ -266,7 +266,7 @@ export const motorizedBlindsPages: Record<string, CommercialBlindPageContent> = 
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1691809159150-5381f57c6f46?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1691809159150-5381f57c6f46.jpg",
     bannerImageAlt: "Hand operating the chain on a roller blind against bright daylight",
     closingHeading: "Contact Us Today!",
     closingBody: [

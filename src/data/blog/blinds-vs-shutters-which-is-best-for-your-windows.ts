@@ -1,6 +1,5 @@
 import type { BlogPostDetail } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 const content: BlogPostDetail = {
   slug: "blinds-vs-shutters-which-is-best-for-your-windows",
@@ -11,7 +10,7 @@ const content: BlogPostDetail = {
   metaDescription:
     "Aesthetic appeal, light control, privacy, durability, insulation, and cost — a full comparison of blinds vs shutters to help you choose the right fit.",
 
-  image: `${WP}/2025/05/Blinds-vs-Shutters.webp`,
+  image: "/images/stock/photo-1757359056339-22968344cce6.jpg",
   imageAlt: "Side-by-side comparison of blinds and shutters",
 
   introParagraphs: [

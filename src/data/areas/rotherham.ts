@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-rotherham",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Rotherham",
   heroBody:
     "Gone are the days of cookie-cutter window treatments. In Rotherham, Advenco Window Blinds and Shutters elevates your windows from mere openings to canvases for expressing your unique home's personality.",
-  heroImage: `${WP}/steptodown.com791645-768x502.webp`,
+  heroImage: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
   heroImageAlt: "Blue café style shutters on a white house exterior",
 
   introHeading: "Conquer Sunlight with Style: Unveiling By Advenco Window Blinds and Shutters in Rotherham",
@@ -27,7 +26,7 @@ const content: TownPageContent = {
     {
       heading: "Unveiling Your Uniqueness",
       body: "Every Rotherham home is like a fingerprint, unique in its architectural charm and functional needs. That's why we offer a bespoke blinds service, where we collaborate with you to design and craft blinds that perfectly complement your space, be it a charming Victorian bay window, a modern skylight, or a quirky corner nook. Let our expert team transform your vision into reality with blinds in Rotherham that are as individual as your home. At Advenco Window Blinds and Shutters in Rotherham, we believe your windows deserve to sing in harmony with your interior design. Our bespoke service at Advenco Window Blinds and Shutters in Rotherham lets you orchestrate every detail, from fabric textures and colours to functionality and operation. Picture sleek roller blinds echoing the clean lines of your modern living room, or wood venetians adding warmth to your rustic kitchen. The possibilities are endless, allowing your windows to tell your design story with captivating flair.",
-      image: `${WP}/steptodown.com216426-768x431.webp`,
+      image: "/images/stock/photo-1653134641891-118e3094fc42.jpg",
       imageAlt: "Bespoke made-to-measure blinds in a Rotherham home",
       imageLeft: true,
     },

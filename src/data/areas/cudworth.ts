@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-in-cudworth",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Cudworth",
   heroBody:
     "When it comes to your home, you crave a space that reflects your own unique flair, a haven of comfort and personalized style. Advenco Window Blinds and Shutters in Cudworth transforms your windows into the crown jewels of your Cudworth castle.",
-  heroImage: `${WP}/steptodown.com781237-768x486.webp`,
+  heroImage: "/images/stock/photo-1728532966669-cde5cd5886a6.jpg",
   heroImageAlt: "Warm wooden shutter slats beside green plant",
 
   introHeading: "Cudworth's Window Dressing Revolution: Unveiling Advenco Window Blinds and Shutters",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Bespoke Magic for Your Home and for Every Cudworth Story",
       body: "Light & Privacy in Perfect Harmony: Roller blinds by Advenco Window Blinds and Shutters in Cudworth, with their breathtaking spectrum of fabrics, let you bask in the golden glow or create a cocoon of privacy, ideal for movie nights or restful slumber. For grand windows and patio doors, let vertical blinds by Advenco Window Blinds in Cudworth take centre stage. Their clean lines and effortless control offer unparalleled sun protection and privacy, while still letting you savor the Cudworth landscape. In the heart of your home, Venetian blinds by Advenco Window Blinds in Cudworth reign supreme. Their timeless elegance and adjustable slats add a touch of sophistication, whether you choose sleek aluminium for a modern vibe or warm wood tones for a touch of tradition.",
-      image: `${WP}/steptodown.com178393-768x495.webp`,
+      image: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
       imageAlt: "Blinds bringing light and privacy to a Cudworth home",
       imageLeft: true,
     },
     {
       heading: "Beyond the Home: Transforming Cudworth's Businesses",
       body: "First Impressions that Last: Make a statement with your window treatments. Venetian blinds by Advenco Window Blind sand Shutters in Cudworth lend a touch of professionalism to offices, while shutters by Advenco Window Blinds and Shutters in Cudworth exude luxury in boutique shops. We offer a range of materials and colours to complement your brand and create an atmosphere that inspires and impresses. Venetian blinds by Advenco Window Blind sand Shutters in Cudworth aren't just aesthetically pleasing; they're masters of light control. Their adjustable slats create the perfect environment for presentations or focused work, while still allowing a glimpse of the vibrant Cudworth streets. Shutters by Advenco Window Blinds and Shutters in Cudworth aren't just for windows; they're architectural elements that add depth and dimension to your business. Their exceptional insulation and noise reduction create a haven of comfort and productivity, perfect for conference rooms and executive offices.",
-      image: `${WP}/steptodown.com302502-768x577.webp`,
+      image: "/images/stock/photo-1600493867499-4882d15a30ad.jpg",
       imageAlt: "Commercial blinds transforming a Cudworth business",
       imageLeft: false,
     },

@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-bradford",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Bradford",
   heroBody:
     "Windows are the eyes of your home, letting in light and showcasing your unique style. Nestled in the heart of Bradford, Advenco Window Blinds and Shutters is a name synonymous with quality, style, and functionality.",
-  heroImage: `${WP}/steptodown.com791645-768x502.webp`,
+  heroImage: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
   heroImageAlt: "Blue café style shutters on a white house exterior",
 
   introHeading: "Bringing Elegance and Control to Bradford Homes: A Dive into Advenco Window Blinds and Shutters",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Invest in Your Home, Invest in Advenco Window Blinds and Shutters",
       body: "Advenco Window Blinds and Shutters are more than just window coverings; we're an investment in your Bradford lifestyle. We offer quality, style, and functionality, transforming your house into a home that reflects your unique personality. So, ditch the drafty curtains and let Advenco Window Blinds and Shutters in Bradford brighten your Bradford home with the perfect blend of light, privacy, and style. Advenco Window Blinds and Shutter's expertise extends beyond living rooms and bedrooms. Find the perfect window blinds and shutter for your Bradford kitchen, bathroom, or even conservatory by Advenco Window Blinds in Bradford. Advenco's moisture-resistant blinds and shutters are ideal for humid environments, while their child-safe options offer peace of mind for families.",
-      image: `${WP}/steptodown.com847393-768x512.webp`,
+      image: "/images/stock/photo-1710773697318-d50ff2492556.jpg",
       imageAlt: "Blinds fitted in a Bradford home",
       imageLeft: true,
     },
     {
       heading: "Privacy and Productivity: Advenco Window Blinds and Shutter's for Bradford's Busy Offices",
       body: "Whether you're a tech startup or a bustling law firm, privacy and focus are key in any Bradford office. Advenco's Roller blinds in Bradford offer a clean, minimalist aesthetic and come in various materials, from blackout fabrics for complete concentration to light-filtering options for maintaining a connection to the outside world. For a touch of luxury, consider plantation shutters by Advenco Window Blinds and Shutters in Bradford, which exude timeless elegance and superior light control. The right blinds and shutters by Advenco Window Blinds and Shutters in Bradford can transform your Bradford eatery into a haven for delectable dining. Advenco's roman blinds in Bradford add a touch of warmth and texture, ideal for creating an intimate atmosphere. For larger spaces, panel blinds offer a dramatic and versatile option, allowing you to section off areas or create a seamless flow.",
-      image: `${WP}/steptodown.com802521-768x512.webp`,
+      image: "/images/stock/photo-1653134641891-118e3094fc42.jpg",
       imageAlt: "Roller blinds in a Bradford office",
       imageLeft: false,
     },

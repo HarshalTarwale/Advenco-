@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-pontefract",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Pontefract",
   heroBody:
     "Advenco Window Blinds and Shutters is ready to weave a tapestry of light, privacy, and undeniable elegance into your Pontefract haven.",
-  heroImage: `${WP}/steptodown.com694616-768x456.webp`,
+  heroImage: "/images/stock/photo-1587475240624-96f0e3dfd2bf.jpg",
   heroImageAlt: "Dark tier-on-tier shutters on an interior window with an ocean view",
 
   introHeading: "Pontefract Perfected: Unveiling the Beauty and Benefits of Advenco Window Blinds and Shutters",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "More Than a Room, a Canvas: Advenco Window Blinds and Shutters for Every Pontefract Persona",
       body: "In Pontefract, where history whispers through cobbled streets and character peeks from every window, your home deserves more than just coverings. It craves a canvas. Advenco Window Blinds and Shutters in Pontefract helps you paint that masterpiece, offering a kaleidoscope of styles to match every Pontefract persona. Each room whispers a different story. Advenco Window Blinds in Pontefract helps you find the perfect blind to orchestrate the mood. Imagine sunlight through sleek Venetian blinds by Advenco Window Blinds in Pontefract, painting playful patterns on your living room walls. Or picture the soft whisper of pleated fabrics in your bedroom, lulling you into a gentle slumber. Craving drama? Blackout roller blinds by Advenco Window Blinds in Pontefract orchestrate cinematic movie nights, while vertical blinds by Advenco Window Blinds in Pontefract effortlessly manage light in your home office, boosting productivity with each tilt. Advenco Window Blinds and Shutters in Pontefract understands that windows aren't just openings, they're expressions of your Pontefract soul. So, unleash your inner artist and dress your windows with timeless beauty and effortless functionality.",
-      image: `${WP}/steptodown.com779071-768x540.webp`,
+      image: "/images/stock/photo-1701836924593-40a62ee74184.jpg",
       imageAlt: "Living room styled with Venetian blinds in a Pontefract home",
       imageLeft: true,
     },
     {
       heading: "Beyond the Home, Beyond Expectations: Elevate Your Pontefract Business with Advenco Window Blinds and Shutters in Pontefract",
       body: "Forget flimsy office blinds that whisper \"mediocrity.\" In Pontefract, where commerce thrives and innovation reigns, your window treatments should be as sharp as your suits. Enter Advenco Window Blinds and Shutters in Pontefract, your partner in crafting commercial spaces that impress clients and empower employees. Imagine sleek, modern blinds by Advenco Window Blinds in Pontefract reflecting Pontefract's sunshine, creating a cool and inviting workspace in your tech startup. Or picture the confident lines of vertical blinds by Advenco Window Blinds and Shutters in Pontefract managing light in your architect's studio, fostering a sense of precision and focus. Advenco Window Blinds and Shutters in Pontefract goes beyond aesthetics. Blinds and Shutters by Advenco Window Blinds and Shutters in Pontefract reduce reliance on air conditioning, saving energy and your Pontefract business money. They reflect heat away from your building, keeping it cool in summer and warmer in winter. This not only minimizes your environmental footprint but also boosts employee comfort and productivity. With Advenco Window Blinds and Shutters in Pontefract, you can transform your Pontefract business into a space that speaks volumes about your brand. So, ditch the ordinary and dress your windows with elegance and performance. Let Advenco Window Blinds and Shutters in Pontefract help you elevate your business beyond expectations, just like Pontefract itself.",
-      image: `${WP}/steptodown.com334518.webp`,
+      image: "/images/stock/photo-1587475240624-96f0e3dfd2bf.jpg",
       imageAlt: "Modern office space fitted with vertical blinds in Pontefract",
       imageLeft: false,
     },

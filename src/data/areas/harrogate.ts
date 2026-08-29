@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-harrogate",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Harrogate",
   heroBody:
     "Advenco Window Blinds and Shutters in Harrogate isn't just a shop; it's an experience. Step inside and be greeted by a world of possibilities, where timeless classics mingle with modern marvels.",
-  heroImage: `${WP}/steptodown.com694616-768x456.webp`,
+  heroImage: "/images/stock/photo-1587475240624-96f0e3dfd2bf.jpg",
   heroImageAlt: "Dark tier-on-tier shutters on an interior window with an ocean view",
 
   introHeading: "Harrogate's Window Dressing Delight: Unveiling the Elegance of Advenco Window Blinds and Shutters",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Beyond the Living Room: Dining with Delight",
       body: "Advenco Blinds and Shutter's magic extends beyond living rooms and bedrooms. Find the perfect blinds by Advenco Window Blinds in Harrogate for your kitchen, bathroom, or even conservatory. Moisture resistant options ensure functionality in humid environments, while child-safe blinds by Advenco Window Blinds in Harrogate offer peace of mind for families. Transform your Harrogate eatery into a haven for delectable dining with Advenco Window Blinds and Shutters in Harrogate. Roman blinds by Advenco Window Blinds in Harrogate add warmth and texture, creating an intimate atmosphere. For larger spaces, panel blinds by Advenco Window Blinds in Harrogate offer a dramatic and versatile option, allowing you to section off areas or create a seamless flow. For that coveted outdoor patio vibe, consider woven blinds or solar shades by Advenco Window Blinds in Harrogate that filter harsh sunlight while letting in the fresh air.",
-      image: `${WP}/steptodown.com648926-768x553.webp`,
+      image: "/images/stock/photo-1748939832727-a2f0abdff540.jpg",
       imageAlt: "Blinds fitted in a home dining space",
       imageLeft: true,
     },
     {
       heading: "Privacy & Productivity for Busy Offices",
       body: "Harrogate's bustling offices demand both privacy and focus. Advenco Window Blinds and Shutters in Harrogate understands this, offering roller blinds that boast a clean aesthetic and come in various materials. Blackout fabrics by Advenco Window Blinds in Harrogate ensure complete concentration, while light-filtering options maintain a connection to the outside world. For a touch of luxury, consider plantation shutters by Advenco Window Blinds and Shutters in Harrogate, exuding timeless elegance and superior light control. Tech startups or bustling law firms – for Harrogate's busy offices, Advenco Window Blinds and Shutters in Harrogate offer privacy and focus symphonies. Roller blinds by Advenco Window Blinds and Shutters in Harrogate in light-filtering fabrics maintain a connection to the outside world, while plantation shutters by Advenco Window Blinds and Shutters in Harrogate exude timeless elegance with superior light control.",
-      image: `${WP}/steptodown.com832930-768x576.webp`,
+      image: "/images/stock/photo-1757452608866-0b9c2f3e2d6b.jpg",
       imageAlt: "Blinds fitted in a business/office setting",
       imageLeft: false,
     },

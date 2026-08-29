@@ -88,10 +88,10 @@ export const commercialBlindsPages: Record<string, CommercialBlindPageContent> =
       "At Advenco Blinds and Shutters, we understand the unique needs of healthcare facilities across the UK and are committed to providing high-quality, functional, and stylish window blinds that cater to these requirements.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1519494026892-80bbd2d6fd0d.jpg",
     heroImageAlt: "Modern hospital corridor with clean, professional window blinds",
     sideImage:
-      "https://images.unsplash.com/photo-1706521778346-89b688c68b71?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1706521778346-89b688c68b71.jpg",
     sideImageAlt: "Bright hospital consultation room with a large window",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["Why Window Blinds Matter", "in Hospitals"],
@@ -153,7 +153,7 @@ export const commercialBlindsPages: Record<string, CommercialBlindPageContent> =
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1587351021355-a479a299d2f9?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1587351021355-a479a299d2f9.jpg",
     bannerImageAlt: "Hospital ward corridor fitted with easy-clean window blinds",
     closingHeading: "Improve Your Patient Care with Blinds by Advenco Blinds in UK",
     closingBody: [
@@ -174,10 +174,10 @@ export const commercialBlindsPages: Record<string, CommercialBlindPageContent> =
       "Advenco Blinds and Shutters, a leading UK provider, offers a wide range of commercial window blinds in UK that cater to the specific needs of commercial buildings. Let's explore how Advenco's products can transform your workspace and boost your business appeal.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1497366811353-6870744d04b2.jpg",
     heroImageAlt: "Modern commercial office interior with professional window blinds",
     sideImage:
-      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1497366754035-f200968a6e72.jpg",
     sideImageAlt: "Commercial office window fitted with professional blinds",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["Why Choose Window Blinds", "for Commercial Buildings?"],
@@ -239,7 +239,7 @@ export const commercialBlindsPages: Record<string, CommercialBlindPageContent> =
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1524758631624-e2822e304c36.jpg",
     bannerImageAlt: "Open-plan commercial office space with window blinds fitted",
     closingHeading: "Boost Your Business with Advenco Blinds and Shutters",
     closingBody: [
@@ -260,10 +260,10 @@ export const commercialBlindsPages: Record<string, CommercialBlindPageContent> =
       "At Advenco Blinds and Shutters in UK, we understand the unique needs of educational institutions in the UK, and we are dedicated to providing top-notch window blinds in UK that enhance both functionality and aesthetics.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1580582932707-520aed937b7b.jpg",
     heroImageAlt: "Bright school classroom with professional window blinds",
     sideImage:
-      "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1509062522246-3755977927d7.jpg",
     sideImageAlt: "School classroom window fitted with blinds",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["Why Window Blinds Matter", "in Schools"],
@@ -326,7 +326,7 @@ export const commercialBlindsPages: Record<string, CommercialBlindPageContent> =
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1604134967494-8a9ed3adea0d?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1604134967494-8a9ed3adea0d.jpg",
     bannerImageAlt: "Empty school classroom with window blinds visible in the background",
     closingHeading: "Enhance Your School's Environment with Advenco",
     closingBody: [
@@ -347,10 +347,10 @@ export const commercialBlindsPages: Record<string, CommercialBlindPageContent> =
       "Advenco Blinds and Shutters in UK offers a comprehensive range of high-quality window blinds tailored to meet the unique needs of hotels, bars, and restaurants across the UK. Let's explore how our bespoke solutions can elevate your establishment.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1618773928121-c32242e63f39.jpg",
     heroImageAlt: "Elegant hotel room with professional window blinds",
     sideImage:
-      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1611892440504-42a792e24d32.jpg",
     sideImageAlt: "Hotel window fitted with premium blinds",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["Why Window Blinds Matter", "in the Hospitality Industry"],
@@ -437,7 +437,7 @@ export const commercialBlindsPages: Record<string, CommercialBlindPageContent> =
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1582719478250-c89cae4dc85b.jpg",
     bannerImageAlt: "Elegant hotel interior with window blinds fitted throughout",
     closingHeading: "Elevate Your Space with Advenco Blinds and Shutters",
     closingBody: [
@@ -458,10 +458,10 @@ export const commercialBlindsPages: Record<string, CommercialBlindPageContent> =
       "At Advenco Blinds and Shutters, we understand the unique needs of educational institutions in the UK. Our comprehensive range of window blinds for Colleges and Universities in the UK is designed to enhance both aesthetics and functionality, creating a conducive learning environment. Let's explore why window blinds for Colleges and Universities in the UK are an essential addition to colleges and universities and how Advenco can provide tailored solutions.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1606761568499-6d2451b23c66.jpg",
     heroImageAlt: "University lecture hall with professional window blinds",
     sideImage:
-      "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1519452575417-564c1401ecc0.jpg",
     sideImageAlt: "College building window fitted with blinds",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["Why Window Blinds are Essential", "for Educational Institutions"],
@@ -532,7 +532,7 @@ export const commercialBlindsPages: Record<string, CommercialBlindPageContent> =
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1541829070764-84a7d30dd3f3.jpg",
     bannerImageAlt: "University lecture hall with large windows fitted with blinds",
     closingHeading: "Create the Ideal Environment for Education",
     closingBody: [

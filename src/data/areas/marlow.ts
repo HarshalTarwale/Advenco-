@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-marlow",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Marlow",
   heroBody:
     "Marlow deserves homes that sing with warmth and personality. Advenco Window Blinds and Shutters in Marlow is ready to transform your space with artistry and functionality.",
-  heroImage: `${WP}/steptodown.com781237-768x486.webp`,
+  heroImage: "/images/stock/photo-1728532966669-cde5cd5886a6.jpg",
   heroImageAlt: "Warm wooden shutter slats beside a green plant",
 
   introHeading: "Bathed in Warmth, Cloaked in Privacy: Elevate Your Marlow Space with Advenco Window Blinds and Shutters",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Home Sweet Home: Blinds for Every Room and Style",
       body: "Your home is your sanctuary, a place to reflect your personality and unwind from the outside world. The right window treatments can play a huge role in creating the perfect atmosphere in each room, influencing light, privacy, and overall style. That's why Advenco Window Blinds in Marlow is here to help you find the ideal blinds for every room and style in your home! Sunlight streams through sleek metal Venetian blinds by Advenco Window Blinds in Marlow, casting playful patterns on your living room walls. Or picture soft, pleated fabrics diffusing the morning glow in your bedroom, creating a haven for peaceful slumber. Craving a touch of drama? Blackout roller blinds by Advenco Window Blinds in Marlow can turn movie nights into cinematic escapes, while vertical blinds by Advenco Window Blinds and Shutters in Marlow effortlessly manage light in your home office, boosting productivity with each tilt.",
-      image: `${WP}/steptodown.com377032-768x512.webp`,
+      image: "/images/stock/photo-1757359056339-22968344cce6.jpg",
       imageAlt: "Living room styled with Venetian blinds in a Marlow home",
       imageLeft: true,
     },
     {
       heading: "Beyond the Boardroom: Blinds That Elevate Your Marlow Business",
       body: "Forget flimsy blinds that scream \"office drone.\" In Marlow, where innovation thrives and professionalism reigns, window dressings should be as sharp as your suits. Enter Advenco Window Blinds and Shutters in Marlow, your trusted partner in crafting commercial spaces that impress clients and empower employees. Reduce reliance on air conditioning and save on energy costs with these clever window coverings. They reflect heat away from your building, keeping it cool in summer and warmer in winter. Not only does this translate to comfort for your team, but it also minimizes your environmental footprint and lowers your energy bills – a win-win for your Marlow business and the planet.",
-      image: `${WP}/steptodown.com892824-768x512.webp`,
+      image: "/images/stock/photo-1757359056339-22968344cce6.jpg",
       imageAlt: "Office space fitted with commercial window blinds in Marlow",
       imageLeft: false,
     },

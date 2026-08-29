@@ -6,7 +6,6 @@
  * same simple heading + paragraph shape, rendered through LegalPage.
  */
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 export interface LegalSection {
   heading?: string;
@@ -27,7 +26,7 @@ export interface LegalPageContent {
 export const privacyPolicy: LegalPageContent = {
   badgeLabel: "Legal",
   heading: "Privacy Policy",
-  heroImage: `${WP}/steptodown.com560336-768x512.webp`,
+  heroImage: "/images/stock/photo-1696123460860-db4ba71573b8.jpg",
   heroImageAlt: "Dark exterior shutters on a modern apartment balcony",
   metaTitle: "Privacy Policy | Advenco Blinds and Shutters",
   metaDescription:
@@ -101,7 +100,7 @@ export const privacyPolicy: LegalPageContent = {
 export const termsAndConditions: LegalPageContent = {
   badgeLabel: "Legal",
   heading: "Terms and Conditions",
-  heroImage: `${WP}/steptodown.com781237-768x486.webp`,
+  heroImage: "/images/stock/photo-1728532966669-cde5cd5886a6.jpg",
   heroImageAlt: "Warm wooden shutter slats beside a green plant",
   metaTitle: "Terms & Conditions | Advenco Blinds and Shutters",
   metaDescription:

@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-dronfield",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Dronfield",
   heroBody:
     "Fed up with plain windows or struggling with outdated blinds? Advenco Window Blinds and Shutters in Dronfield's top choice for window treatments, is ready to revamp your spaces with both style and functionality.",
-  heroImage: `${WP}/steptodown.com791645-768x502.webp`,
+  heroImage: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
   heroImageAlt: "Blue café style shutters on white house exterior",
 
   introHeading: "Revitalize Your Windows with Advenco Window Blinds and Shutters: Your Ultimate Dronfield Destination",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Home Sweet Home: Blinds for Every Room and Style",
       body: "Your home deserves to be a work of art, and bare windows can leave it feeling incomplete. Advenco Window Blinds and Shutters in Dronfield is here to add the strokes of beauty and practicality, transforming your windows into gateways to your interior fantasies. Picture sunlight gracefully illuminating sleek metal Venetian blinds by Advenco Window Blinds and Shutters in your living area or imagine soft, pleated fabrics diffusing the morning light in your bedroom for a peaceful retreat. Craving some drama? Blackout roller blinds by Advenco Window Blinds and Shutters in Dronfield turn movie nights into cinematic experiences. Yet, it isn't just about aesthetics; it's about performance too. Steam effortlessly dissipates from waterproof PVC blinds in your bathroom, while vertical blinds in your home office masterfully control light, enhancing productivity with each adjustment. Even your conservatory becomes a haven of comfort with specialized blinds regulating temperature and shielding you from harsh UV rays.",
-      image: `${WP}/Untitled-design-5-5-768x579.webp`,
+      image: "/images/stock/photo-1688818228795-d465bf6e3c35.jpg",
       imageAlt: "Blinds fitted in a home living space",
       imageLeft: true,
     },
     {
       heading: "Commercial Allure: Blinds Crafted to Impress",
       body: "First impressions count in business, and your office space is often the initial glimpse clients have of your brand. Bare windows might suffice in a minimalist cafe, but in most professional settings, they can leave an impression of incompleteness or neglect. Enter Advenco Window Blinds and Shutters in Dronfield, the experts in window dressing who elevate your business with blinds that are as practical as they are impressive. Our extensive collection extends beyond the practical, offering sleek vertical blinds for optimal light control in large conference rooms and durable PVC options for high-traffic areas like reception desks. Yet, we also showcase elegant metal Venetian blinds that add a touch of sophistication to executive offices and pleated fabrics that create a welcoming atmosphere in client meeting rooms.",
-      image: `${WP}/steptodown.com302502-768x577.webp`,
+      image: "/images/stock/photo-1600493867499-4882d15a30ad.jpg",
       imageAlt: "Blinds fitted in a commercial office space",
       imageLeft: false,
     },

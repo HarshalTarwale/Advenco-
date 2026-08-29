@@ -1,6 +1,5 @@
 import type { BlogPostDetail } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 const content: BlogPostDetail = {
   slug: "best-bedroom-window-blinds-for-a-cozy-and-stylish-look",
@@ -10,7 +9,7 @@ const content: BlogPostDetail = {
   metaDescription:
     "Blackout rollers, Roman blinds, honeycomb shades, and smart blinds — find the best bedroom window blinds for comfort, style, and better sleep.",
 
-  image: `${WP}/2025/08/advenco-blog-aug-2.webp`,
+  image: "/images/stock/photo-1748939832727-a2f0abdff540.jpg",
   imageAlt: "Bedroom window fitted with cosy blinds",
 
   introParagraphs: [

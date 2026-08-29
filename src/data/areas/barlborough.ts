@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-barlborough",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Barlborough",
   heroBody:
     "Gone are the days of cookie-cutter window treatments. In Barlborough, Advenco Window Blinds and Shutters elevates your windows from mere openings to canvases for expressing your unique home's personality.",
-  heroImage: `${WP}/steptodown.com781237-768x486.webp`,
+  heroImage: "/images/stock/photo-1728532966669-cde5cd5886a6.jpg",
   heroImageAlt: "Warm wooden shutter slats beside a green plant",
 
   introHeading: "Conquer Sunlight with Style: Unveiling Advenco Window Blinds and Shutters in Barlborough",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Unveiling Your Uniqueness",
       body: "Every Barlborough home is like a fingerprint, unique in its architectural charm and functional needs. Bespoke services allow collaboration on design details including fabric textures and colours to functionality and operation. Examples include roller blinds for modern spaces and wood venetians for rustic kitchens.",
-      image: `${WP}/Untitled-design-20-768x579.webp`,
+      image: "/images/stock/photo-1603673319826-2f109cbf42aa.jpg",
       imageAlt: "Modern living space fitted with roller blinds",
       imageLeft: false,
     },
     {
       heading: "Beyond the Home: Elevating Your Barlborough Business",
       body: "Commercial applications are addressed, with a focus on creating a productive and professional environment. Services include durable blinds offering exceptional glare control, heat regulation, and privacy, suited for meeting rooms and open-plan offices.",
-      image: `${WP}/steptodown.com281308-768x512.webp`,
+      image: "/images/stock/photo-1710773697318-d50ff2492556.jpg",
       imageAlt: "Office meeting room fitted with blinds",
       imageLeft: true,
     },

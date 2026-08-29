@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-high-wycombe-2",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in High Wycombe",
   heroBody:
     "Nestled in the heart of High Wycombe, where charming streets meet modern marvels, lies a gem unlike any other: Advenco Window Blinds and Shutters in High Wycombe.",
-  heroImage: `${WP}/steptodown.com781237-768x486.webp`,
+  heroImage: "/images/stock/photo-1728532966669-cde5cd5886a6.jpg",
   heroImageAlt: "Warm wooden shutter slats beside a green plant",
 
   introHeading: "Unveiling the Magic of Advenco Window Blinds and Shutters: More Than Window Dressings, High Wycombe's Crown Jewels",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "A Symphony of Light and Comfort",
       body: "Imagine waking to a gentle symphony of light. Sunlight dances through a vibrant tapestry of fabrics, casting playful whispers on your walls. It's not just decoration; it's Advenco Window Blinds and shutter's artistry, weaving comfort, and control into every thread of your home. Blackout blinds by Advenco Window Blinds and Shutters in High Wycombe cloak your movie nights in luxurious velvet darkness, while translucent Roman blinds by Advenco Window Blinds in High Wycombe paint your child's room in the gentle blush of dawn. Each window becomes a stage, where you set the scene for light and privacy. Wake up to the sun's soft serenade through sheer fabrics or lose yourself in a good book bathed in the golden warmth of wood-toned Venetian blinds by Advenco Window Blinds in High Wycombe. At Advenco Window Blinds and Shutters in High Wycombe, comfort isn't an afterthought; it's the very rhythm of your sanctuary.",
-      image: `${WP}/steptodown.com546244-768x512.webp`,
+      image: "/images/stock/photo-1701836924593-40a62ee74184.jpg",
       imageAlt: "Blinds bringing light and comfort to a High Wycombe home",
       imageLeft: true,
     },
     {
       heading: "Beyond Cosy Homes: Tailored Solutions for Every Space",
       body: "But Advenco Window Blinds and shutter's magic extends beyond cosy homes. Your office windows are more than just openings; they're portals to success. Here, commercial blind solutions become your silent partners, creating professional havens that reflect your brand's story. Picture sunlight filtering through adjustable Venetian blinds by Advenco Window Blinds and Shutters in High Wycombe in conference rooms, fostering focus and collaboration. Imagine open-plan offices empowered by motorized blinds available at Advenco Window Blinds and Shutters in High Wycombe that dance to your touch, adapting to the ever-changing symphony of your workspace.",
-      image: `${WP}/steptodown.com167136-768x512.webp`,
+      image: "/images/stock/photo-1758448756207-54505680d130.jpg",
       imageAlt: "Commercial blind solutions for a High Wycombe business",
       imageLeft: false,
     },

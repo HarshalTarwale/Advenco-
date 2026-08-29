@@ -1,6 +1,5 @@
 import type { BlogPostDetail } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 const content: BlogPostDetail = {
   slug: "top-5-benefits-of-installing-perfect-fit-blinds-in-your-home",
@@ -11,7 +10,7 @@ const content: BlogPostDetail = {
   metaDescription:
     "No drilling, safer for kids and pets, better insulation — discover the top 5 benefits of Perfect Fit blinds from Advenco Blinds and Shutters.",
 
-  image: `${WP}/2025/07/july-blog-image-4.webp`,
+  image: "/images/stock/photo-1696123460860-db4ba71573b8.jpg",
   imageAlt: "Perfect Fit blinds installed in a modern home",
 
   introParagraphs: [

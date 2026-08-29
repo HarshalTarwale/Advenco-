@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-oldham",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Oldham",
   heroBody:
     "Forget generic blinds and predictable patterns. At Advenco Window Blinds and Shutters in Oldham, windows transform into canvases, painted with sunlight, and sculpted with style.",
-  heroImage: `${WP}/steptodown.com694616-768x456.webp`,
+  heroImage: "/images/stock/photo-1587475240624-96f0e3dfd2bf.jpg",
   heroImageAlt: "Dark tier-on-tier shutters on an interior window with an ocean view",
 
   introHeading: "Unveiling the Magic of Advenco Window Blinds and Shutters in Oldham: More Than Window Dressings, Oldham's Crown Jewels",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Imagine waking to a gentle symphony of light",
       body: "Sunlight dances through a vibrant tapestry of fabrics, casting playful whispers on your walls. It's not just decoration; it's Advenco Window Blinds and Shutters in Oldham artistry, weaving comfort and control into every thread of your home. Blackout blinds by Advenco Window Blinds in Oldham cloak your movie nights in luxurious velvet darkness, while translucent Roman shades by Advenco Window Blinds in Oldham paint your child's room in the gentle blush of dawn. Each window becomes a stage, where you set the scene for light and privacy. Wake up to the sun's soft serenade through sheer fabrics or lose yourself in a good book bathed in the golden warmth of wood-toned Venetian blinds by Advenco Window Blinds in Oldham. At Advenco Window Blinds and, comfort isn't an afterthought; it's the very rhythm of your sanctuary.",
-      image: `${WP}/steptodown.com894768-768x512.webp`,
+      image: "/images/stock/photo-1728532966669-cde5cd5886a6.jpg",
       imageAlt: "Cosy living room with fabric blinds in an Oldham home",
       imageLeft: true,
     },
     {
       heading: "But Advenco Window Blinds and Shutters in Oldham magic extends beyond cozy homes",
       body: "Your office windows are more than just openings; they're portals to success. Here, commercial blind solutions become your silent partners, creating professional havens that reflect your brand's story. Picture sunlight filtering through adjustable Venetian blinds in conference rooms, fostering focus and collaboration. Imagine open-plan offices empowered by motorized blinds that dance to your touch, adapting to the ever-changing symphony of your workspace.",
-      image: `${WP}/steptodown.com642117-768x512.webp`,
+      image: "/images/stock/photo-1757452608866-0b9c2f3e2d6b.jpg",
       imageAlt: "Office fitted with adjustable Venetian blinds in Oldham",
       imageLeft: false,
     },

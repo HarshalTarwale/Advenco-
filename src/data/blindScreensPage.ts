@@ -13,7 +13,6 @@
 
 import type { CommercialBlindPageContent } from "./commercialBlindsPages";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 export const blindScreensPage: CommercialBlindPageContent = {
   slug: "blinds-screens",
@@ -26,9 +25,9 @@ export const blindScreensPage: CommercialBlindPageContent = {
     "For UK homeowners, summer brings a welcome wave of sunshine, longer days, and the chance to fling open the windows and let in the fresh air. But this often comes with an unwelcome side effect: a surge in unwanted insect activity. Mosquitoes, flies, and other pests can quickly turn a relaxing evening into a swatting frenzy.",
     "Here at Advenco Windows Blinds and Shutters in UK, we offer a stylish solution that addresses both your desire for fresh air and your need for a pest-free environment: blind screens.",
   ],
-  heroImage: `${WP}/steptodown.com270369-768x576.webp`,
+  heroImage: "/images/2024/11/steptodown.com270369-768x576.webp",
   heroImageAlt: "Warm evening light through a mesh roller blind screen",
-  sideImage: `${WP}/steptodown.com423056-768x504.webp`,
+  sideImage: "/images/2024/11/steptodown.com423056-768x504.webp",
   sideImageAlt: "Glass patio doors fitted with roller blind screens overlooking a garden",
   importanceLabel: "What Are Blind Screens",
   importanceHeadingLines: ["Insect Protection Meets", "Light and Privacy Control"],
@@ -128,9 +127,9 @@ export const blindScreensPage: CommercialBlindPageContent = {
       ],
     },
   ],
-  bannerImage: `${WP}/steptodown.com666830-768x512.webp`,
+  bannerImage: "/images/stock/photo-1745761264415-6acbdb47a0c7.jpg",
   bannerImageAlt: "Hand operating a remote control for motorised blind screens",
-  closingImage: `${WP}/steptodown.com219118-768x512.webp`,
+  closingImage: "/images/2024/11/steptodown.com219118-768x512.webp",
   closingImageAlt: "Bright living room window fitted with a blind screen",
   closingHeading: "Transform Your Home with Advenco Blind Screens",
   closingBody: [

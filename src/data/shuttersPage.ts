@@ -9,7 +9,6 @@
  * matched to the same sections they appear in on the original page.
  */
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 export interface ShuttersTextSection {
   label?: string;
@@ -51,7 +50,7 @@ export const shuttersContent: ShuttersPageContent = {
   heroSubheading: "Premium Shutters in the UK",
   heroBody:
     "Advenco Window Blinds and Shutters is a trusted name in the UK for high-quality window coverings. We offer premium shutters that add elegance and functionality to your windows, made from top-quality materials with free window measuring and fitting services across the UK.",
-  heroImage: `${WP}/steptodown.com768564-768x512.webp`,
+  heroImage: "/images/stock/photo-1745761264415-6acbdb47a0c7.jpg",
   heroImageAlt: "Close-up of wooden Venetian shutter slats on a balcony window",
   metaTitle: "Premium Shutters in the UK | Advenco Window Blinds and Shutters",
   metaDescription:
@@ -97,49 +96,49 @@ export const shuttersContent: ShuttersPageContent = {
     {
       heading: "Tier on Tier Plantation Shutters in the UK: Versatile and Functional",
       body: "Are you searching for premium plantation shutters in the UK? Advenco Window Blinds and Shutters has the perfect solution. We offer high-quality plantation shutters crafted from the finest materials, ensuring they enhance natural light while maintaining privacy. Our shutters in the UK are ideal for living rooms, bedrooms, and offices. Available in various colours, designs, styles, and sizes, our shutters cater to all needs. Don't hesitate – get the best plantation shutters in the UK with free fitting services in our coverage areas. We are the leading supplier of plantation shutters, offering top-quality products for all requirements.",
-      image: `${WP}/steptodown.com768564-768x512.webp`,
+      image: "/images/stock/photo-1745761264415-6acbdb47a0c7.jpg",
       imageAlt: "Close-up of wooden Venetian shutter slats on a balcony window",
       imageLeft: true,
     },
     {
       heading: "Café Style Shutters in the UK: Elegant and Practical",
       body: "Our classic café style shutters in the UK are perfect for living rooms, office windows, and other spaces requiring ample daylight. With an open top for maximum daylight and a closed bottom for privacy, these shutters offer versatility and style. They can be fully opened for even more light when privacy is not a concern.",
-      image: `${WP}/steptodown.com791645-768x502.webp`,
+      image: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
       imageAlt: "Blue café style shutters fitted to windows on a white house exterior",
       imageLeft: true,
     },
     {
       heading: "Full Height Shutters in the UK: Complete Coverage and Control",
       body: "For spaces where privacy and light control are crucial, Advenco Window Blinds and Shutters in the UK offers full height shutters. These shutters provide full window coverage, allowing for excellent daylight control and complete blackout when necessary. They are ideal for creating dark, private spaces as needed.",
-      image: `${WP}/steptodown.com996349-768x512.webp`,
+      image: "/images/stock/photo-1653134641891-118e3094fc42.jpg",
       imageAlt: "White plantation shutters fitted to a bathroom window",
       imageLeft: false,
     },
     {
       heading: "Tier on Tier Shutters in the UK: Maximum Flexibility",
       body: "For those who desire enhanced control over their windows, our tier on tier shutters in the UK are the ideal choice. These shutters feature independently controlled panels, offering excellent daylight, privacy, and insulation control. Fully closed, they provide blackout conditions, while they can be opened to allow for fresh air and daylight as needed. Perfect for both homes and offices.",
-      image: `${WP}/steptodown.com781237-768x486.webp`,
+      image: "/images/stock/photo-1728532966669-cde5cd5886a6.jpg",
       imageAlt: "Close-up of warm wooden shutter slats beside a green plant",
       imageLeft: true,
     },
     {
       heading: "Bay Window Shutters: Stylish and Functional",
       body: "For bay windows, Advenco Window Blinds and Shutters in the UK provides specially designed shutters. These are tailored for bay-style windows, offering excellent daylight, privacy, and insulation control. Available in a range of sizes, colours, and finishes, our bay window shutters in the UK complement any interior décor.",
-      image: `${WP}/steptodown.com560336-768x512.webp`,
+      image: "/images/stock/photo-1696123460860-db4ba71573b8.jpg",
       imageAlt: "Dark exterior shutters fitted to a modern apartment balcony",
       imageLeft: false,
     },
     {
       heading: "Free Window Measuring and Shutter Fitting",
       body: "Advenco Window Blinds and Shutters in the UK is one of the premier window decoration suppliers in the UK. All our shutters and window coverings include free window measuring and fitting services. Our experts will take precise measurements of your windows to ensure a perfect fit for your shutters. We provide professional installation with attention to detail, ensuring a flawless finish. Visit our service areas page or call us to check availability in your area.",
-      image: `${WP}/steptodown.com694616-768x456.webp`,
+      image: "/images/stock/photo-1587475240624-96f0e3dfd2bf.jpg",
       imageAlt: "Dark tier-on-tier shutters fitted to an interior window with an ocean view",
       imageLeft: true,
     },
     {
       heading: "Enhance Your Windows with Premium Shutters",
       body: "Designed from top-notch materials, our plantation shutters in UK by Advenco Window Blinds and Shutters are crafted to enhance the look of your windows and interiors. We offer a wide range of styles including café style shutters, tier on tier shutters, full height shutters, and bay window shutters. With a variety of colours and designs, our shutters in UK are the perfect addition to any interior. Contact the UK's leading window decoration supplier today to get the best plantation shutters for your home, flat, apartment, office, or industrial space.",
-      image: `${WP}/steptodown.com906820-768x512.webp`,
+      image: "/images/stock/photo-1710773697318-d50ff2492556.jpg",
       imageAlt: "White plantation shutters beside a sofa with red and white cushions",
       imageLeft: false,
     },

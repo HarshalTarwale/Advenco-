@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-wembley",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Wembley",
   heroBody:
     "Is your residence longing for a hint of enchantment? Advenco Window Blinds and Shutters in Wembley is here to metamorphose your windows from mere spectators to dazzling focal points.",
-  heroImage: `${WP}/steptodown.com423056-768x504.webp`,
+  heroImage: "/images/2024/11/steptodown.com423056-768x504.webp",
   heroImageAlt: "Shutter example",
 
   introHeading: "Advenco Window Blinds and Shutters in Wembley – Where Elegance Meets Sunlight Mastery in Wembley",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "For Your Dwelling, a Dash of Customized Enchantment",
       body: "Envision mornings filled with sunshine greeted by lively vertical blinds in Wembley swaying in the breeze, casting playful silhouettes on your living room walls. Picture evenings wrapped in the warm ambiance of blackout roller blinds in Wembley, establishing a haven for movie nights and serene slumber. Or imagine your child's room infused with playful allure thanks to personalized blinds in Wembley showcasing their beloved characters. At Advenco Window Blinds and Shutters in Wembley, we believe every window deserves a unique narrative. That's why we present a varied selection of blind styles and materials, from the enduring grace of venetian blinds to the opulent folds of Roman shades. We even cater to distinctive shapes and sizes with our innovative Perfect Fit blinds, eliminating the need for drilling and ensuring a flawless fit.",
-      image: `${WP}/steptodown.com559450-768x512.webp`,
+      image: "/images/stock/photo-1757359056339-22968344cce6.jpg",
       imageAlt: "Vertical blinds fitted in a bright living room",
       imageLeft: true,
     },
     {
       heading: "For Your Business, a Surge in Efficiency and Sophistication",
       body: "Your office windows are not merely openings; they are gateways to triumph. Advenco Window Blinds and Shutter's commercial blind solutions assist you in establishing a professional and productive atmosphere that mirrors your brand essence. Envision well-lit meeting rooms bathed in the gentle radiance of adjustable venetian blinds in Wembley, allowing for optimum control over light and privacy. Picture open-plan workspaces empowered by motorized blinds in Wembley that respond to your touch, adapting to the evolving demands of your workspace. We present robust blinds in Wembley excelling in glare control, temperature regulation, and noise reduction, guaranteeing employee comfort and concentration throughout the day. Choose from an array of materials and styles to harmonize with your brand's aesthetic, whether it's sleek aluminum blinds for a contemporary touch or classic wooden blinds in Wembley exuding warmth and sophistication.",
-      image: `${WP}/steptodown.com261278-768x512.webp`,
+      image: "/images/stock/photo-1701836924593-40a62ee74184.jpg",
       imageAlt: "Venetian blinds fitted in an office meeting room",
       imageLeft: false,
     },

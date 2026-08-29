@@ -7,14 +7,13 @@
  * elsewhere on the site is reused for the hero background per instruction.
  */
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 export const areasHero = {
   badgeLabel: "Areas We Cover",
   heading: "Advenco",
   subheading: "Coverage Areas",
   body: "From Leeds and Yorkshire to London and the Home Counties, our expert measuring and fitting teams cover towns and cities across the UK.",
-  image: `${WP}/steptodown.com560336-768x512.webp`,
+  image: "/images/stock/photo-1696123460860-db4ba71573b8.jpg",
   imageAlt: "Dark exterior shutters fitted to a modern apartment balcony",
 };
 

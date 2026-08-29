@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-south-elmsall",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in South Elmsall",
   heroBody:
     "Craving window treatments that elevate your South Elmsall home's style and functionality? Advenco Window Blinds and Shutters in South Elmsall offers a curated collection of bespoke blinds.",
-  heroImage: `${WP}/steptodown.com560336-768x512.webp`,
+  heroImage: "/images/stock/photo-1696123460860-db4ba71573b8.jpg",
   heroImageAlt: "Dark exterior shutters on a modern apartment balcony",
 
   introHeading: "Elevate Your Windows with Advenco Window Blinds and Shutters: Bespoke Blinds for South Elmsall's Unique Homes",
@@ -27,7 +26,7 @@ const content: TownPageContent = {
     {
       heading: "Tailor-Made Beauty: Blinds Designed Just for Your South Elmsall Home",
       body: "Every home is a masterpiece, and your windows deserve to be adorned accordingly. Advenco Window Blinds and shutter's bespoke blinds service understands that one size doesn't fit all. We work hand-in-hand with you to create blinds that flawlessly complement your South Elmsall architecture, be it a traditional bay window, a dramatic skylight, or a charmingly quirky corner window. Let our expert craftsmanship at Advenco Window Blinds and Shutters in South Elmsall bring your vision to life with blinds that are as unique and captivating as your home.",
-      image: `${WP}/Untitled-design-14-768x579.webp`,
+      image: "/images/stock/photo-1748939832727-a2f0abdff540.jpg",
       imageAlt: "Tailor-made blinds for a South Elmsall home",
       imageLeft: true,
     },

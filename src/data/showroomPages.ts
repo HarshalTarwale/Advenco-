@@ -9,7 +9,6 @@
  * through the shared ShowroomPage component.
  */
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 export interface ShowroomSubsection {
   heading: string;
@@ -70,7 +69,7 @@ export const morleyShowroom: ShowroomPageContent = {
   heroSubheading: "in Morley, Leeds",
   heroBody:
     "Welcome to Advenco Blinds and Shutters, where exceptional quality meets unparalleled service! Located in the heart of Morley, Leeds, our showroom is your ultimate destination for premium blinds, shutters, and window treatments that cater to every style and budget.",
-  heroImage: `${WP}/steptodown.com270369-768x576.webp`,
+  heroImage: "/images/2024/11/steptodown.com270369-768x576.webp",
   heroImageAlt: "Motorized blind example on display",
   metaTitle: "Morley Showroom | Advenco Blinds and Shutters",
   metaDescription:
@@ -152,9 +151,9 @@ export const morleyShowroom: ShowroomPageContent = {
     },
   ],
 
-  midImage: `${WP}/steptodown.com270369-768x576.webp`,
+  midImage: "/images/2024/11/steptodown.com270369-768x576.webp",
   midImageAlt: "Motorized blind example on display in the Advenco showroom",
-  secondImage: `${WP}/steptodown.com423056-768x504.webp`,
+  secondImage: "/images/2024/11/steptodown.com423056-768x504.webp",
   secondImageAlt: "Shutter example on display in the Advenco showroom",
 
   findUsHeading: "How to Find Us",
@@ -170,7 +169,7 @@ export const maidenheadShowroom: ShowroomPageContent = {
   heroSubheading: "in Maidenhead",
   heroBody:
     "When it comes to transforming your home or office with elegant and functional window treatments, Advenco window blinds and shutters in Maidenhead offer the perfect solution — combining beauty, durability, and practicality.",
-  heroImage: `${WP}/steptodown.com270369-768x576.webp`,
+  heroImage: "/images/2024/11/steptodown.com270369-768x576.webp",
   heroImageAlt: "Maidenhead showroom window treatment example",
   metaTitle: "Maidenhead Showroom | Advenco Blinds and Shutters",
   metaDescription:
@@ -249,9 +248,9 @@ export const maidenheadShowroom: ShowroomPageContent = {
     "Advenco window blinds and shutters in Maidenhead offer a wide range of products that combine style, function, and quality. From their custom-made window blinds and shutters to their professional installation services, Advenco ensures that your window treatment needs are met with the highest standards. Visit the Advenco showroom in Maidenhead today and experience for yourself the exceptional quality and service that sets them apart. Whether you're upgrading your home, office, or commercial space, Advenco is the trusted name for all your window treatment solutions.",
   ],
 
-  midImage: `${WP}/steptodown.com270369-768x576.webp`,
+  midImage: "/images/2024/11/steptodown.com270369-768x576.webp",
   midImageAlt: "Motorized blind example on display in the Advenco showroom",
-  secondImage: `${WP}/steptodown.com423056-768x504.webp`,
+  secondImage: "/images/2024/11/steptodown.com423056-768x504.webp",
   secondImageAlt: "Shutter example on display in the Advenco showroom",
 
   findUsHeading: "Visit Our Maidenhead Showroom",

@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-aylesbury",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Aylesbury",
   heroBody:
     "Advenco Window Blinds and Shutters in Aylesbury isn't just about keeping the sun out or adding privacy. We're about transforming your windows into the focal point of your home, enhancing both aesthetics and functionality.",
-  heroImage: `${WP}/steptodown.com694616-768x456.webp`,
+  heroImage: "/images/stock/photo-1587475240624-96f0e3dfd2bf.jpg",
   heroImageAlt: "Dark tier-on-tier shutters framing an interior window with an ocean view",
 
   introHeading: "Brighten Your Home with Advenco Window Blinds and Shutters: Your Guide to Style and Comfort in Aylesbury",
@@ -27,7 +26,7 @@ const content: TownPageContent = {
     {
       heading: "Window Treatments for Homes in Aylesbury",
       body: "At Advenco Window Blinds in Aylesbury, we understand that your home is your sanctuary. We offer a variety of window treatments that can help you create a warm and inviting atmosphere while also providing privacy and light control. The epitome of versatility, roller blinds by Advenco Window Blinds in Aylesbury come in a breathtaking array of colours, textures, and patterns. Blackout fabrics ensure blissful sleep in bedrooms, while light, airy materials bathe living areas in natural warmth. Ideal for large windows, patio doors, and even sliding glass doors, vertical blinds by Advenco Window Blinds in Aylesbury come in a plethora of materials and colours. We offer unparalleled privacy and sun protection while still allowing you to enjoy the view. Vertical blinds by Advenco Window Blinds in Aylesbury are a practical choice for living areas, sunrooms, and even conservatories, adding a touch of contemporary elegance.",
-      image: `${WP}/steptodown.com855250-768x513.webp`,
+      image: "/images/stock/photo-1757452608866-0b9c2f3e2d6b.jpg",
       imageAlt: "Living room styled with window blinds",
       imageLeft: false,
     },
