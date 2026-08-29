@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-hamilton",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Hamilton",
   heroBody:
     "When it comes to your home, you want to create a space that reflects your unique personality and provides comfort and style. That's where Advenco Window Blinds and Shutters in Hamilton comes in.",
-  heroImage: `${WP}/steptodown.com270369-768x576.webp`,
+  heroImage: "/images/2024/11/steptodown.com270369-768x576.webp",
   heroImageAlt: "Motorized blind example on display",
 
   introHeading: "Brighten Your Home with Advenco Window Blinds and Shutters: Your Guide to Style and Comfort in Hamilton",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Window Treatments for Homes in Hamilton",
       body: "At Advenco Window Blinds and Shutters in Hamilton, we understand that your home is your sanctuary. We offer a variety of window treatments that can help you create a warm and inviting atmosphere while also providing privacy and light control. The epitome of versatility, roller blinds by Advenco Window Blinds and Shutters in Hamilton come in a breathtaking array of colors, textures, and patterns. Blackout fabrics ensure blissful sleep in bedrooms, while light, airy materials bathe living areas in natural warmth. While shutters by Advenco Window Blinds and Shutters in Hamilton crafted from wood or faux wood. Shutters by Advenco Window Blinds and Shutters in Hamilton offer excellent insulation and noise reduction, making them ideal for creating a comfortable and productive work environment. Shutters by Advenco Window Blinds and Shutters in Hamilton are perfect for living rooms, bedrooms, and even kitchens, adding a touch of timeless elegance.",
-      image: `${WP}/steptodown.com977612-768x576.webp`,
+      image: "/images/stock/photo-1587475240624-96f0e3dfd2bf.jpg",
       imageAlt: "Blinds fitted in a home living space",
       imageLeft: true,
     },
     {
       heading: "Transform Your Hamilton Business",
       body: "First impressions matter, and your window treatments can play a big role in making a good impression on your clients or customers. At Advenco Window Blinds and Shutters in Hamilton, we offer a variety of window treatments that can help you create a professional and inviting atmosphere in your business. Some of our most popular options for businesses include Roman blinds by Advenco Window Blinds in Hamilton which add a touch of refined elegance to any office space. Choose from a variety of fabrics and textures to create the perfect look for your business. While vertical blinds by Advenco Window Blinds in Hamilton are a great choice for large windows and patio doors. They offer excellent privacy and sun protection while still allowing you to enjoy the view.",
-      image: `${WP}/steptodown.com657382-768x512.webp`,
+      image: "/images/stock/photo-1710773697318-d50ff2492556.jpg",
       imageAlt: "Blinds fitted in a business/office setting",
       imageLeft: false,
     },

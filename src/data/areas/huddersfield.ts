@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-huddersfield",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Huddersfield",
   heroBody:
     "Do your windows yearn for a touch of magic? Advenco Window Blinds and Shutters in Huddersfield is here to transform your panes from wallflowers to dazzling showstoppers.",
-  heroImage: `${WP}/steptodown.com423056-768x504.webp`,
+  heroImage: "/images/2024/11/steptodown.com423056-768x504.webp",
   heroImageAlt: "Shutter example",
 
   introHeading: "Advenco Blinds and Shutters: Huddersfield's Bespoke Masters of Window Magic",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "From Bland to Grand: A Symphony of Light and Design",
       body: "Imagine sun-kissed mornings serenaded by vertical blinds dancing in the breeze, painting playful patterns on your walls. Cozy evenings bathed in the warm embrace of blackout rollers, creating a haven for restful slumber and cinematic adventures. Or picture your child's room transformed into a wonderland with custom-printed blinds featuring their beloved heroes. At Advenco Window Blinds and Shutters in Huddersfield, we believe windows are more than just openings; they are gateways to a life orchestrated by light, comfort, and bespoke beauty. We offer a mesmerizing symphony of blind styles and materials, from the timeless elegance of Venetian blinds to the luxurious whispers of Roman shades. We conquer even the most awkward shapes and sizes with our innovative Perfect Fit blinds at Advenco Window Blinds and Shutters in Huddersfield, eliminating the need for intrusive drilling and ensuring a seamless fit.",
-      image: `${WP}/steptodown.com831987-768x512.webp`,
+      image: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
       imageAlt: "Vertical blinds in a Huddersfield home",
       imageLeft: true,
     },
     {
       heading: "Elevate Your Business in Huddersfield: Where Productivity Meets Panache",
       body: "Your Huddersfield office windows are more than just panes of glass; they are portals to success. Advenco Blinds and Shutter's commercial blind solutions help you craft a professional and productive environment that speaks volumes about your brand identity. Imagine well-lit conference rooms basking in the gentle glow of adjustable Venetian blinds by Advenco Window Blinds and Shutters in Huddersfield, empowering seamless control over light and privacy. Picture open-plan offices where motorized blinds dance to your touch, adapting to the ever-changing needs of your dynamic workspace. We offer durable blinds that excel at banishing glare, regulating heat, and muffling noise, ensuring employee comfort and focus throughout the day. Choose from a diverse palette of materials and styles to complement your brand aesthetic, from sleek aluminium blinds for a modern edge to classic wooden blinds exuding warmth and sophistication.",
-      image: `${WP}/steptodown.com514842-768x512.webp`,
+      image: "/images/stock/photo-1710773697318-d50ff2492556.jpg",
       imageAlt: "Adjustable Venetian blinds in a Huddersfield office",
       imageLeft: false,
     },

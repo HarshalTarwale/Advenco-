@@ -1,7 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
-const WP10 = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-brinsworth",
@@ -16,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Brinsworth",
   heroBody:
     "Does your home yearn for a touch of magic? Advenco Window Blinds and Shutters in Brinsworth is here to transform your windows from wallflowers to dazzling showstoppers, with bespoke masterpieces crafted for your unique windows.",
-  heroImage: `${WP}/steptodown.com423056-768x504.webp`,
+  heroImage: "/images/2024/11/steptodown.com423056-768x504.webp",
   heroImageAlt: "Shutter example on a window",
 
   introHeading: "Where Style Meets Sunlight Control in Brinsworth",
@@ -32,7 +30,7 @@ const content: TownPageContent = {
     {
       heading: "For Your Business, a Boost in Productivity and Style",
       body: "Your office windows are more than just openings; they're portals to success. Advenco Window Blinds and Shutter's commercial blind solutions help you create a professional and productive environment that reflects your brand identity. Imagine well-lit conference rooms bathed in the soft glow of adjustable Venetian blinds in Brinsworth, allowing for optimal control over light and privacy. Picture open-plan offices empowered by motorized blinds in Brinsworth that dance to your touch, adjusting to the changing needs of your workspace. We offer durable blinds by Advenco Window Blinds and Shutters in Brinsworth that excel at glare control, heat regulation, and noise reduction, ensuring employee comfort and focus throughout the day. Choose from a variety of materials and styles to complement your brand aesthetic, from sleek aluminum blinds for a modern touch to classic wooden blinds by Advenco Window Blinds and Shutters in Brinsworth exuding warmth and sophistication.",
-      image: `${WP10}/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp`,
+      image: "/images/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
       imageAlt: "High-quality blind materials on display for a Brinsworth office",
       imageLeft: false,
     },

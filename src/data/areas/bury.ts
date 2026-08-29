@@ -1,7 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
-const WP10 = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-bury",
@@ -16,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Bury",
   heroBody:
     "Gone are the days of cookie-cutter window treatments. In Bury, Advenco Window Blinds and Shutters elevates your windows from mere openings to canvases for expressing your unique home's personality.",
-  heroImage: `${WP}/steptodown.com996349-768x512.webp`,
+  heroImage: "/images/stock/photo-1653134641891-118e3094fc42.jpg",
   heroImageAlt: "White plantation shutters in a bathroom window",
 
   introHeading: "Conquer Sunlight with Style: Unveiling Advenco Window Blinds and Shutters in Bury",
@@ -32,7 +30,7 @@ const content: TownPageContent = {
     {
       heading: "Beyond the Home: Elevating Your Bury Business",
       body: "Embrace the individuality of your Bury offices with Advenco Window Blinds and Shutter's made-to-measure blinds in Bury. Whether it's a charming conference room window, a grand reception window, or a space in sunshine, our blinds seamlessly integrate, amplifying its character. No more battling awkward angles or settling for ill-fitting blinds. Let our expertise translate your vision into stunning window accents that are as unique as your story. We understand the importance of creating a productive and professional environment in your Bury office. Our durable blinds at Advenco Window Blinds in Bury offer exceptional glare control, heat regulation, and privacy, making them ideal for meeting rooms, conference spaces, and open-plan offices. Choose from a variety of materials and styles to match your brand aesthetic and boost employee comfort.",
-      image: `${WP10}/Perfect-Fit-Kitchen-Window-Blinds-in-the-UK-for-All-Window-Types-and-Sizes-768x513.webp`,
+      image: "/images/2024/10/Perfect-Fit-Kitchen-Window-Blinds-in-the-UK-for-All-Window-Types-and-Sizes-768x513.webp",
       imageAlt: "Perfect Fit blinds fitted for a Bury business",
       imageLeft: false,
     },

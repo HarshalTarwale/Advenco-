@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-yeadon",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Yeadon",
   heroBody:
     "Choosing the right window blinds can significantly impact the aesthetics and functionality of your home. Advenco Window Blinds and Shutters in Yeadon is the perfect place to start.",
-  heroImage: `${WP}/steptodown.com906820-768x512.webp`,
+  heroImage: "/images/stock/photo-1710773697318-d50ff2492556.jpg",
   heroImageAlt: "White plantation shutters beside a sofa with red and white cushions",
 
   introHeading: "A Deep Dive into Advenco Window Blinds and Shutters in Yeadon",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Symphony of Light and Privacy",
       body: "But Advenco Window Blinds and Shutters in Yeadon goes beyond mere aesthetics. We understand that window treatments are an intricate dance between light control and privacy. Our extensive collection boasts a symphony of options, from blackout blinds in Yeadon that cloak your space in luxurious darkness to light-filtering sheers that create a dappled interplay of sunshine and shadow. Imagine movie nights enhanced by blackout roller blinds in Yeadon or a child's room bathed in the gentle glow of translucent Roman blinds in Yeadon.",
-      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
+      image: "/images/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
       imageAlt: "High quality blind materials on display",
       imageLeft: true,
     },
     {
       heading: "Dressing Your Windows for Every Story",
       body: "Whether you're seeking the timeless charm of Roman blinds in Yeadon for your cozy cottage or the sleek minimalism of venetian blinds in Yeadon for your modern office. Expert team at Advenco Window Blinds and Shutters in Yeadon helps you craft the perfect window-dressing narrative. Our meticulous attention to detail, with each blind hand-finished by skilled artisans, ensures a level of quality that transcends the ordinary.",
-      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/Perfect-Fit-Kitchen-Window-Blinds-in-the-UK-for-All-Window-Types-and-Sizes-768x513.webp",
+      image: "/images/2024/10/Perfect-Fit-Kitchen-Window-Blinds-in-the-UK-for-All-Window-Types-and-Sizes-768x513.webp",
       imageAlt: "Perfect Fit blinds fitted to a kitchen window",
       imageLeft: false,
     },

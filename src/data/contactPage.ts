@@ -5,14 +5,13 @@
  * WordPress site page.
  */
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 export const contactHero = {
   badgeLabel: "Get In Touch",
   heading: "Book a Free Quote",
   subheading: "with Us",
   body: "From the comfort of your home — tell us about your windows and one of our showroom experts will be in touch to arrange your free consultation.",
-  image: `${WP}/2024/11/steptodown.com791645-768x502.webp`,
+  image: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
   imageAlt: "Blue café style shutters fitted to windows on a white house exterior",
 };
 

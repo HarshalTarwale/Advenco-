@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-in-hemel-hempstead",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Hemel Hempstead",
   heroBody:
     "When it comes to your home, you crave a space that reflects your own unique flair, a haven of comfort and personalized style. Advenco Window Blinds and Shutters in Hemel Hempstead is ready to transform your windows into the crown jewels of your castle.",
-  heroImage: `${WP}/steptodown.com560336-768x512.webp`,
+  heroImage: "/images/stock/photo-1696123460860-db4ba71573b8.jpg",
   heroImageAlt: "Dark exterior shutters on a modern apartment balcony",
 
   introHeading: "Hemel Hempstead's Window Dressing Revolution: Unveiling Advenco Window Blinds and Shutters",
@@ -27,7 +26,7 @@ const content: TownPageContent = {
     {
       heading: "Bespoke Magic for Your Home and for Every Hemel Hempstead Story",
       body: "Light & Privacy in Perfect Harmony: Rollerblinds by Advenco Window Blinds and Shutters in Hemel Hempstead, with their breathtaking spectrum of fabrics, let you bask in the golden glow or create a cocoon of privacy, ideal for movie nights or restful slumber. For grand windows and patio doors, let vertical blinds by Advenco Window Blinds in Hemel Hempstead take centre stage. Their clean lines and effortless control offer unparalleled sun protection and privacy, while still letting you savor the Hemel Hempstead landscape. In the heart of your home, Venetian blinds by Advenco Window Blinds in Hemel Hempstead reign supreme. Their timeless elegance and adjustable slats add a touch of sophistication, whether you choose sleek aluminium for a modern vibe or warm wood tones for a touch of tradition.",
-      image: `${WP}/steptodown.com514183-768x576.webp`,
+      image: "/images/stock/photo-1711006295130-406e8e9057f2.jpg",
       imageAlt: "Bespoke blinds bringing light and privacy to a Hemel Hempstead home",
       imageLeft: true,
     },

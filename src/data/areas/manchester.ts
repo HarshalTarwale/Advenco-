@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-manchester",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Manchester",
   heroBody:
     "Living in Manchester means embracing the beauty of both nature and urban charm. Advenco Window Blinds and Shutters in Manchester is here to transform your windows into the focal point of your home.",
-  heroImage: `${WP}/steptodown.com270369-768x576.webp`,
+  heroImage: "/images/2024/11/steptodown.com270369-768x576.webp",
   heroImageAlt: "Motorized blind example on display",
 
   introHeading: "Brighten Your Home with Advenco Window Blinds and Shutters: Your Guide to Style and Comfort in Manchester",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Window Treatments for Homes in Manchester",
       body: "At Advenco Window Blinds and Shutters in Manchester, we understand that your home is your sanctuary. We offer a variety of window treatments that can help you create a warm and inviting atmosphere while also providing privacy and light control. Some of our most popular options for homes include: The epitome of versatility, roller blinds by Advenco Window Blinds in Manchester come in a breathtaking array of colors, textures, and patterns. Blackout fabrics by Advenco Window Blinds in Manchester ensure blissful sleep in bedrooms, while light, airy materials bathe living areas in natural warmth. Ideal for large windows, patio doors, and even sliding glass doors, vertical blinds by Advenco Window Blinds in Manchester come in a plethora of materials and colors. Advenco Window Blinds and Shutters in Manchester offer unparalleled privacy and sun protection while still allowing you to enjoy the view. Vertical blinds by Advenco Window Blinds in Manchester are a practical choice for living areas, sunrooms, and even conservatories, adding a touch of contemporary elegance.",
-      image: `${WP}/steptodown.com561055-768x512.webp`,
+      image: "/images/stock/photo-1701836924593-40a62ee74184.jpg",
       imageAlt: "Roller blinds fitted in a Manchester home",
       imageLeft: true,
     },
     {
       heading: "Transform Your Manchester Business with the help of Advenco Window Blinds and Shutters in Manchester",
       body: "First impressions matter, and your window treatments can play a big role in making a good impression on your clients or customers. At Advenco Window Blinds and Shutters in Manchester, we offer a variety of window treatments that can help you create a professional and inviting atmosphere in your business. Some of our most popular options for businesses include: Venetian blinds by Advenco Window Blinds in Manchester translate their functionality brilliantly into the business world. Opt for sleek aluminum or faux wood options by Advenco Window Blinds in Manchester for a modern feel in offices and reception areas or go for warm wood tones for a more traditional touch in conference rooms. Elevate your business with the timeless elegance of shutters by Advenco Window Blinds and Shutters in Manchester. Crafted from wood or faux wood, we offer excellent insulation and noise reduction, making them ideal for creating a comfortable and productive work environment. Shutters by Advenco Window Blinds and Shutters in Manchester are perfect for executive offices, meeting rooms, and even high-end boutiques, adding a touch of luxury and refinement.",
-      image: `${WP}/steptodown.com951888-768x511.webp`,
+      image: "/images/stock/photo-1587475240624-96f0e3dfd2bf.jpg",
       imageAlt: "Elegant shutters in a Manchester office",
       imageLeft: false,
     },

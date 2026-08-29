@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-holmfirth",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Holmfirth",
   heroBody:
     "Envision your Holmfirth residence bathed in the gentle glow of sunlight, streaming through exquisitely adorned windows. This is the enchantment woven by Advenco Window Blinds and Shutters in Holmfirth.",
-  heroImage: `${WP}/steptodown.com791645-768x502.webp`,
+  heroImage: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
   heroImageAlt: "Blue café style shutters on a white house exterior",
 
   introHeading: "Revel in Holmfirth's Radiant Window Elegance: Discover the Splendor of Advenco Window Blinds and Shutters in Holmfirth",
@@ -31,7 +30,7 @@ const content: TownPageContent = {
     {
       heading: "Privacy & Productivity in Busy Offices: A Balance of Serenity and Focus",
       body: "Holmfirth's bustling offices demand both privacy and concentration. Advenco Window Blinds in Holmfirth recognizes this need, presenting roller blinds with a sleek aesthetic in diverse materials. Blackout fabrics ensure undivided focus, while light-filtering options sustain a connection to the outside world. For a touch of opulence, contemplate plantation shutters by Advenco Window Blinds in Holmfirth, emanating timeless grace with superior light control.",
-      image: `${WP}/steptodown.com193215-768x513.webp`,
+      image: "/images/stock/photo-1603673319826-2f109cbf42aa.jpg",
       imageAlt: "Blinds providing privacy and productivity in a Holmfirth office",
       imageLeft: false,
     },

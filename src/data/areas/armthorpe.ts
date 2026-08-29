@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-armthorpe",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Armthorpe",
   heroBody:
     "Seeking exquisite window blinds that perfectly capture Armthorpe's elegance? Look no further than Advenco Window Blinds and Shutters in Armthorpe! We bring a captivating collection, curated to complement any Armthorpe abode, from grand Victorian townhouses to charming riverside flats.",
-  heroImage: `${WP}/steptodown.com791645-768x502.webp`,
+  heroImage: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
   heroImageAlt: "Blue café style shutters on white house exterior",
 
   introHeading: "Elevate your home windows with Advenco Window Blinds and Shutters in Armthorpe",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Bespoke Elegance: Blinds Crafted for Armthorpe's Character",
       body: "Armthorpe's windows deserve bespoke adornments. Advenco Window Blinds and Shutter's made-to-measure service caters to the architectural diversity and functional needs of each Armthorpe home. We collaborate with you to design and craft blinds that flawlessly complement your space, be it a majestic bay window overlooking the Castle Esplanade, a skylight illuminating your attic studio, or a charming arched window in a quaint Old Town flat. Let our expertise bring your vision to life with blinds as unique as the city itself.",
-      image: `${WP}/Untitled-design-_1_-768x576.webp`,
+      image: "/images/stock/photo-1757452608866-0b9c2f3e2d6b.jpg",
       imageAlt: "Made-to-measure blinds crafted for an Armthorpe home",
       imageLeft: true,
     },
     {
       heading: "Elevate Your Armthorpe Business with Efficient Blind Solutions",
       body: "Foster a productive and professional atmosphere in your Armthorpe office with Advenco Window Blinds and Shutter's practical window blind solutions. Our durable blinds at Advenco Window Blinds and Shutters in Armthorpe offer exceptional glare control, heat regulation, and privacy, ideal for meeting rooms, co-working spaces, and bustling open-plan offices. Choose from a variety of materials and styles to complement your brand identity and enhance employee comfort.",
-      image: `${WP}/Untitled-design-768x576.webp`,
+      image: "/images/stock/photo-1728532966669-cde5cd5886a6.jpg",
       imageAlt: "Durable office blinds for an Armthorpe workspace",
       imageLeft: false,
     },

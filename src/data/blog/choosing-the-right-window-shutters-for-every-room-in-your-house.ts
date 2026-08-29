@@ -1,6 +1,5 @@
 import type { BlogPostDetail } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 const content: BlogPostDetail = {
   slug: "choosing-the-right-window-shutters-for-every-room-in-your-house",
@@ -11,7 +10,7 @@ const content: BlogPostDetail = {
   metaDescription:
     "Living room, kitchen, bedroom, bathroom, dining room, home office, nursery, and conservatory — the best shutter style for every room in your house.",
 
-  image: `${WP}/2025/04/Window-Shutters.webp`,
+  image: "/images/stock/photo-1748939832727-a2f0abdff540.jpg",
   imageAlt: "Window shutters fitted across different rooms of a house",
 
   introParagraphs: [

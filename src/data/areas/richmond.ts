@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-richmond",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Richmond",
   heroBody:
     "Living in Richmond means embracing the beauty of both nature and urban charm. Advenco Window Blinds and Shutters in Richmond is here to transform your windows into the focal point of your home.",
-  heroImage: `${WP}/steptodown.com270369-768x576.webp`,
+  heroImage: "/images/2024/11/steptodown.com270369-768x576.webp",
   heroImageAlt: "Motorized blind example on display",
 
   introHeading: "Brighten Your Home with Balmoral Window Blinds: Your Guide to Style and Comfort in Richmond",
@@ -27,7 +26,7 @@ const content: TownPageContent = {
     {
       heading: "Window Treatments for Homes in Richmond",
       body: "At Advenco Window Blinds and Shutters in Richmond, we understand that your home is your sanctuary. We offer a variety of window treatments that can help you create a warm and inviting atmosphere while also providing privacy and light control. Some of our most popular options for homes include: The epitome of versatility, roller blinds in Richmond come in a breathtaking array of colors, textures, and patterns. Blackout fabrics ensure blissful sleep in bedrooms, while light, airy materials bathe living areas in natural warmth. Ideal for large windows, patio doors, and even sliding glass doors, vertical blinds in Richmond come in a plethora of materials and colors. We offer unparalleled privacy and sun protection while still allowing you to enjoy the view. Vertical blinds in Richmond are a practical choice for living areas, sunrooms, and even conservatories, adding a touch of contemporary elegance.",
-      image: `${WP}/steptodown.com241855-768x512.webp`,
+      image: "/images/stock/photo-1757452608866-0b9c2f3e2d6b.jpg",
       imageAlt: "Window treatments for a Richmond home",
       imageLeft: true,
     },

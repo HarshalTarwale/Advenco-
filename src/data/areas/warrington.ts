@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-warrington",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Warrington",
   heroBody:
     "When it comes to your home, you want to create a space that reflects your unique personality and provides comfort and style. That's where Advenco Window Blinds and Shutters in Warrington comes in.",
-  heroImage: `${WP}/steptodown.com270369-768x576.webp`,
+  heroImage: "/images/2024/11/steptodown.com270369-768x576.webp",
   heroImageAlt: "Motorized blind example on display",
 
   introHeading: "Brighten Your Home with Advenco Window Blinds and Shutters: Your Guide to Style and Comfort in Warrington",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Window Treatments for Homes in Warrington",
       body: "At Advenco Window Blinds and Shutters in Warrington, we understand that your home is your sanctuary. We offer a variety of window treatments that can help you create a warm and inviting atmosphere while also providing privacy and light control. The epitome of versatility, roller blinds by Advenco Window Blinds and Shutters in Warrington come in a breathtaking array of colors, textures, and patterns. Blackout fabrics ensure blissful sleep in bedrooms, while light, airy materials bathe living areas in natural warmth. While shutters by Advenco Window Blinds and Shutters in Warrington crafted from wood or faux wood. Shutters by Advenco Window Blinds and Shutters in Warrington offer excellent insulation and noise reduction, making them ideal for creating a comfortable and productive work environment. Shutters by Advenco Window Blinds and Shutters in Warrington are perfect for living rooms, bedrooms, and even kitchens, adding a touch of timeless elegance.",
-      image: `${WP}/steptodown.com207811-768x513.webp`,
+      image: "/images/stock/photo-1688818228795-d465bf6e3c35.jpg",
       imageAlt: "Roller blind fitted to a home window",
       imageLeft: true,
     },
     {
       heading: "Transform Your Warrington Business",
       body: "First impressions matter, and your window treatments can play a big role in making a good impression on your clients or customers. At Advenco Window Blinds and Shutters in Warrington, we offer a variety of window treatments that can help you create a professional and inviting atmosphere in your business. Some of our most popular options for businesses include Roman blinds by Advenco Window Blinds in Warrington which add a touch of refined elegance to any office space. Choose from a variety of fabrics and textures to create the perfect look for your business. While vertical blinds by Advenco Window Blinds in Warrington are a great choice for large windows and patio doors. They offer excellent privacy and sun protection while still allowing you to enjoy the view.",
-      image: `${WP}/steptodown.com762975-768x576.webp`,
+      image: "/images/stock/photo-1757452608866-0b9c2f3e2d6b.jpg",
       imageAlt: "Office space with window blinds fitted",
       imageLeft: false,
     },

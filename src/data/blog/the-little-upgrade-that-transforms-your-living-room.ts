@@ -1,6 +1,5 @@
 import type { BlogPostDetail } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 const content: BlogPostDetail = {
   slug: "the-little-upgrade-that-transforms-your-living-room",
@@ -11,7 +10,7 @@ const content: BlogPostDetail = {
   metaDescription:
     "See how swapping curtains for the right living room blinds transforms light, privacy, and style — with real customer stories from Advenco Blinds and Shutters.",
 
-  image: `${WP}/2025/08/unnamed-1.jpg`,
+  image: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
   imageAlt: "Living room styled with new window blinds",
 
   introParagraphs: [

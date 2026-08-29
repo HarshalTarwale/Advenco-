@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-hounslow",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Hounslow",
   heroBody:
     "Fed up with plain windows or struggling with outdated blinds? Advenco Window Blinds and Shutters in Hounslow is ready to revamp your spaces with both style and functionality.",
-  heroImage: `${WP}/steptodown.com791645-768x502.webp`,
+  heroImage: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
   heroImageAlt: "Blue café style shutters on a white house exterior",
 
   introHeading: "Revitalize Your Windows with Advenco Window Blinds and Shutters: Your Ultimate Hounslow Destination",
@@ -31,7 +30,7 @@ const content: TownPageContent = {
     {
       heading: "Commercial Allure: Blinds Crafted to Impress",
       body: "First impressions count in business, and your space is often the initial glimpse clients have of your brand. Bare windows might suffice in a minimalist cafe, but in most professional settings, they can leave an impression of incompleteness or neglect. Enter Balmoral Blinds in Hounslow, the experts in window dressing who elevate your business with blinds that are as practical as they are impressive. Balmoral's extensive collection extends beyond the practical, offering sleek vertical blinds for optimal light control in large conference rooms and durable PVC options for high-traffic areas like reception desks. Yet, they also showcase elegant metal Venetian blinds that add a touch of sophistication to executive offices and pleated fabrics that create a welcoming atmosphere in client meeting rooms.",
-      image: `${WP}/steptodown.com512006-768x512.webp`,
+      image: "/images/stock/photo-1711006295130-406e8e9057f2.jpg",
       imageAlt: "Commercial blinds crafted to impress in a Hounslow business",
       imageLeft: false,
     },

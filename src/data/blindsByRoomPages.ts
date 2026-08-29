@@ -23,10 +23,10 @@ export const blindsByRoomPages: Record<string, CommercialBlindPageContent> = {
       "Elevate the look of your bathrooms with aesthetically pleasing designs while enjoying the benefits of privacy, temperature insulation, and daylight control. We craft exquisite window blinds for any specific requirement across the UK. We offer nationwide delivery whenever you need it, and free installation is available in selected cities and regions.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1629079447777-1e605162dc8d?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1629079447777-1e605162dc8d.jpg",
     heroImageAlt: "Modern bathroom with a frosted glass window and walk-in shower",
     sideImage:
-      "https://images.unsplash.com/photo-1641481001093-592dd889b1af?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1641481001093-592dd889b1af.jpg",
     sideImageAlt: "Close-up of a wooden Venetian blind fitted to a sunlit window",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["Why Window Blinds Matter", "in Bathrooms"],
@@ -88,7 +88,7 @@ export const blindsByRoomPages: Record<string, CommercialBlindPageContent> = {
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1656646523430-deb9d3fabca0?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1656646523430-deb9d3fabca0.jpg",
     bannerImageAlt: "Frosted bathroom window with a chrome towel rail beneath it",
     closingHeading: "Upgrade Your Bathroom with Blinds by Advenco",
     closingBody: [
@@ -109,10 +109,10 @@ export const blindsByRoomPages: Record<string, CommercialBlindPageContent> = {
       "Our diverse range of designs ensures that your bedroom windows are dressed to perfection. We use only the highest quality materials for our wooden blinds, metal Venetian blinds, Roman blinds, and other window treatment options. Select your preferred colors, designs, materials, and textures, and we will guarantee that you receive the finest bedroom window blinds delivered directly to your doorstep. Additionally, we offer free window measuring and blind fitting services in selected areas.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1615911577983-e2bb805354b3?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1615911577983-e2bb805354b3.jpg",
     heroImageAlt: "Cosy attic bedroom with a roller blind fitted to the window",
     sideImage:
-      "https://images.unsplash.com/photo-1586205009278-cf9854b97d0c?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1586205009278-cf9854b97d0c.jpg",
     sideImageAlt: "Bedroom window with sheer curtains and a radiator below",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["Elevate Your Bedroom Windows", "with Custom Blinds"],
@@ -180,7 +180,7 @@ export const blindsByRoomPages: Record<string, CommercialBlindPageContent> = {
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1630699376106-d550afb865bd?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1630699376106-d550afb865bd.jpg",
     bannerImageAlt: "Empty modern bedroom with a large window overlooking greenery",
     closingHeading: "Elevate Your Bedroom Windows with Advenco",
     closingBody: [
@@ -201,10 +201,10 @@ export const blindsByRoomPages: Record<string, CommercialBlindPageContent> = {
       "Enhance your kitchen windows with style while enjoying the benefits of natural daylight and window insulation. Our custom kitchen window blinds in the UK are crafted from high-quality materials, ensuring long-lasting coverage for your windows. Place your order today to have your kitchen window blinds in the UK delivered or fitted at your convenience. Free fitting services are available in select areas, along with a best price match guarantee across the UK.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1634672050277-16639332c727?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1634672050277-16639332c727.jpg",
     heroImageAlt: "Bright kitchen with a large window over the sink looking out to trees",
     sideImage:
-      "https://images.unsplash.com/photo-1653267407376-b3c133549fc4?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1653267407376-b3c133549fc4.jpg",
     sideImageAlt: "Kitchen window fitted with a roller blind above the sink",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["Perfect Fit Kitchen Blinds", "for All Window Types and Sizes"],
@@ -261,7 +261,7 @@ export const blindsByRoomPages: Record<string, CommercialBlindPageContent> = {
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1590880265945-6b43effeb599?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1590880265945-6b43effeb599.jpg",
     bannerImageAlt: "Sunlit kitchen windowsill with a small potted plant",
     closingHeading: "Enhance Your Kitchen with Blinds by Advenco",
     closingBody: [
@@ -282,10 +282,10 @@ export const blindsByRoomPages: Record<string, CommercialBlindPageContent> = {
       "Advenco Window Blinds and Shutters in the UK offers premium window blinds for dining rooms across the country, complete with free measuring and fitting services. Simply contact us, and we'll transform your dining room with beautiful, stylish blinds.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1696986296905-e631802befb0?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1696986296905-e631802befb0.jpg",
     heroImageAlt: "Bright dining room with tall windows overlooking a garden",
     sideImage:
-      "https://images.unsplash.com/photo-1628985095652-cb94d4c263dc?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1628985095652-cb94d4c263dc.jpg",
     sideImageAlt: "Elegant dining room window dressed with layered curtains",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["Why Add Blinds to Your", "Dining Room Windows?"],
@@ -354,7 +354,7 @@ export const blindsByRoomPages: Record<string, CommercialBlindPageContent> = {
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1618326442388-19f430961020?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1618326442388-19f430961020.jpg",
     bannerImageAlt: "Modern dining room with black dining table beneath large windows",
     closingHeading: "Transform Your Dining Room with Advenco",
     closingBody: [
@@ -375,10 +375,10 @@ export const blindsByRoomPages: Record<string, CommercialBlindPageContent> = {
       "Advenco Window Blinds and Shutters, a leading UK provider of high-quality window blinds, is here to help you find the perfect blinds for your living room. We're passionate about helping you find the perfect blinds for your living room.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1656122381069-9ec666d95cf1?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1656122381069-9ec666d95cf1.jpg",
     heroImageAlt: "Bright living room with vaulted ceiling and plantation shutters",
     sideImage:
-      "https://images.unsplash.com/photo-1631048501831-46856f9eaaf2?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1631048501831-46856f9eaaf2.jpg",
     sideImageAlt: "Living room sectional sofa beneath large windows fitted with blinds",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["Benefits of Living Room", "Window Blinds"],
@@ -461,7 +461,7 @@ export const blindsByRoomPages: Record<string, CommercialBlindPageContent> = {
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1771924648531-94af2b79dc96?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1771924648531-94af2b79dc96.jpg",
     bannerImageAlt: "Living room armchair beside a window dressed with sheer curtains",
     closingHeading: "Complete Your Living Room with Advenco",
     closingBody: [
@@ -482,10 +482,10 @@ export const blindsByRoomPages: Record<string, CommercialBlindPageContent> = {
       "In select cities, we offer free window measuring and blinds fitting services for offices across the country. We guarantee the highest quality materials and offer a wide range of design and customization options. You can have your office blinds in the UK delivered to your doorstep whenever you need them.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1497366811353-6870744d04b2.jpg",
     heroImageAlt: "Bright modern office interior with window blinds fitted",
     sideImage:
-      "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1518455027359-f3f8164ba6bd.jpg",
     sideImageAlt: "Minimalist office desk positioned beside a window",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["Made-to-Measure Perfect Fit", "Office Blinds"],
@@ -560,7 +560,7 @@ export const blindsByRoomPages: Record<string, CommercialBlindPageContent> = {
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1497215842964-222b430dc094.jpg",
     bannerImageAlt: "Office desk with computer monitor positioned beside a large window",
     closingHeading: "Fit Out Your Workspace with Advenco",
     closingBody: [

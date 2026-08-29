@@ -1,6 +1,5 @@
 import type { BlogPostDetail } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 const content: BlogPostDetail = {
   slug: "add-blind-screens-to-your-bay-windows-for-extra-privacy",
@@ -10,7 +9,7 @@ const content: BlogPostDetail = {
   metaDescription:
     "Blind screens for bay windows give UK homeowners privacy without sacrificing natural light — explore styles, benefits, and a real customer case study.",
 
-  image: `${WP}/2025/09/unnamed-3.jpg`,
+  image: "/images/stock/photo-1696123460860-db4ba71573b8.jpg",
   imageAlt: "Bay window fitted with a blind screen",
 
   introParagraphs: [

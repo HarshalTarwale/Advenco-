@@ -54,7 +54,7 @@ export default function Footer() {
             {/* Logo */}
             <Link href="/" aria-label="Advenco Home">
               <Image
-                src="https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/Advenco-Logo.webp"
+                src="/images/2024/10/Advenco-Logo.webp"
                 alt="Advenco Blinds and Shutters"
                 width={60}
                 height={60}

@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-brighouse",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Brighouse",
   heroBody:
     "When it comes to your home, you want to create a space that reflects your unique personality and provides comfort and style. That's where Advenco Window Blinds and Shutters in Brighouse comes in.",
-  heroImage: `${WP}/steptodown.com791645-768x502.webp`,
+  heroImage: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
   heroImageAlt: "Blue café style shutters on a white house exterior",
 
   introHeading: "Brighten Your Home with Advenco Window Blinds and Shutters: Your Guide to Style and Comfort in Brighouse",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Window Treatments for Homes in Brighouse",
       body: "At Advenco Window Blinds and Shutters in Brighouse, we understand that your home is your sanctuary. We offer a variety of window treatments that can help you create a warm and inviting atmosphere while also providing privacy and light control. The epitome of versatility, roller blinds by Advenco Window Blinds and Shutters in Brighouse come in a breathtaking array of colors, textures, and patterns. Blackout fabrics ensure blissful sleep in bedrooms, while light, airy materials bathe living areas in natural warmth. While shutters by Advenco Window Blinds and Shutters in Brighouse crafted from wood or faux wood. Shutters by Advenco Window Blinds and Shutters in Brighouse offer excellent insulation and noise reduction, making them ideal for creating a comfortable and productive work environment. Shutters by Advenco Window Blinds and Shutters in Brighouse are perfect for living rooms, bedrooms, and even kitchens, adding a touch of timeless elegance.",
-      image: `${WP}/steptodown.com172772-768x549.webp`,
+      image: "/images/stock/photo-1745761264415-6acbdb47a0c7.jpg",
       imageAlt: "Roller blinds in a Brighouse living room",
       imageLeft: true,
     },
     {
       heading: "Transform Your Brighouse Business",
       body: "First impressions matter, and your window treatments can play a big role in making a good impression on your clients or customers. At Advenco Window Blinds and Shutters in Brighouse, we offer a variety of window treatments that can help you create a professional and inviting atmosphere in your business. Some of our most popular options for businesses include Roman blinds by Advenco Window Blinds in Brighouse which add a touch of refined elegance to any office space. Choose from a variety of fabrics and textures to create the perfect look for your business. While vertical blinds by Advenco Window Blinds in Brighouse are a great choice for large windows and patio doors. They offer excellent privacy and sun protection while still allowing you to enjoy the view.",
-      image: `${WP}/steptodown.com995759-768x502.webp`,
+      image: "/images/stock/photo-1696123460860-db4ba71573b8.jpg",
       imageAlt: "Vertical blinds in a Brighouse office",
       imageLeft: false,
     },

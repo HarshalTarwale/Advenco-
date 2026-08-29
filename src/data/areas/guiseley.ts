@@ -1,7 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
-const WP10 = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-guiseley",
@@ -16,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Guiseley",
   heroBody:
     "In Guiseley, your windows aren't just openings, they're canvases. At Advenco Window Blinds and Shutters in Guiseley, we're light whisperers, weaving tales of sunbeams and shadows that dance to your tune.",
-  heroImage: `${WP}/steptodown.com996349-768x512.webp`,
+  heroImage: "/images/stock/photo-1653134641891-118e3094fc42.jpg",
   heroImageAlt: "White plantation shutters in a bathroom window",
 
   introHeading: "Unveiling the Magic of Advenco Window Blinds and Shutters: Where Light Becomes Your Playmate",
@@ -28,7 +26,7 @@ const content: TownPageContent = {
     {
       heading: "For Your Home: A Symphony of Sun and Shadow",
       body: "Forget the sterile glare of ordinary blinds. Advenco Window Blinds and Shutters in Guiseley paints your home with light and shadow, a symphony of control. Blackout shades cloak movie nights in plush darkness, while Roman blinds in Guiseley in sunrise hues gently coax your children awake. Venetian blinds greet the morning sun, while wood-toned warmth invites a good book by the window. Comfort at Advenco Window Blinds and Shutters in Guiseley isn't an afterthought; it's the very fabric of your sanctuary.",
-      image: `${WP10}/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp`,
+      image: "/images/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
       imageAlt: "High-quality blind materials with price match guarantee",
       imageLeft: true,
     },

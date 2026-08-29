@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-in-tadcaster",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Tadcaster",
   heroBody:
     "When it comes to your home, you crave a space that reflects your own unique flair. Advenco Window Blinds and Shutters in Tadcaster is ready to transform your windows into the crown jewels of your castle.",
-  heroImage: `${WP}/steptodown.com560336-768x512.webp`,
+  heroImage: "/images/stock/photo-1696123460860-db4ba71573b8.jpg",
   heroImageAlt: "Dark exterior shutters on a modern apartment balcony",
 
   introHeading: "Tadcaster's Window Dressing Revolution: Unveiling Advenco Window Blinds and Shutters",
@@ -27,7 +26,7 @@ const content: TownPageContent = {
     {
       heading: "Bespoke Magic for Your Home and for Every Tadcaster Story",
       body: "Light & Privacy in Perfect Harmony: Roller blinds by Advenco Window Blinds and Shutters in Tadcaster, with their breathtaking spectrum of fabrics, let you bask in the golden glow or create a cocoon of privacy, ideal for movie nights or restful slumber. For grand windows and patio doors, let vertical blinds by Advenco Window Blinds in Tadcaster take centre stage. Their clean lines and effortless control offer unparalleled sun protection and privacy, while still letting you savor the Tadcaster landscape. In the heart of your home, Venetian blinds by Advenco Window Blinds in Tadcaster reign supreme. Their timeless elegance and adjustable slats add a touch of sophistication, whether you choose sleek aluminium for a modern vibe or warm wood tones for a touch of tradition.",
-      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11/steptodown.com662710-768x521.webp",
+      image: "/images/stock/photo-1701836924593-40a62ee74184.jpg",
       imageAlt: "Blinds fitted in a Tadcaster home",
       imageLeft: true,
     },

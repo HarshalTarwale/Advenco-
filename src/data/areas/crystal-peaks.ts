@@ -1,7 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
-const WP10 = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-crystal-peaks",
@@ -16,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Crystal Peaks",
   heroBody:
     "Tired of windows that lackluster? Craving a touch of magic to transform your Crystal Peaks dwelling? Advenco Window Blinds and Shutters is the name synonymous with exquisite window fashions and exceptional service.",
-  heroImage: `${WP}/steptodown.com906820-768x512.webp`,
+  heroImage: "/images/stock/photo-1710773697318-d50ff2492556.jpg",
   heroImageAlt: "White plantation shutters beside sofa with red and white cushions",
 
   introHeading: "Crystal Peaks's Window Dressing Delight: Unveiling the Allure of Advenco Window Blinds and Shutters",
@@ -28,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Windows are the eyes of your home.",
       body: "More than just beauty. At Advenco Window Blinds and Shutters in Crystal Peaks, we understand that windows are the eyes of your home. They bring in light, frame the view, and whisper stories of life within. That's why we offer not just stunning aesthetics, but also solutions for every need. Imagine well-lit rooms where adjustable Venetian blinds by Advenco Window Blinds in Crystal Peaks dance with the sun, open-plan offices empowered by motorized marvels that respond to your touch, or confidential conversations shielded by high-quality blackout blinds by Advenco Window Blinds in Crystal Peaks. We craft the perfect window symphony for every room.",
-      image: `${WP10}/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp`,
+      image: "/images/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
       imageAlt: "High-quality blind materials with price match guarantee",
       imageLeft: true,
     },
     {
       heading: "Advenco Window Blinds and shutter's magic extends beyond homes. We're the secret weapon for Crystal Peaks businesses seeking to impress.",
       body: "Imagine conference rooms empowered by motorized blinds by Advenco Window Blinds and Shutters in Crystal Peaks that adjust to the mood of every meeting, open-plan offices bathed in the soft glow of adjustable Venetian blinds in Crystal Peaks, or sleek reception areas dazzled by vertical wonders that add a touch of drama. We understand the power of windows in shaping your brand identity, and we're here to help you craft the perfect work environment that inspires, empowers, and reflects your unique vision.",
-      image: `${WP10}/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp`,
+      image: "/images/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
       imageAlt: "High-quality blind materials with price match guarantee",
       imageLeft: false,
     },

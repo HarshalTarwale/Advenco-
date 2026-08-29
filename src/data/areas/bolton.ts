@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-bolton",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Bolton",
   heroBody:
     "Advenco Window Blinds and Shutters in Bolton are your gateway to transforming your space with light, privacy, and pure style. Their showroom isn't just a shop, it's a canvas for your interior artistry.",
-  heroImage: `${WP}/steptodown.com768564-768x512.webp`,
+  heroImage: "/images/stock/photo-1745761264415-6acbdb47a0c7.jpg",
   heroImageAlt: "Close-up of wooden Venetian shutter slats on a balcony window",
 
   introHeading: "A Symphony of Light and Style: Unveiling the Enchantment of Advenco Window Blinds and Shutters in Bolton",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Weaving Comfort and Control, Thread by Thread",
       body: "Visualize sunlight dancing through a vibrant tapestry of blinds by Advenco Blinds in Bolton, casting playful patterns on your Bolton walls. This isn't mere decoration; it's Advenco Blinds and Shutter's artistry weaving comfort and control into every thread of your home. Their symphony of options goes beyond the ordinary. Blackout roller blinds by Advenco Window Blinds and Shutters in Bolton cloak your movie nights in luxurious darkness, while translucent Roman shades by Advenco Blinds in Bolton paint your child's room in the gentle glow of dawn. Each window becomes a canvas, where you sculpt the perfect balance of light and privacy. Wake up to the sun's soft caress through sheer fabrics, or enjoy a book bathed in the golden warmth of wood-toned Venetian blinds by Advenco Window Blinds and Shutters in Bolton. At Advenco Window Blinds and Shutters in Bolton, comfort isn't an afterthought, it's woven into the very fabric of your sanctuary.",
-      image: `${WP}/steptodown.com950997-768x512.webp`,
+      image: "/images/stock/photo-1696123460860-db4ba71573b8.jpg",
       imageAlt: "Living room styled with blinds",
       imageLeft: false,
     },
     {
       heading: "Beyond Beauty: Bolton Office Windows Are More Than Just Openings",
       body: "Your Bolton office windows are more than just openings; they're portals to success. Advenco Blinds and Shutter's commercial blind solutions help you create a professional and productive environment that reflects your brand identity. Imagine well-lit conference rooms bathed in the soft glow of adjustable venetian blinds by Advenco Window Blinds and Shutters in Bolton, allowing for optimal control over light and privacy. Picture open-plan offices empowered by motorized blinds that dance to your touch, adjusting to the changing needs of your workspace in Bolton. They offer durable blinds that excel at glare control, heat regulation, and noise reduction, ensuring employee comfort and focus throughout the day. Choose from a variety of materials and styles to complement your brand aesthetic, from sleek aluminum blinds by Advenco Window Blinds and Shutters in Bolton for a modern touch to classic wooden blinds exuding warmth and sophistication.",
-      image: `${WP}/steptodown.com426574-768x566.webp`,
+      image: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
       imageAlt: "Modern office fitted with blinds",
       imageLeft: true,
     },

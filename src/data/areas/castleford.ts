@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-castleford",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Castleford",
   heroBody:
     "When it comes to your home, you crave a space that reflects your own unique flair. Advenco Window Blinds and Shutters in Castleford steps in, ready to transform your windows into the crown jewels of your Castleford castle.",
-  heroImage: `${WP}/steptodown.com270369-768x576.webp`,
+  heroImage: "/images/2024/11/steptodown.com270369-768x576.webp",
   heroImageAlt: "Motorized blind example on display",
 
   introHeading: "Castleford's Window Dressing Revolution: Unveiling Advenco Window Blinds and Shutters",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Window Treatments for Every Castleford Story",
       body: "Roller blinds by Advenco Window Blinds in Castleford, with their breathtaking spectrum of fabrics, let you bask in the golden glow or create a cocoon of privacy, ideal for movie nights or restful slumber. For grand windows and patio doors, let vertical blinds by Advenco Window Blinds in Castleford take centre stage. Their clean lines and effortless control offer unparalleled sun protection and privacy, while still letting you savour the Castleford landscape. In the heart of your home, venetian blinds by Advenco Window Blinds in Castleford reign supreme. Their timeless elegance and adjustable slats add a touch of sophistication, whether you choose sleek aluminium for a modern vibe or warm wood tones for a touch of tradition.",
-      image: `${WP}/steptodown.com575060-768x512.webp`,
+      image: "/images/stock/photo-1701836924593-40a62ee74184.jpg",
       imageAlt: "Roller blinds in a Castleford living room",
       imageLeft: true,
     },
     {
       heading: "Beyond the Home: Transforming Castleford's Businesses",
       body: "Make a statement with your window treatments. Venetian blinds by Advenco Window Blinds in Castleford lend a touch of professionalism to offices, while shutters by Advenco Window Blinds and Shutters in Castleford exude luxury in boutique shops. We offer a range of materials and colours to complement your brand and create an atmosphere that inspires and impresses. Shutters by Advenco Window Blinds and Shutters in Castleford aren't just for windows; they're architectural elements that add depth and dimension to your business. Their exceptional insulation and noise reduction create a haven of comfort and productivity, perfect for conference rooms and executive offices.",
-      image: `${WP}/steptodown.com576701-768x512.webp`,
+      image: "/images/stock/photo-1587475240624-96f0e3dfd2bf.jpg",
       imageAlt: "Venetian blinds in a Castleford office",
       imageLeft: false,
     },

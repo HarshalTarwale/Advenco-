@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-hull",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Hull",
   heroBody:
     "Searching for premium, made-to-measure blinds in Hull? Advenco Window Blinds and Shutters in Hull offers a breathtaking collection of blinds to suit every window.",
-  heroImage: `${WP}/steptodown.com791645-768x502.webp`,
+  heroImage: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
   heroImageAlt: "Blue café style shutters on a white house exterior",
 
   introHeading: "Upgrade your windows and your style with Advenco Window Blinds and Shutters in Hull!",
@@ -27,7 +26,7 @@ const content: TownPageContent = {
     {
       heading: "Blinds Crafted to Your Home's Uniqueness",
       body: "Not all windows are created equal, and neither are your needs. Advenco Window Blinds and Shutters in Hull have bespoke blinds service caters to the diverse architectural styles and functional requirements of Hull homes. We collaborate with you to design and craft blinds that perfectly complement your space, be it a traditional bay window, a skylight, or an oddly shaped corner window. Let our expertise bring your vision to life with blinds that are as unique as your home.",
-      image: `${WP}/Untitled-design-1-1-768x579.webp`,
+      image: "/images/stock/photo-1728532966669-cde5cd5886a6.jpg",
       imageAlt: "Bespoke blinds crafted for a Hull home",
       imageLeft: true,
     },

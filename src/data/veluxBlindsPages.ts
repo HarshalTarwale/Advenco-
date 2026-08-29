@@ -24,10 +24,10 @@ export const veluxBlindsPages: Record<string, CommercialBlindPageContent> = {
       "In this comprehensive guide, we delve into everything you need to know about Roto window blinds in the UK, including their benefits, types, and why Advenco is your best choice for installation.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1670511244863-1bd6c8d8a863?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1670511244863-1bd6c8d8a863.jpg",
     heroImageAlt: "Angled skylight roof window fitted with a Roto-style frame",
     sideImage:
-      "https://images.unsplash.com/photo-1587058101908-d72ee23a3044?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1587058101908-d72ee23a3044.jpg",
     sideImageAlt: "Skylight window looking up at a bright blue sky",
     importanceLabel: "What Are Roto Window Blinds",
     importanceHeadingLines: ["Innovative Design,", "High-Quality Materials"],
@@ -105,7 +105,7 @@ export const veluxBlindsPages: Record<string, CommercialBlindPageContent> = {
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1723941073018-a1bd5fdab9b1?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1723941073018-a1bd5fdab9b1.jpg",
     bannerImageAlt: "Dramatic triangular skylight window against a grey wall",
     closingHeading: "Transform Your Windows with Advenco",
     closingBody: [
@@ -126,10 +126,10 @@ export const veluxBlindsPages: Record<string, CommercialBlindPageContent> = {
       "This is where Advenco Blinds and Shutters steps in, providing top-quality skylight window blinds in the UK. Skylight window blinds are essential and how Advenco Blinds and Shutters can help you find the perfect solution for your needs.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1636906470642-c31152bcd0c9?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1636906470642-c31152bcd0c9.jpg",
     heroImageAlt: "Grand geometric skylight window viewed from below",
     sideImage:
-      "https://images.unsplash.com/photo-1695173583062-df1efbfc000d?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1695173583062-df1efbfc000d.jpg",
     sideImageAlt: "Skylight window frame with bright daylight streaming through",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["Why Skylight Blinds", "Matter"],
@@ -191,7 +191,7 @@ export const veluxBlindsPages: Record<string, CommercialBlindPageContent> = {
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1709993608671-ce1420744fc0?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1709993608671-ce1420744fc0.jpg",
     bannerImageAlt: "Grand arched skylight windows lit from above",
     closingHeading: "Get in Touch",
     closingBody: [
@@ -212,10 +212,10 @@ export const veluxBlindsPages: Record<string, CommercialBlindPageContent> = {
       "Advenco Blinds and Shutters, a leading provider of window treatments in the UK, offers a comprehensive range of Fakro window blinds in the UK that cater to diverse needs and preferences.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1593397925450-a2b53f984b09?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1593397925450-a2b53f984b09.jpg",
     heroImageAlt: "Classic wooden-framed roof window looking out to a blue sky",
     sideImage:
-      "https://images.unsplash.com/photo-1662561797374-04350672c032?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1662561797374-04350672c032.jpg",
     sideImageAlt: "Wooden roof window frame with clear glazing bars",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["Why Choose Fakro", "Window Blinds?"],
@@ -286,7 +286,7 @@ export const veluxBlindsPages: Record<string, CommercialBlindPageContent> = {
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1568784365868-d61d8a99f33e?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1568784365868-d61d8a99f33e.jpg",
     bannerImageAlt: "Kitchen ceiling with a skylight window fitted above",
     closingHeading: "Contact Advenco Blinds and Shutters",
     closingBody: [
@@ -307,10 +307,10 @@ export const veluxBlindsPages: Record<string, CommercialBlindPageContent> = {
       "In this guide, we explore the unique features and benefits of Dakstra window blinds in the UK and how Advenco Blinds and Shutters can help transform your home.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1709993608671-ce1420744fc0?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1709993608671-ce1420744fc0.jpg",
     heroImageAlt: "Rustic wooden beam ceiling with a warm-lit skylight",
     sideImage:
-      "https://images.unsplash.com/photo-1597081158648-dc327ee588db?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1597081158648-dc327ee588db.jpg",
     sideImageAlt: "Open roof window revealing green treetops outside",
     importanceLabel: "Unmatched Quality",
     importanceHeadingLines: ["Quality That Stands", "the Test of Time"],
@@ -362,7 +362,7 @@ export const veluxBlindsPages: Record<string, CommercialBlindPageContent> = {
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1634525950008-cc51231cd098?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1634525950008-cc51231cd098.jpg",
     bannerImageAlt: "Modern minimalist skylight in a white-walled room",
     closingHeading: "Contact Us",
     closingBody: [
@@ -383,10 +383,10 @@ export const veluxBlindsPages: Record<string, CommercialBlindPageContent> = {
       "Specializing in bespoke window coverings, Advenco offers a range of options designed to meet your specific needs and enhance the aesthetic appeal of your space.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1616085394289-22d108c22436?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1616085394289-22d108c22436.jpg",
     heroImageAlt: "Minimalist corner skylight window in a bright white room",
     sideImage:
-      "https://images.unsplash.com/photo-1561456742-afac23a4758b?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1561456742-afac23a4758b.jpg",
     sideImageAlt: "Two roof windows fitted into a sloped white ceiling",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["Why Choose Roofline", "Window Blinds?"],
@@ -450,7 +450,7 @@ export const veluxBlindsPages: Record<string, CommercialBlindPageContent> = {
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1591618296647-3824fca4468d?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1591618296647-3824fca4468d.jpg",
     bannerImageAlt: "Angled skylight window frame glowing with daylight",
     closingHeading: "Get a Quote Today!",
     closingBody: [
@@ -471,10 +471,10 @@ export const veluxBlindsPages: Record<string, CommercialBlindPageContent> = {
       "When properly installed, the mitered corners of these blinds create a seamless finish. However, installing an edge with mitered joints can be quite challenging. That's why Velux blinds in UK come with a patented fitting system that guarantees a flawless fit every time. Once installed, the joint corners will align perfectly, making it easy even for a DIY project.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1629795892844-3bd09c92b5fa?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1629795892844-3bd09c92b5fa.jpg",
     heroImageAlt: "Opening Velux-style skylight window with wooden frame against a blue sky",
     sideImage:
-      "https://images.unsplash.com/photo-1591618296647-3824fca4468d?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1591618296647-3824fca4468d.jpg",
     sideImageAlt: "Angled Velux window frame glowing with daylight",
     importanceLabel: "Slim, Elegant, Economical",
     importanceHeadingLines: ["Ultra-Slim Profiles,", "Maximum Light"],
@@ -546,7 +546,7 @@ export const veluxBlindsPages: Record<string, CommercialBlindPageContent> = {
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1723941073018-a1bd5fdab9b1?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1723941073018-a1bd5fdab9b1.jpg",
     bannerImageAlt: "Dramatic triangular skylight window against a grey wall",
     closingHeading: "Find the Perfect Velux Blinds",
     closingBody: [

@@ -1,6 +1,5 @@
 import type { BlogPostDetail } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 const content: BlogPostDetail = {
   slug: "how-to-choose-the-right-blinds-shutters-a-complete-guide-by-advenco-blinds",
@@ -11,7 +10,7 @@ const content: BlogPostDetail = {
   metaDescription:
     "Roller, Venetian, vertical, Roman, and blackout blinds vs. plantation, café style, full-height, and tier-on-tier shutters — a complete choosing guide.",
 
-  image: `${WP}/2025/03/Right-Blinds-Shutters-%E2%80%93-A-Complete-Guide-by-Advenco-Blinds.jpg`,
+  image: "/images/stock/photo-1757359056339-22968344cce6.jpg",
   imageAlt: "Guide to choosing the right blinds and shutters",
 
   introParagraphs: [

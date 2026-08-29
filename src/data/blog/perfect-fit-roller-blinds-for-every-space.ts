@@ -1,6 +1,5 @@
 import type { BlogPostDetail } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 const content: BlogPostDetail = {
   slug: "perfect-fit-roller-blinds-for-every-space",
@@ -10,7 +9,7 @@ const content: BlogPostDetail = {
   metaDescription:
     "Frame-mounted, no-drill Perfect Fit roller blinds for every room — light control, child safety, and energy savings from Advenco Blinds and Shutters.",
 
-  image: `${WP}/2025/05/Benefits-of-Shutters.webp`,
+  image: "/images/stock/photo-1757452608866-0b9c2f3e2d6b.jpg",
   imageAlt: "Perfect Fit roller blinds installed in a window frame",
 
   introParagraphs: [

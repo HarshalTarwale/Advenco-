@@ -45,7 +45,7 @@ const qualitySections: QualitySection[] = [
       "Built to stand the test of time",
     ],
     image:
-      "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/Quality-Assurance.webp",
+      "/images/stock/photo-1696123460860-db4ba71573b8.jpg",
     imageAlt: "Close-up of high-quality plantation shutter hardware and craftsmanship",
     imageLeft: true,
     bg: "bg-[#f8f7f4]",
@@ -61,7 +61,7 @@ const qualitySections: QualitySection[] = [
       "Service that exceeds expectations",
     ],
     image:
-      "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/advenco-blind-home-page-expert-installation.webp",
+      "/images/stock/photo-1757452608866-0b9c2f3e2d6b.jpg",
     imageAlt: "Advenco professional installer fitting window blinds",
     imageLeft: false,
     bg: "bg-white",
@@ -77,7 +77,7 @@ const qualitySections: QualitySection[] = [
       "Service that exceeds expectations",
     ],
     image:
-      "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/advenco-customer-satisfaction-home-page.webp",
+      "/images/stock/photo-1748939832727-a2f0abdff540.jpg",
     imageAlt: "Happy customer with beautiful Advenco blinds in their living room",
     imageLeft: true,
     bg: "bg-[#f8f7f4]",

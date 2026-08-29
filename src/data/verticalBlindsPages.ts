@@ -22,10 +22,10 @@ export const verticalBlindsPages: Record<string, CommercialBlindPageContent> = {
       "For those seeking a stylish and practical window solution in the UK, look no further than PVC Waterproof Vertical Blinds from Advenco Window Blinds and Shutters in UK. These versatile blinds offer a winning combination of elegance, functionality, and durability, making them a perfect fit for any home or commercial space.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1643949915126-7f1812cb7aef?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1643949915126-7f1812cb7aef.jpg",
     heroImageAlt: "Kitchen and dining area with tall waterproof vertical blinds fitted to the window",
     sideImage:
-      "https://images.unsplash.com/photo-1671563642739-7618dd03cf3a?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1671563642739-7618dd03cf3a.jpg",
     sideImageAlt: "Kitchen window fitted with waterproof roller blinds above the sink",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["Why Choose PVC Waterproof", "Vertical Blinds?"],
@@ -113,7 +113,7 @@ export const verticalBlindsPages: Record<string, CommercialBlindPageContent> = {
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1608102125699-d8658bfe1c35?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1608102125699-d8658bfe1c35.jpg",
     bannerImageAlt: "Kitchen sink window fitted with layered waterproof blinds",
     closingHeading: "Invest in Style and Functionality",
     closingBody: [
@@ -134,10 +134,10 @@ export const verticalBlindsPages: Record<string, CommercialBlindPageContent> = {
       "At Advenco Blinds and Shutters, we provide high-quality Dimout vertical blinds in the UK that cater to various needs, ensuring that your space remains both comfortable and visually appealing.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1713370389454-f3adbac10520?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1713370389454-f3adbac10520.jpg",
     heroImageAlt: "Close-up of soft, diffused light filtering through vertical dimout blind slats",
     sideImage:
-      "https://images.unsplash.com/photo-1777340183462-a73bc9c57284?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1777340183462-a73bc9c57284.jpg",
     sideImageAlt: "Vertical blinds fitted to a window, diffusing daylight into a dim room",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["What Are Dimout Vertical", "Blinds?"],
@@ -194,7 +194,7 @@ export const verticalBlindsPages: Record<string, CommercialBlindPageContent> = {
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1671563642739-7618dd03cf3a?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1671563642739-7618dd03cf3a.jpg",
     bannerImageAlt: "Kitchen window softly lit through dimout roller blinds",
     closingHeading: "The Perfect Balance of Light and Privacy",
     closingBody: [
@@ -214,10 +214,10 @@ export const verticalBlindsPages: Record<string, CommercialBlindPageContent> = {
       "When it comes to enhancing the aesthetics and functionality of your bifold doors, vertical blinds are an excellent choice. At Advenco Blinds and Shutters, we specialize in providing high-quality bifold door vertical blinds in the UK that are perfect for bifold doors, offering a seamless blend of style and practicality.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1721902024148-287438cf3e05?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1721902024148-287438cf3e05.jpg",
     heroImageAlt: "Bright modern living space with large bifold patio doors",
     sideImage:
-      "https://images.unsplash.com/photo-1616860744588-fcc95e7cc721?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1616860744588-fcc95e7cc721.jpg",
     sideImageAlt: "Bifold balcony doors dressed with a curtain beside potted plants",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["The Advantages of Vertical Blinds", "for Bifold Doors"],
@@ -269,7 +269,7 @@ export const verticalBlindsPages: Record<string, CommercialBlindPageContent> = {
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1762117360940-9ba8e1ff7287?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1762117360940-9ba8e1ff7287.jpg",
     bannerImageAlt: "Bright conservatory-style seating area beside bifold glass doors",
     closingHeading: "Discover the Perfect Bifold Door Vertical Blinds",
     closingBody: [
@@ -289,10 +289,10 @@ export const verticalBlindsPages: Record<string, CommercialBlindPageContent> = {
       "Are you tired of unwanted light disturbing your peaceful sleep or affecting your movie nights? Blackout vertical blinds in the UK might be the perfect solution for you. In this comprehensive guide, we explore the benefits, features, and styles of blackout vertical blinds in the UK, with a focus on the top-quality options available from Advenco Blinds and Shutters in the UK.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1720582611615-71c0ff518ba5?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1720582611615-71c0ff518ba5.jpg",
     heroImageAlt: "Moody blue-toned bedroom with a window beside a vintage chair",
     sideImage:
-      "https://images.unsplash.com/photo-1603726477468-da922b12b8ce?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1603726477468-da922b12b8ce.jpg",
     sideImageAlt: "Dark bedroom at night with white blackout blinds glowing in the window",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["Why Choose Blackout", "Vertical Blinds?"],
@@ -369,7 +369,7 @@ export const verticalBlindsPages: Record<string, CommercialBlindPageContent> = {
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1782837025675-866250932208?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1782837025675-866250932208.jpg",
     bannerImageAlt: "Dark, quiet bedroom with a bedside lamp glowing beside the window",
     closingHeading: "Get Your Blackout Vertical Blinds Today!",
     closingBody: [
@@ -390,10 +390,10 @@ export const verticalBlindsPages: Record<string, CommercialBlindPageContent> = {
       "This is where conservatory vertical blinds in the UK come into play. At Advenco Blinds and Shutters, we specialize in providing top-quality vertical blinds that transform your conservatory into a versatile, comfortable haven. Here's why our vertical blinds are the perfect solution for your conservatory needs.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1675449214972-0a7b3c31b331?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1675449214972-0a7b3c31b331.jpg",
     heroImageAlt: "Glass conservatory roof and windows framed with white timber",
     sideImage:
-      "https://images.unsplash.com/photo-1714964620693-71d79e63bb6d?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1714964620693-71d79e63bb6d.jpg",
     sideImageAlt: "Conservatory seating nook surrounded by glass windows and greenery",
     importanceLabel: "The Importance",
     importanceHeadingLines: ["Why Choose Vertical Blinds", "for Your Conservatory?"],
@@ -440,7 +440,7 @@ export const verticalBlindsPages: Record<string, CommercialBlindPageContent> = {
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1761158497156-c8f202a07b42?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1761158497156-c8f202a07b42.jpg",
     bannerImageAlt: "House exterior with a glass conservatory extension",
     closingHeading: "Contact Us Today!",
     closingBody: [

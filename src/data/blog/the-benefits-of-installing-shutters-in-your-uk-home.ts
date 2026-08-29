@@ -1,6 +1,5 @@
 import type { BlogPostDetail } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 const content: BlogPostDetail = {
   slug: "the-benefits-of-installing-shutters-in-your-uk-home",
@@ -11,7 +10,7 @@ const content: BlogPostDetail = {
   metaDescription:
     "Style, light control, privacy, insulation, noise reduction, low maintenance, and added home value — the full case for installing shutters in UK homes.",
 
-  image: `${WP}/2025/05/Benefits-of-Shutters.webp`,
+  image: "/images/stock/photo-1757452608866-0b9c2f3e2d6b.jpg",
   imageAlt: "Plantation shutters installed in a modern living room",
 
   introParagraphs: [

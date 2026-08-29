@@ -1,6 +1,5 @@
 import type { BlogPostDetail } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 const content: BlogPostDetail = {
   slug: "a-complete-guide-to-shutters-styles-materials-and-benefits",
@@ -11,7 +10,7 @@ const content: BlogPostDetail = {
   metaDescription:
     "Full height, tier-on-tier, café style, solid panel, and tracked shutters, plus hardwood, MDF, waterproof, and aluminium materials — the complete shutter guide.",
 
-  image: `${WP}/2025/04/ChatGPT-Image-Apr-21-2025-05_07_17-PM.png`,
+  image: "/images/stock/photo-1758448756207-54505680d130.jpg",
   imageAlt: "Guide illustration of shutter styles and materials",
 
   introParagraphs: [

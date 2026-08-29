@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-stretford",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Stretford",
   heroBody:
     "Are you looking to transform your windows in Stretford? Advenco Window Blinds and Shutters in Stretford offers a dazzling array of featured products and custom-made blinds tailored to your unique needs.",
-  heroImage: `${WP}/steptodown.com768564-768x512.webp`,
+  heroImage: "/images/stock/photo-1745761264415-6acbdb47a0c7.jpg",
   heroImageAlt: "Close-up of wooden Venetian shutter slats on a balcony window",
 
   introHeading: "Elevate Your Windows with Style and Precision: Unveiling Advenco Window Blinds and Shutters in Stretford",
@@ -27,7 +26,7 @@ const content: TownPageContent = {
     {
       heading: "No Window Left Behind: Custom Blinds to Fit Your Stretford Home's Unique Charm",
       body: "Step into a world of window possibilities with Advenco Window Blinds and Shutters in Stretford. Ditch the one-size-fits-all approach and embrace blinds by Advenco Window Blinds in Stretford that seamlessly integrate with your home's unique character. Whether you're seeking the timeless elegance of bay window drapes or the contemporary chic of skylight blinds by Advenco Window Blinds in Stretford, our expert design team and skilled craftsmen collaborate with you to bring your vision to life. From oddly shaped corners to soaring expanses of glass, no window is a challenge at Advenco Window Blinds in Stretford. We specialize in crafting blinds that not only enhance your space's aesthetics but also cater to your functional needs. Imagine sun-drenched mornings greeted by perfectly fitted blinds, cozy evenings bathed in the warm glow of custom blackout solutions, or child-safe havens secured within innovative Perfect Fit systems. At Advenco Window Blinds and Shutters in Stretford, your windows are our canvas, and your home's uniqueness is our inspiration.",
-      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11/steptodown.com505445-768x512.webp",
+      image: "/images/stock/photo-1748939832727-a2f0abdff540.jpg",
       imageAlt: "Custom-fitted blinds in a Stretford home",
       imageLeft: true,
     },

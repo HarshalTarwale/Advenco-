@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-walton-upon-thames",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Walton upon Thames",
   heroBody:
     "Choosing the right window blinds can significantly impact the aesthetics and functionality of your home. Advenco Window Blinds and Shutters in Walton upon Thames is the perfect place to start.",
-  heroImage: `${WP}/steptodown.com996349-768x512.webp`,
+  heroImage: "/images/stock/photo-1653134641891-118e3094fc42.jpg",
   heroImageAlt: "White plantation shutters in a bathroom window",
 
   introHeading: "A Deep Dive into Advenco Window Blinds and Shutters in Walton upon Thames",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Symphony of Light and Privacy",
       body: "But Advenco Window Blinds and Shutters in Walton upon Thames goes beyond mere aesthetics. We understand that window treatments are an intricate dance between light control and privacy. Our extensive collection boasts a symphony of options, from blackout blinds in Walton Upon Thames that cloak your space in luxurious darkness to light-filtering sheers that create a dappled interplay of sunshine and shadow. Imagine movie nights enhanced by blackout roller blinds in Walton upon Thames or a child's room bathed in the gentle glow of translucent Roman blinds in Walton upon Thames.",
-      image: `${WP}/steptodown.com102419-768x512.webp`,
+      image: "/images/stock/photo-1688818228795-d465bf6e3c35.jpg",
       imageAlt: "Living room with blackout roller blind fitted to a window",
       imageLeft: true,
     },
     {
       heading: "Dressing Your Windows for Every Story",
       body: "Whether you're seeking the timeless charm of Roman blinds in Walton Upon Thames for your cozy cottage or the sleek minimalism of venetian blinds in Walton upon Thames for your modern office. Expert team at Advenco Window Blinds and Shutters in Walton Upon Thames helps you craft the perfect window-dressing narrative. Our meticulous attention to detail, with each blind hand-finished by skilled artisans, ensures a level of quality that transcends the ordinary.",
-      image: `${WP}/steptodown.com227438-768x576.webp`,
+      image: "/images/stock/photo-1728532966669-cde5cd5886a6.jpg",
       imageAlt: "Roman blind fitted to a window in a cosy room",
       imageLeft: false,
     },

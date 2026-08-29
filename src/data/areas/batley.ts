@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-batley",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Batley",
   heroBody:
     "Are you looking to transform your windows in Batley? Look no further than Advenco Window Blinds and Shutters — a dazzling array of featured products, exceptional services, and custom-made blinds tailored to your unique needs.",
-  heroImage: `${WP}/steptodown.com270369-768x576.webp`,
+  heroImage: "/images/2024/11/steptodown.com270369-768x576.webp",
   heroImageAlt: "Motorized blind example on display",
 
   introHeading: "Elevate Your Windows with Style and Precision: Unveiling Advenco Window Blinds and Shutters in Batley",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "No Window Left Behind: Custom Blinds and Shutters to Fit Your Batley Home's Unique Charm",
       body: "Step into a world of window possibilities with Advenco Window Blinds and Shutters in Batley. Ditch the one-size-fits-all approach and embrace blinds that seamlessly integrate with your home's unique character. Our expert design team and skilled craftsmen collaborate with you to bring your vision to life. From oddly shaped corners to soaring expanses of glass, no window is a challenge at Advenco Window Blinds and Shutters in Batley. We specialize in crafting blinds and shutters that not only enhance your space's aesthetics in Batley but also cater to your functional needs. At Advenco Window Blinds and Shutters in Batley, your windows are our canvas, and your home's uniqueness is our inspiration.",
-      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
+      image: "/images/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
       imageAlt: "High quality blind materials with price match guarantee",
       imageLeft: false,
     },
     {
       heading: "From Conference Rooms to Open-Plan: Create the Perfect Work Environment with Advenco Window Blinds and Shutters in Batley",
       body: "Transform your business into a haven of productivity and professionalism with Advenco Window Blinds and Shutters in Batley an intelligent window blind and shutter solution. Elevate your office space in Batley with durable blinds by Advenco Window Blinds in Batley that offer exceptional glare control, heat regulation, and privacy. Whether you seek sleek blinds for minimalist conference rooms or stylish options to complement your brand aesthetic, Advenco Window Blinds and Shutter's diverse collection caters to every need. At Advenco Window Blinds and Shutters in Batley, we understand the critical role windows play in a successful business environment. Let us help you create the perfect work atmosphere that inspires, empowers, and reflects your brand identity.",
-      image: "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
+      image: "/images/2024/10/High-Quality-Materials-with-Price-Match-Guarantee-768x512.webp",
       imageAlt: "High quality blind materials with price match guarantee",
       imageLeft: true,
     },

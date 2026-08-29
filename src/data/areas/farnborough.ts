@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-farnborough",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Farnborough",
   heroBody:
     "Craving window treatments that elevate your Farnborough home's style and functionality? Advenco Window Blinds and Shutters offers a curated collection of bespoke blinds, meticulously crafted to complement your unique space and preferences.",
-  heroImage: `${WP}/steptodown.com996349-768x512.webp`,
+  heroImage: "/images/stock/photo-1653134641891-118e3094fc42.jpg",
   heroImageAlt: "White plantation shutters, bathroom window",
 
   introHeading: "Elevate Your Windows with Advenco Window Blinds and Shutters: Bespoke Blinds for Farnborough's Unique Homes",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Blinds in Farnborough Designed Just for Your Home",
       body: "Every home is a masterpiece, and your windows deserve to be adorned accordingly. Advenco Window Blinds and Shutter's bespoke blinds service understands that one size doesn't fit all. We work hand-in-hand with you to create blinds that flawlessly complement your Farnborough architecture, be it a traditional bay window, a dramatic skylight, or a charmingly quirky corner window. Let our expert craftsmanship bring your vision to life with blinds that are as unique and captivating as your home.",
-      image: `${WP}/steptodown.com291835-768x512.webp`,
+      image: "/images/stock/photo-1757359056339-22968344cce6.jpg",
       imageAlt: "Blinds fitted in a home living space",
       imageLeft: true,
     },
     {
       heading: "Boost Your Business with Advenco Window Blinds and Shutters in Farnborough:",
       body: "Create a productive and professional haven for your Farnborough business with Advenco Window Blinds and Shutter's practical window blind solutions. Our durable blinds available at Advenco Window Blinds and Shutters in Farnborough offer exceptional glare control, heat regulation, and privacy, making them ideal for meeting rooms, conference spaces, and open-plan offices. Choose from a variety of materials and styles to seamlessly blend with your brand aesthetic and enhance employee comfort.",
-      image: `${WP}/steptodown.com726175-768x512.webp`,
+      image: "/images/stock/photo-1757452608866-0b9c2f3e2d6b.jpg",
       imageAlt: "Blinds fitted in a business/office setting",
       imageLeft: false,
     },

@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-aldershot",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Aldershot",
   heroBody:
     "Tired of staring at bare windows or battling outdated blinds? Advenco Window Blinds and Shutters in Aldershot is here to transform your spaces with style and functionality, from metal Venetian styles to waterproof PVC options.",
-  heroImage: `${WP}/steptodown.com996349-768x512.webp`,
+  heroImage: "/images/stock/photo-1653134641891-118e3094fc42.jpg",
   heroImageAlt: "White plantation shutters in a bathroom window",
 
   introHeading: "Breathe New Life into Your Windows with Advenco Window Blinds and Shutters",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Blinds for Every Room and Style",
       body: "Living room Venetian blinds, bedroom pleated fabrics, blackout roller blinds for entertainment spaces, and waterproof bathroom options all feature in our collection. Vertical blinds by Advenco Window Blinds in Aldershot in your home office effortlessly control light, boosting productivity with every tilt. We also offer specialized conservatory blinds for temperature regulation and UV protection.",
-      image: `${WP}/Untitled-design-1-768x579.jpg`,
+      image: "/images/stock/photo-1748939832727-a2f0abdff540.jpg",
       imageAlt: "Living room styled with Venetian blinds",
       imageLeft: false,
     },
     {
       heading: "Commercial Appeal: Blinds Built to Impress",
       body: "First impressions matter in business, and your office space is often the first glimpse clients get of your brand. Our range includes conference room vertical blinds, reception area PVC options, executive office Venetian blinds, and client meeting room pleated fabrics.",
-      image: `${WP}/Untitled-design-2-5-768x579.webp`,
+      image: "/images/stock/photo-1600493867499-4882d15a30ad.jpg",
       imageAlt: "Conservatory fitted with blinds",
       imageLeft: true,
     },

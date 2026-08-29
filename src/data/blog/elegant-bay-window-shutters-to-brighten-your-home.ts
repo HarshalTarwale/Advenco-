@@ -1,6 +1,5 @@
 import type { BlogPostDetail } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 const content: BlogPostDetail = {
   slug: "elegant-bay-window-shutters-to-brighten-your-home",
@@ -11,7 +10,7 @@ const content: BlogPostDetail = {
   metaDescription:
     "Discover how bay window shutters bring light control, privacy, and timeless style to UK homes — plus tips on choosing the right shutters for every room.",
 
-  image: `${WP}/2025/09/unnamed-2.png`,
+  image: "/images/stock/photo-1603673319826-2f109cbf42aa.jpg",
   imageAlt: "Elegant bay window fitted with shutters",
 
   introParagraphs: [

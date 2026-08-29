@@ -764,7 +764,7 @@ export default function Navbar() {
             {/* ---- Logo ---- */}
             <Link href="/" className="flex items-center shrink-0" aria-label="Advenco Home">
               <Image
-                src="https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/Advenco-Logo.webp"
+                src="/images/2024/10/Advenco-Logo.webp"
                 alt="Advenco Blinds and Shutters Logo"
                 width={60}
                 height={60}

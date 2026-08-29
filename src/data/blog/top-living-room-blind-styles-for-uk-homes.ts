@@ -1,6 +1,5 @@
 import type { BlogPostDetail } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 const content: BlogPostDetail = {
   slug: "top-living-room-blind-styles-for-uk-homes",
@@ -11,7 +10,7 @@ const content: BlogPostDetail = {
   metaDescription:
     "Roller, Roman, Venetian, vertical, day and night blinds, and shutters — explore the top living room blind styles for UK homes from Advenco Blinds & Shutters.",
 
-  image: `${WP}/2025/08/advenco-blog-aug-1.webp`,
+  image: "/images/stock/photo-1748939832727-a2f0abdff540.jpg",
   imageAlt: "Living room window fitted with a sheer Roman blind",
 
   introParagraphs: [

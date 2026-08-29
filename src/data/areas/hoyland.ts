@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-hoyland",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Hoyland",
   heroBody:
     "Craving window treatments that elevate your Hoyland home's style and functionality? Advenco Window Blinds and Shutters in Hoyland offers a curated collection of bespoke blinds meticulously crafted to complement your space.",
-  heroImage: `${WP}/steptodown.com560336-768x512.webp`,
+  heroImage: "/images/stock/photo-1696123460860-db4ba71573b8.jpg",
   heroImageAlt: "Dark exterior shutters on a modern apartment balcony",
 
   introHeading: "Elevate Your Windows with Advenco Window Blinds and Shutters: Bespoke Blinds for Hoyland's Unique Homes",
@@ -31,7 +30,7 @@ const content: TownPageContent = {
     {
       heading: "Boost Your Business with Advenco Window Blinds and shutter's Window Solutions",
       body: "Create a productive and professional haven for your Hoyland business with Advenco Window Blinds and shutter's practical window blind solutions. Our durable blinds by Advenco Window Blinds and Shutters in Hoyland offer exceptional glare control, heat regulation, and privacy, making them ideal for meeting rooms, conference spaces, and open-plan offices. Choose from a variety of materials and styles to seamlessly blend with your brand aesthetic and enhance employee comfort.",
-      image: `${WP}/steptodown.com177594-768x512.webp`,
+      image: "/images/stock/photo-1757452608866-0b9c2f3e2d6b.jpg",
       imageAlt: "Window blind solutions boosting a Hoyland business",
       imageLeft: false,
     },

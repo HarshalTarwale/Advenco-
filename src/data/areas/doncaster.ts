@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-doncaster",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Doncaster",
   heroBody:
     "Doncaster, with its rich history and picturesque streets, deserves windows that echo its charm and elegance. Advenco Window Blinds and Shutters in Doncaster is ready to weave a tapestry of light, privacy, and undeniable sophistication into your Doncaster haven.",
-  heroImage: `${WP}/steptodown.com694616-768x456.webp`,
+  heroImage: "/images/stock/photo-1587475240624-96f0e3dfd2bf.jpg",
   heroImageAlt: "Dark tier-on-tier shutters, interior window, ocean view",
 
   introHeading: "Doncaster Perfected: Unveiling the Beauty and Benefits of Advenco Window Blinds and Shutters",
@@ -28,14 +27,14 @@ const content: TownPageContent = {
     {
       heading: "More Than Coverings, Canvases for Every Doncaster Story:",
       body: "Doncaster whispers stories through its winding lanes and vintage charm. Your home deserves more than just coverings; it craves a canvas to express your unique style. Advenco Window Blinds and Shutters in Doncaster helps you paint that masterpiece, offering a kaleidoscope of styles to match every Doncaster persona. Imagine sunlight dancing through sleek Venetian blinds in Doncaster, painting playful patterns on your living room walls. Or picture the soft whisper of pleated fabrics in your bedroom, lulling you into a gentle slumber. Craving drama? Blackout roller blinds by Advenco Window Blinds and Shutters in Doncaster orchestrate cinematic movie nights, while vertical blinds by Advenco Window Blinds and Shutters in Doncaster effortlessly manage light in your home office, boosting productivity with each tilt.",
-      image: `${WP}/Untitled-design-2-3-768x579.webp`,
+      image: "/images/stock/photo-1757452608866-0b9c2f3e2d6b.jpg",
       imageAlt: "Venetian blinds fitted in a home living space",
       imageLeft: true,
     },
     {
       heading: "Beyond the Home, Elevate Your Doncaster Business:",
       body: "Forget flimsy office blinds that whisper \"mediocrity.\" In Doncaster, where businesses thrive and innovation reigns, your window treatments should be as sharp as your suits. Enter Advenco Window Blinds and Shutters in Doncaster, your partner in crafting commercial spaces that impress clients and empower employees. Imagine sleek, modern blinds in Doncaster reflecting sunshine, creating a cool and inviting workspace in your tech startup. Or picture the confident lines of vertical blinds in Doncaster managing light in your architect's studio, fostering a sense of precision and focus. Advenco Window Blinds and Shutters in Doncaster goes beyond aesthetics. Our blinds in Doncaster reduce reliance on air conditioning, saving energy and your Doncaster business money. They reflect heat away from your building, keeping it cool in summer and warmer in winter. This not only minimizes your environmental footprint but also boosts employee comfort and productivity. With Advenco Window Blinds and Shutters in Doncaster, you can transform your business into a space that speaks volumes about your brand. So, ditch the ordinary and dress your windows with elegance and performance. Let Advenco Window Blinds and Shutters in Doncaster help you elevate your business beyond expectations, just like Doncaster itself.",
-      image: `${WP}/Untitled-design-5-1-768x579.webp`,
+      image: "/images/stock/photo-1653134641891-118e3094fc42.jpg",
       imageAlt: "Roman blinds fitted in a business setting",
       imageLeft: false,
     },

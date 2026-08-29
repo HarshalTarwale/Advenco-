@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-dodworth",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Dodworth",
   heroBody:
     "Tired of ordinary windows? Craving a touch of magic to transform your Dodworth dwelling? Advenco Window Blinds and Shutters in Dodworth is unlocking the hidden potential within every pane of glass.",
-  heroImage: `${WP}/steptodown.com423056-768x504.webp`,
+  heroImage: "/images/2024/11/steptodown.com423056-768x504.webp",
   heroImageAlt: "Shutter example",
 
   introHeading: "Unveiling the Allure of Advenco Window Blinds and Shutters in Dodworth: Where Windows Come Alive",
@@ -28,14 +27,14 @@ const content: TownPageContent = {
     {
       heading: "More than just beauty.",
       body: "At Advenco Window Blinds and Shutters in Dodworth, we understand that windows are the eyes of your home. They frame the view, bring in light, and whisper stories of life within. That's why we offer not just stunning aesthetics, but also solutions for every need. Imagine well-lit rooms where adjustable Venetian blinds in Dodworth dance with the sun, open-plan offices empowered by motorized blinds in Dodworth, or cozy bedrooms shielded by high-quality blackout rolls. We craft the perfect window symphony for every room.",
-      image: `${WP}/Untitled-design-12-768x579.webp`,
+      image: "/images/stock/photo-1757359056339-22968344cce6.jpg",
       imageAlt: "Blinds fitted in a home setting",
       imageLeft: true,
     },
     {
       heading: "Advenco Window Blinds and shutter's magic in Dodworth extends beyond homes.",
       body: "We're the secret weapon for Dodworth businesses seeking to impress. Imagine conference rooms where motorized blinds in Dodworth adjust to the mood of every meeting, open-plan offices bathed in the soft glow of Venetian blinds in Dodworth, or sleek reception areas dazzled by vertical wonders that add a touch of drama. We understand the power of windows in shaping your brand identity, and we're here to help you craft the perfect work environment that inspires, empowers, and reflects your unique vision.",
-      image: `${WP}/Untitled-design-2-6-768x579.webp`,
+      image: "/images/stock/photo-1757452608866-0b9c2f3e2d6b.jpg",
       imageAlt: "Blinds fitted in a business/office setting",
       imageLeft: false,
     },

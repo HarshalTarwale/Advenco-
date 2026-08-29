@@ -24,10 +24,10 @@ export const perfectFitBlindsPages: Record<string, CommercialBlindPageContent> =
       "Renowned for their seamless integration and practical benefits, these blinds redefine comfort and style without the need for screws.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1738511498443-cd40e914eebb?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1738511498443-cd40e914eebb.jpg",
     heroImageAlt: "Warm sunlight filtering through a honeycomb pleated blind",
     sideImage:
-      "https://images.unsplash.com/photo-1642578915997-6c5c54c305a3?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1642578915997-6c5c54c305a3.jpg",
     sideImageAlt: "Close-up of grey honeycomb blind fabric with diagonal light",
     importanceLabel: "What Are Perfect Fit Honeycomb Blinds",
     importanceHeadingLines: ["Fit Snugly, No", "Drilling or Screws"],
@@ -79,7 +79,7 @@ export const perfectFitBlindsPages: Record<string, CommercialBlindPageContent> =
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1728477302900-29e568baca05?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1728477302900-29e568baca05.jpg",
     bannerImageAlt: "Angled view of honeycomb blind texture with soft shadows",
     closingHeading: "Transform Your Space Today",
     closingBody: [
@@ -100,10 +100,10 @@ export const perfectFitBlindsPages: Record<string, CommercialBlindPageContent> =
       "This groundbreaking product is set to revolutionize how homeowners approach window dressing, offering unparalleled convenience, style, and versatility.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1659949294512-95abb6aebf6c?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1659949294512-95abb6aebf6c.jpg",
     heroImageAlt: "Living room sofa beneath a window fitted with a striped day and night blind",
     sideImage:
-      "https://images.unsplash.com/photo-1743689377719-76800a2143fe?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1743689377719-76800a2143fe.jpg",
     sideImageAlt: "Dark kitchen window fitted with a zebra-stripe day and night blind",
     importanceLabel: "Why Choose These Blinds",
     importanceHeadingLines: ["Effortless Installation,", "Day & Night Functionality"],
@@ -155,7 +155,7 @@ export const perfectFitBlindsPages: Record<string, CommercialBlindPageContent> =
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1611085904467-5f0c11f93f49?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1611085904467-5f0c11f93f49.jpg",
     bannerImageAlt: "Day and night blinds fitted to windows in a sunlit balcony room",
     closingHeading: "Transform Your Home with Advenco's Perfect Fit Day and Night Blinds",
     closingBody: [
@@ -176,10 +176,10 @@ export const perfectFitBlindsPages: Record<string, CommercialBlindPageContent> =
       "Designed for convenience and aesthetic appeal, these blinds offer a seamless integration into your windows and doors, ensuring a flawless finish every time.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1609423433459-a65b330ef5da?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1609423433459-a65b330ef5da.jpg",
     heroImageAlt: "Bright white Venetian blinds in a sunlit home office",
     sideImage:
-      "https://images.unsplash.com/photo-1587812226208-37081e8c0ede?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1587812226208-37081e8c0ede.jpg",
     sideImageAlt: "Venetian blind slats with a white jug on the windowsill",
     importanceLabel: "What Are Perfect Fit Venetian Blinds",
     importanceHeadingLines: ["A Unique Bracket System,", "No Drilling Required"],
@@ -236,7 +236,7 @@ export const perfectFitBlindsPages: Record<string, CommercialBlindPageContent> =
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1603299938527-d035bc6fc2c8?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1603299938527-d035bc6fc2c8.jpg",
     bannerImageAlt: "Venetian blind slats with a blue sky and greenery visible outside",
     closingHeading: "Transform Your Space Today!",
     closingBody: [
@@ -257,10 +257,10 @@ export const perfectFitBlindsPages: Record<string, CommercialBlindPageContent> =
       "These versatile blinds offer a sleek, modern look that can enhance any room while providing practical benefits that make them a top choice for homeowners.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1772899129348-c5afe4b98bc1?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1772899129348-c5afe4b98bc1.jpg",
     heroImageAlt: "Crisp white pleated blind viewed from outside a window",
     sideImage:
-      "https://images.unsplash.com/photo-1591023960271-e21375bfb9cf?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1591023960271-e21375bfb9cf.jpg",
     sideImageAlt: "Close-up of soft pleated blind fabric with an armchair",
     importanceLabel: "Why Choose Pleated Perfect Fit Blinds",
     importanceHeadingLines: ["Seamless Integration,", "Precise Light Control"],
@@ -317,7 +317,7 @@ export const perfectFitBlindsPages: Record<string, CommercialBlindPageContent> =
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1627201609961-f662f5a0cccb?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1627201609961-f662f5a0cccb.jpg",
     bannerImageAlt: "White pleated blind fabric texture with a cushion",
     closingHeading: "Contact Us Today",
     closingBody: [
@@ -338,10 +338,10 @@ export const perfectFitBlindsPages: Record<string, CommercialBlindPageContent> =
       "In this guide, we'll explore everything you need to know about these innovative window treatments, from their unique features to the benefits they offer.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1776261293170-66fd3b09273e?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1776261293170-66fd3b09273e.jpg",
     heroImageAlt: "Modern grey roller blind fitted above a black-framed window",
     sideImage:
-      "https://images.unsplash.com/photo-1691809159150-5381f57c6f46?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1691809159150-5381f57c6f46.jpg",
     sideImageAlt: "Hand adjusting the chain on a roller blind against a bright window",
     importanceLabel: "What Are Perfect Fit Roller Blinds",
     importanceHeadingLines: ["Custom Fit, No", "Screws or Drilling"],
@@ -410,7 +410,7 @@ export const perfectFitBlindsPages: Record<string, CommercialBlindPageContent> =
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1580368393844-28322c2ff03f?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1580368393844-28322c2ff03f.jpg",
     bannerImageAlt: "Exterior roller shutter fitted to a window in a stucco wall",
     closingHeading: "Choose Advenco Blinds and Shutters in UK",
     closingBody: [
@@ -431,10 +431,10 @@ export const perfectFitBlindsPages: Record<string, CommercialBlindPageContent> =
       "These blinds are not just a window covering; they are a stylish addition that enhances your home's aesthetics and functionality. Here's why these blinds are the perfect choice for your windows.",
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1622880355742-af182a61b362?auto=format&fit=crop&w=1600&q=80",
+      "/images/stock/photo-1622880355742-af182a61b362.jpg",
     heroImageAlt: "Wooden Venetian blind fitted above a chair, casting striped shadows",
     sideImage:
-      "https://images.unsplash.com/photo-1634743761024-5d5c338b6368?auto=format&fit=crop&w=1000&q=80",
+      "/images/stock/photo-1634743761024-5d5c338b6368.jpg",
     sideImageAlt: "Green-tinted wooden Venetian blind slats catching daylight",
     importanceLabel: "What Are These Blinds",
     importanceHeadingLines: ["Timeless Wood,", "the Perfect Fit System"],
@@ -491,7 +491,7 @@ export const perfectFitBlindsPages: Record<string, CommercialBlindPageContent> =
       },
     ],
     bannerImage:
-      "https://images.unsplash.com/photo-1496522921967-21f118bec0e5?auto=format&fit=crop&w=1920&q=80",
+      "/images/stock/photo-1496522921967-21f118bec0e5.jpg",
     bannerImageAlt: "Warm golden light through classic wooden Venetian blind slats",
     closingHeading: "Transform Your Home Today",
     closingBody: [

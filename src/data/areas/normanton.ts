@@ -1,6 +1,5 @@
 import type { TownPageContent } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/11";
 
 const content: TownPageContent = {
   slug: "advenco-window-blinds-and-shutters-normanton",
@@ -15,7 +14,7 @@ const content: TownPageContent = {
   heroSubheading: "in Normanton",
   heroBody:
     "Gone are the days of cookie-cutter window treatments. In Normanton, Advenco Window Blinds and Shutters elevates your windows from mere openings to canvases for expressing your unique home's personality.",
-  heroImage: `${WP}/steptodown.com996349-768x512.webp`,
+  heroImage: "/images/stock/photo-1653134641891-118e3094fc42.jpg",
   heroImageAlt: "White plantation shutters in a bathroom window",
 
   introHeading: "Conquer Sunlight with Style: Unveiling Advenco Window Blinds and Shutters in Normanton",
@@ -27,14 +26,14 @@ const content: TownPageContent = {
     {
       heading: "Unveiling Your Uniqueness",
       body: "Every Normanton home is like a fingerprint, unique in its architectural charm and functional needs. That's why at Advenco Window Blinds and Shutters in Normanton we offer a bespoke blinds service, where we collaborate with you to design and craft blinds that perfectly complement your space, be it a charming Victorian bay window, a modern skylight, or a quirky corner nook. Let our expert team transform your vision into reality with blinds that are as individual as your home. At Advenco Window Blinds and Shutters in Normanton, we believe your windows deserve to sing in harmony with your interior design. Our bespoke service lets you orchestrate every detail, from fabric textures and colours to functionality and operation. Picture sleek roller blinds available at Advenco Window Blinds in Normanton echoing the clean lines of your modern living room, or wood venetians available at Advenco Window Blinds and Shutters in Normanton adding warmth to your rustic kitchen. The possibilities are endless, allowing your windows to tell your design story with captivating flair.",
-      image: `${WP}/Untitled-design-5-10-768x579.webp`,
+      image: "/images/stock/photo-1710773697318-d50ff2492556.jpg",
       imageAlt: "Bespoke blinds fitted in a Normanton home",
       imageLeft: true,
     },
     {
       heading: "Beyond the Home: Elevating Your Normanton Business",
       body: "Embrace the individuality of your Normanton offices with Advenco Window Blinds and Shutters's made-to-measure blinds in Normanton. Whether it's a charming conference room window, a grand reception window, or a space in sunshine, our blinds seamlessly integrate, amplifying its character. No more battling awkward angles or settling for ill-fitting blinds. Let our expertise translate your vision into stunning window accents that are as unique as your story. We understand the importance of creating a productive and professional environment in your Normanton office. Our durable blinds available at Advenco Window Blinds and Shutters in Normanton offer exceptional glare control, heat regulation, and privacy, making them ideal for meeting rooms, conference spaces, and open-plan offices. Choose from a variety of materials and styles to match your brand aesthetic and boost employee comfort.",
-      image: `${WP}/Untitled-design-8-1-768x579.webp`,
+      image: "/images/stock/photo-1688818228795-d465bf6e3c35.jpg",
       imageAlt: "Office fitted with durable window blinds in Normanton",
       imageLeft: false,
     },

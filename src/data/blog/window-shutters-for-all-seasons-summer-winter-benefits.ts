@@ -1,6 +1,5 @@
 import type { BlogPostDetail } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 const content: BlogPostDetail = {
   slug: "window-shutters-for-all-seasons-summer-winter-benefits",
@@ -11,7 +10,7 @@ const content: BlogPostDetail = {
   metaDescription:
     "Discover how window shutters keep UK homes cool in summer and warm in winter, with insulation, privacy, and energy-saving benefits year-round.",
 
-  image: `${WP}/2025/09/advenco-sep-blog.jpg`,
+  image: "/images/stock/photo-1735822083502-0c5fab870457.jpg",
   imageAlt: "Living room with plantation shutters open to a snowy garden",
 
   introParagraphs: [

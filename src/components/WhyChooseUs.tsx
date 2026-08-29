@@ -31,7 +31,7 @@ export default function WhyChooseUs() {
             {/* Main image â€” left border accent matching the design */}
             <div className="relative overflow-hidden rounded-sm border-l-4 border-[#00aeef]">
               <Image
-                src="https://advencoblindsandshutters.co.uk/wp-content/uploads/2024/10/why-choose-advenco-window-blinds-and-shutters-in-uk-home-page.webp"
+                src="/images/stock/photo-1745761264415-6acbdb47a0c7.jpg"
                 alt="Beautiful room with Advenco window blinds and shutters"
                 width={700}
                 height={470}

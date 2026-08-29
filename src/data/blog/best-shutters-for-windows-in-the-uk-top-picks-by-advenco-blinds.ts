@@ -1,6 +1,5 @@
 import type { BlogPostDetail } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 const content: BlogPostDetail = {
   slug: "best-shutters-for-windows-in-the-uk-top-picks-by-advenco-blinds",
@@ -11,7 +10,7 @@ const content: BlogPostDetail = {
   metaDescription:
     "Full-height, half window, café style, tier-on-tier, and outdoor shutters, plus wood, faux wood, vinyl, and composite materials — top UK shutter picks.",
 
-  image: `${WP}/2025/03/Best-Shutters-for-Windows-in-the-UK-%E2%80%93-Top-Picks-by-Advenco-Blinds.jpg`,
+  image: "/images/stock/photo-1758448756207-54505680d130.jpg",
   imageAlt: "Top shutter picks for UK windows",
 
   introParagraphs: [

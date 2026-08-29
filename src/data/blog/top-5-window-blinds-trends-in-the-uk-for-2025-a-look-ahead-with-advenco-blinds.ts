@@ -1,6 +1,5 @@
 import type { BlogPostDetail } from "./types";
 
-const WP = "https://advencoblindsandshutters.co.uk/wp-content/uploads";
 
 const content: BlogPostDetail = {
   slug: "top-5-window-blinds-trends-in-the-uk-for-2025-a-look-ahead-with-advenco-blinds",
@@ -11,7 +10,7 @@ const content: BlogPostDetail = {
   metaDescription:
     "Sustainable materials, smart blinds, bold colours, natural light, and clean lines — the top 5 window blind trends set to define 2025 in the UK.",
 
-  image: `${WP}/2025/05/Window-Blinds-Trends-UK.webp`,
+  image: "/images/stock/photo-1758448756207-54505680d130.jpg",
   imageAlt: "Stylish window blinds representing 2025 trends",
 
   introParagraphs: [
