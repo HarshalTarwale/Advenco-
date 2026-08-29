@@ -128,20 +128,6 @@ const blindCategories: BlindCategory[] = [
       { label: "Roller Motorised Blinds",        href: "/roller-motorised-blinds/" },
     ],
   },
-  {
-    label: "Blinds by Colour",
-    href: "/blinds-by-colour/",
-    products: [
-      { label: "Black Blinds",  href: "/black-blinds/" },
-      { label: "White Blinds",  href: "/white-blinds/" },
-      { label: "Grey Blinds",   href: "/grey-blinds/" },
-      { label: "Cream Blinds",  href: "/cream-blinds/" },
-      { label: "Blue Blinds",   href: "/blue-blinds/" },
-      { label: "Green Blinds",  href: "/green-blinds/" },
-      { label: "Brown Blinds",  href: "/brown-blinds/" },
-      { label: "Floral Blinds", href: "/floral-blinds/" },
-    ],
-  },
 ];
 
 /* ---------- Navigation Data ---------- */
